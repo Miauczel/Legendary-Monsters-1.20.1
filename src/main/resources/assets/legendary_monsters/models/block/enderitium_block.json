@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "legendary_monsters:block/enderitium_block"
+  }
+}

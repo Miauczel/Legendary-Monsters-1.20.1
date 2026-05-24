@@ -1,0 +1,18 @@
+{
+  "start_pool": "legendary_monsters:cloudy_temple/start",
+  "biomes":"#legendary_monsters:has_structure/cloudy_temple_biomes",
+  "type": "minecraft:jigsaw",
+  "step": "surface_structures",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "size": 7,
+  "start_height": {
+  "type": "minecraft:constant",
+  "value": {
+    "absolute": 0
+  }
+},
+  "max_distance_from_center": 116,
+  "use_expansion_hack": false
+}

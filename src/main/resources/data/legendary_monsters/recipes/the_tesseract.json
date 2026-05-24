@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "iEi",
+    " E "
+  ],
+  "key": {
+    "G": { "item": "legendary_monsters:bottle_of_annihilation"},
+    "i": { "item": "legendary_monsters:portal_shard"},
+    "E": { "item": "legendary_monsters:enderitium_ingot"}
+  },
+  "result": {
+    "item": "legendary_monsters:the_tesseract",
+    "count": 1
+  }
+}

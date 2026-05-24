@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:the_great_frost"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_frostbitten_golem.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_frostbitten_golem.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:locate_frostbitten_temple",
+  "criteria": {
+    "frostbitten_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:frostbitten_golem"
+        }
+      }
+    }
+  }
+}

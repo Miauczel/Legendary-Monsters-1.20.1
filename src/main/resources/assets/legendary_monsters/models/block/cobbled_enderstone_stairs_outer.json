@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "legendary_monsters:block/cobbled_enderstone",
+    "side": "legendary_monsters:block/cobbled_enderstone",
+    "top": "legendary_monsters:block/cobbled_enderstone"
+  }
+}

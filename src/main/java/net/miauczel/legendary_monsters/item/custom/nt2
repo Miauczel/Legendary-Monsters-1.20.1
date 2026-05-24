@@ -1,0 +1,54 @@
+package net.miauczel.legendary_monsters.item.custom.Network;
+
+import net.miauczel.legendary_monsters.item.custom.ShulkerHelmetItem;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.Level;
+import net.minecraftforge.network.NetworkEvent;
+
+import java.util.function.Supplier;
+
+public class LevitationAbilityPacket {
+    public LevitationAbilityPacket() {
+        // Konstruktor bez parametrów
+    }
+
+    public LevitationAbilityPacket(FriendlyByteBuf buf) {
+        // Deserializacja (nie wymaga parametrów w naszym przypadku)
+    }
+
+    public void toBytes(FriendlyByteBuf buf) {
+        // Serializacja (nie wymaga parametrów w naszym przypadku)
+    }
+
+    public void handle(Supplier<NetworkEvent.Context> contextSupplier) {
+        NetworkEvent.Context context = contextSupplier.get();
+        context.enqueueWork(() -> {
+            ServerPlayer player = context.getSender();
+            if (player != null && player.getItemBySlot(EquipmentSlot.HEAD).getItem() instanceof ShulkerHelmetItem) {
+                //ShulkerHelmetItem.activateLevitationAbility(player);
+
+            }
+
+        });
+        context.setPacketHandled(true);
+    }
+    private static void spawnParticles(Player player) {
+        Level level = player.level();
+        double centerX = player.getX();
+        double centerY = player.getY();
+        double centerZ = player.getZ();
+        double radius = 2.0; // Promień okręgu (średnica 2 bloki)
+        int particleCount = 20; // Liczba cząsteczek do wygenerowania okręgu
+
+        for (int i = 0; i < particleCount; i++) {
+            double angle = 2 * Math.PI * i / particleCount;
+            double xOffset = Math.cos(angle) * radius;
+            double zOffset = Math.sin(angle) * radius;
+            level.addParticle(ParticleTypes.END_ROD, centerX + xOffset, centerY, centerZ + zOffset, 0, 0, 0);
+        }
+    }
+}

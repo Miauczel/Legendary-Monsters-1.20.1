@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item":
+      "legendary_monsters:smooth_enderstone"
+
+  },
+  "result": "legendary_monsters:smooth_enderstone_stairs",
+  "count": 1
+}

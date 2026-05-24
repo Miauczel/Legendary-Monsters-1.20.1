@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "rune",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendary_monsters:corrupted_soul"
+
+        }
+      ]
+    },
+    {
+      "name": "sword",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendary_monsters:soul_great_sword"
+
+        }
+      ]
+    }
+    ]
+}

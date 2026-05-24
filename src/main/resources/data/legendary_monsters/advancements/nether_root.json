@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:eye_of_soul"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.nether_root.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.nether_root.description"
+    },
+    "background": "legendary_monsters:textures/item/nether_background.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

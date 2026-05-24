@@ -1,0 +1,38 @@
+package net.miauczel.legendary_monsters.item.custom.Network;
+
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraftforge.network.NetworkEvent;
+
+import java.util.UUID;
+import java.util.function.Supplier;
+
+public class ParticlePacket {
+    private final UUID playerUUID;
+
+    public ParticlePacket(UUID playerUUID) {
+        this.playerUUID = playerUUID;
+    }
+
+    public ParticlePacket(FriendlyByteBuf buf) {
+        this.playerUUID = buf.readUUID();
+    }
+
+    public void toBytes(FriendlyByteBuf buf) {
+        buf.writeUUID(playerUUID);
+    }
+
+    public void handle(Supplier<NetworkEvent.Context> ctx) {
+        ctx.get().enqueueWork(() -> {
+            ServerPlayer player = ctx.get().getSender();
+            if (player != null && player.getUUID().equals(playerUUID)) {
+                // Kod do obsługi pakietu po stronie serwera lub klienta
+            }
+        });
+        ctx.get().setPacketHandled(true);
+    }
+
+    public UUID getPlayerUUID() {
+        return playerUUID;
+    }
+}

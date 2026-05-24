@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 59994312,
+    "separation": 34,
+    "spacing": 40
+  },
+  "structures": [
+    {
+      "structure": "legendary_monsters:abandoned_crypt",
+      "weight": 1
+    }
+  ]
+}

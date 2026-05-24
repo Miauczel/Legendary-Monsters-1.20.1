@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:chorus_mask"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_chorusling.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_chorusling.description"
+    },
+    "frame": "task"
+  },
+  "parent": "legendary_monsters:end_root",
+  "criteria": {
+    "chorusling": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:chorusling"
+        }
+      }
+    }
+  }
+}

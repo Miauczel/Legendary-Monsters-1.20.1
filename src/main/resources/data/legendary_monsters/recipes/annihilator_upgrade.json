@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "EGE",
+    "#E#"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:enderitium_ingot"
+    },
+    "E": {
+      "item": "minecraft:end_stone"
+    },
+    "G": {
+      "item": "legendary_monsters:bottle_of_annihilation"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:annihilator_upgrade_smithing_template",
+    "count": 1
+  }
+}

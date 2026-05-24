@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:dinosaur_bone_club"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_skeletosaurus.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_skeletosaurus.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:locate_skeletosaurus_nest",
+  "criteria": {
+    "skeletosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:skeletosaurus"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+package net.miauczel.legendary_monsters.entity.client;
+
+import com.mojang.blaze3d.vertex.PoseStack;
+import net.miauczel.legendary_monsters.LegendaryMonsters;
+import net.miauczel.legendary_monsters.entity.AnimatedMonster.Mobs.Chorusling.ChoruslingEntity;
+import net.miauczel.legendary_monsters.entity.AnimatedMonster.Mobs.Chorusling.EndersentEntity;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.resources.ResourceLocation;
+
+public class ChoruslingRenderer extends MobRenderer<ChoruslingEntity,ChoruslingModel<ChoruslingEntity>> {
+    public ChoruslingRenderer(EntityRendererProvider.Context pContext) {
+        super(pContext, new ChoruslingModel<>(pContext.bakeLayer(ModModelLayers.CHORUSLING_LAYER)), 1f);
+    }
+
+    @Override
+    public ResourceLocation getTextureLocation(ChoruslingEntity pEntity) {
+
+        return new ResourceLocation(LegendaryMonsters.MOD_ID, "textures/entity/chorusling.png")  ;
+    }
+
+    @Override
+    public void render(ChoruslingEntity pEntity, float pEntityYaw, float pPartialTicks, PoseStack pMatrixStack,
+                       MultiBufferSource pBuffer, int pPackedLight) {
+
+        super.render(pEntity, pEntityYaw, pPartialTicks, pMatrixStack, pBuffer, pPackedLight);
+    }
+}

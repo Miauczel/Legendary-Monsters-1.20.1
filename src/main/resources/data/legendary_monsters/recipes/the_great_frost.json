@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "iIi"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:frozen_rune"
+    },
+    "i": {
+      "item": "legendary_monsters:primal_ice_shard"
+    },
+    "I": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:the_great_frost",
+    "count": 1
+  }
+}

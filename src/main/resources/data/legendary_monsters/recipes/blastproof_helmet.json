@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "#G#"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:ancient_sandstone_shard"
+    },
+    "E": {
+      "item": "legendary_monsters:crystal_of_sandstorm"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:blastproof_helmet",
+    "count": 1
+  }
+}

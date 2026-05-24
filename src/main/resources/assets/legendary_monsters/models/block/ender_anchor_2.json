@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "legendary_monsters:block/ender_anchor_bottom",
+    "side": "legendary_monsters:block/ender_anchor_side2",
+    "top": "legendary_monsters:block/ender_anchor_top_1"
+  }
+}

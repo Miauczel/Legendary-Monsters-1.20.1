@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " ##",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:ancient_dripstone_bricks"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:ancient_dripstone_brick_stairs",
+    "count": 4
+  }
+}

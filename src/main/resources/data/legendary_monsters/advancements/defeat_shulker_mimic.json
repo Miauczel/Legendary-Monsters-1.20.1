@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:shulker_shield"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_shulker_mimic.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_shulker_mimic.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:locate_shulker_tower",
+  "criteria": {
+    "shulker_mimic": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:shulker_mimic"
+        }
+      }
+    }
+  }
+}

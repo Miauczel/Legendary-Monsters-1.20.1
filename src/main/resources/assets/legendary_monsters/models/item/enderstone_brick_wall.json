@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "legendary_monsters:block/enderstone_bricks"
+  }
+}

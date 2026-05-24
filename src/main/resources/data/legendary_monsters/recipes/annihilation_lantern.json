@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i",
+    "i#"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:enderstone"
+    },
+    "i": {
+      "item": "legendary_monsters:bottle_of_annihilation"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:annihilation_lantern",
+    "count": 4
+  }
+}

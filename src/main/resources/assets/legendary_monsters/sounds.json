@@ -1,0 +1,590 @@
+{
+  "endersent_attack": {
+    "subtitles": "sounds.legendary_monsters.endersent_attack",
+    "sounds": [
+      "legendary_monsters:endersent_attack"
+    ]
+  },
+  "endersent_ambient": {
+    "subtitles": "sounds.legendary_monsters.endersent_ambient",
+    "sounds": [
+      "legendary_monsters:endersent_ambient"
+    ]
+  },
+  "endersent_death": {
+    "subtitles": "sounds.legendary_monsters.endersent_death",
+    "sounds": [
+      "legendary_monsters:endersent_death"
+    ]
+  },
+  "endersent_hurt1": {
+    "subtitles": "sounds.legendary_monsters.endersent_hurt1",
+    "sounds": [
+      "legendary_monsters:endersent_hurt1"
+    ]
+  },
+  "endersent_hurt2": {
+    "subtitles": "sounds.legendary_monsters.endersent_hurt2",
+    "sounds": [
+      "legendary_monsters:endersent_hurt2"
+    ]
+  },
+  "overgrown_colossus_hurt": {
+    "subtitles": "sounds.legendary_monsters.overgrown_colossus_hurt",
+    "sounds": [
+      "legendary_monsters:overgrown_colossus_hurt"
+    ]
+  },
+  "overgrown_colossus_death": {
+    "subtitles": "sounds.legendary_monsters.overgrown_colossus_death",
+    "sounds": [
+      "legendary_monsters:overgrown_colossus_death"
+    ]
+  },
+  "skeletosaurus_hurt1": {
+    "subtitles": "sounds.legendary_monsters.skeletosaurus_hurt1",
+    "sounds": [
+      "legendary_monsters:skeletosaurus_hurt1"
+    ]
+  },
+  "skeletosaurus_hurt2": {
+    "subtitles": "sounds.legendary_monsters.skeletosaurus_hurt2",
+    "sounds": [
+      "legendary_monsters:skeletosaurus_hurt2"
+    ]
+  },
+  "skeletosaurus_hurt3": {
+    "subtitles": "sounds.legendary_monsters.skeletosaurus_hurt3",
+    "sounds": [
+      "legendary_monsters:skeletosaurus_hurt3"
+    ]
+  },
+  "skeletosaurus_death": {
+    "subtitles": "sounds.legendary_monsters.skeletosaurus_death",
+    "sounds": [
+      "legendary_monsters:skeletosaurus_death"
+    ]
+  },
+  "chorusling_death": {
+    "subtitles": "sounds.legendary_monsters.chorusling_death",
+    "sounds": [
+      "legendary_monsters:chorusling_death"
+    ]
+  },
+  "chorusling_hurt": {
+    "subtitles": "sounds.legendary_monsters.chorusling_hurt",
+    "sounds": [
+      "legendary_monsters:chorusling_hurt"
+    ]
+  },
+  "chorusling_ambient": {
+    "subtitles": "sounds.legendary_monsters.chorusling_ambient",
+    "sounds": [
+      "legendary_monsters:chorusling_ambient"
+    ]
+  },
+  "chorusling_attack": {
+    "subtitles": "sounds.legendary_monsters.chorusling_attack",
+    "sounds": [
+      "legendary_monsters:chorusling_attack"
+    ]
+  },
+
+  "withered_abomination_hurt": {
+    "subtitles": "sounds.legendary_monsters.withered_abomination_hurt",
+    "sounds": [
+      "legendary_monsters:withered_abomination_hurt"
+    ]
+  },
+  "withered_abomination_death": {
+    "subtitles": "sounds.legendary_monsters.withered_abomination_death",
+    "sounds": [
+      "legendary_monsters:withered_abomination_death"
+    ]
+  },
+  "ancient_guardian_hurt": {
+    "subtitles": "sounds.legendary_monsters.ancient_guardian_hurt",
+    "sounds": [
+      "legendary_monsters:ancient_guardian_hurt"
+    ]
+  },
+  "ancient_guardian_death": {
+    "subtitles": "sounds.legendary_monsters.ancient_guardian_death",
+    "sounds": [
+      "legendary_monsters:ancient_guardian_death"
+    ]
+  },
+
+  "living_armor_hurt": {
+    "subtitles": "sounds.legendary_monsters.living_armor_hurt",
+    "sounds": [
+      "legendary_monsters:living_armor_hurt"
+    ]
+  },
+  "posessed_paladin_swing": {
+    "subtitles": "sounds.legendary_monsters.posessed_paladin_swing",
+    "sounds": [
+      "legendary_monsters:posessed_paladin_swing"
+    ]
+  },
+  "posessed_paladin_spin": {
+    "subtitles": "sounds.legendary_monsters.posessed_paladin_spin",
+    "sounds": [
+      "legendary_monsters:posessed_paladin_spin"
+    ]
+  },
+  "posessed_paladin_attack": {
+    "subtitles": "sounds.legendary_monsters.posessed_paladin_attack",
+    "sounds": [
+      "legendary_monsters:posessed_paladin_attack"
+    ]
+  },
+  "posessed_paladin_attack2": {
+    "subtitles": "sounds.legendary_monsters.posessed_paladin_attack2",
+    "sounds": [
+      "legendary_monsters:posessed_paladin_attack2"
+    ]
+  },
+  "posessed_paladin_attack3": {
+    "subtitles": "sounds.legendary_monsters.posessed_paladin_attack3",
+    "sounds": [
+      "legendary_monsters:posessed_paladin_attack3"
+    ]
+  },
+  "mossy_golem_swing": {
+    "subtitles": "sounds.legendary_monsters.mossy_golem_swing",
+    "sounds": [
+      "legendary_monsters:mossy_golem_swing"
+    ]
+  },
+  "mossy_golem_attack": {
+    "subtitles": "sounds.legendary_monsters.mossy_golem_attack",
+    "sounds": [
+      "legendary_monsters:mossy_golem_attack"
+    ]
+  },
+  "step_sound": {
+    "subtitles": "sounds.legendary_monsters.step_sound",
+    "sounds": [
+      "legendary_monsters:step_sound"
+    ]
+  },
+  "step_sound_2": {
+    "subtitles": "sounds.legendary_monsters.step_sound_2",
+    "sounds": [
+      "legendary_monsters:step_sound_2"
+    ]
+  },
+  "step_sound_3": {
+    "subtitles": "sounds.legendary_monsters.step_sound_3",
+    "sounds": [
+      "legendary_monsters:step_sound_3"
+    ]
+  },
+  "step_sound_4": {
+    "subtitles": "sounds.legendary_monsters.step_sound_4",
+    "sounds": [
+      "legendary_monsters:step_sound_4"
+    ]
+  },
+  "cannon_shoot_1": {
+    "subtitles": "sounds.legendary_monsters.cannon_shoot_1",
+    "sounds": [
+      "legendary_monsters:cannon_shoot_1"
+    ]
+  },
+  "cannon_shoot_2": {
+    "subtitles": "sounds.legendary_monsters.cannon_shoot_2",
+    "sounds": [
+      "legendary_monsters:cannon_shoot_2"
+    ]
+  },
+  "cannon_shoot_3": {
+    "subtitles": "sounds.legendary_monsters.cannon_shoot_3",
+    "sounds": [
+      "legendary_monsters:cannon_shoot_3"
+    ]
+  },
+  "fatal_mortar_attack": {
+    "subtitles": "sounds.legendary_monsters.fatal_mortar_attack",
+    "sounds": [
+      "legendary_monsters:fatal_mortar_attack"
+    ]
+  },
+  "dune_sentinel_hurt": {
+    "subtitles": "sounds.legendary_monsters.dune_sentinel_hurt",
+    "sounds": [
+      "legendary_monsters:dune_sentinel_hurt"
+    ]
+  },
+  "dune_sentinel_death": {
+    "subtitles": "sounds.legendary_monsters.dune_sentinel_death",
+    "sounds": [
+      "legendary_monsters:dune_sentinel_death"
+    ]
+  },
+  "withered_abomination_dash": {
+    "subtitles": "sounds.legendary_monsters.withered_abomination_dash",
+    "sounds": [
+      "legendary_monsters:withered_abomination_dash"
+    ]
+  },
+  "withered_abomination_dash2": {
+    "subtitles": "sounds.legendary_monsters.withered_abomination_dash2",
+    "sounds": [
+      "legendary_monsters:withered_abomination_dash2"
+    ]
+  },
+  "anchor_slam": {
+    "subtitles": "sounds.legendary_monsters.anchor_slam",
+    "sounds": [
+      "legendary_monsters:anchor_slam"
+    ]
+  },
+  "anchor_swing1": {
+    "subtitles": "sounds.legendary_monsters.anchor_swing1",
+    "sounds": [
+      "legendary_monsters:anchor_swing1"
+    ]
+  },
+  "anchor_swing2": {
+    "subtitles": "sounds.legendary_monsters.anchor_swing2",
+    "sounds": [
+      "legendary_monsters:anchor_swing1"
+    ]
+  },
+  "anchor_hit": {
+    "subtitles": "sounds.legendary_monsters.anchor_hit",
+    "sounds": [
+      "legendary_monsters:anchor_hit"
+    ]
+  },
+  "ice_spike_emerge": {
+    "subtitles": "sounds.legendary_monsters.ice_spike_emerge",
+    "sounds": [
+      "legendary_monsters:ice_spike_emerge"
+    ]
+  },
+  "ancient_guardian_roar": {
+    "subtitles": "sounds.legendary_monsters.ancient_guardian_roar",
+    "sounds": [
+      "legendary_monsters:ancient_guardian_roar"
+    ]
+  },
+
+  "pp_swing": {
+    "subtitles": "sounds.legendary_monsters.pp_swing",
+    "sounds": [
+      "legendary_monsters:pp_swing"
+    ]
+  },
+  "beam_charge": {
+    "subtitles": "sounds.legendary_monsters.beam_charge",
+    "sounds": [
+      "legendary_monsters:beam_charge"
+    ]
+  },
+
+  "beam_go": {
+    "subtitles": "sounds.legendary_monsters.beam_go",
+    "sounds": [
+      "legendary_monsters:beam_go"
+    ]
+  },
+  "beam_loop": {
+    "subtitles": "sounds.legendary_monsters.beam_loop",
+    "sounds": [
+      "legendary_monsters:beam_loop"
+    ]
+  },
+
+  "cloud_golem_hurt": {
+    "subtitles": "sounds.legendary_monsters.cloud_golem_hurt",
+    "sounds": [
+      "legendary_monsters:cloud_golem_hurt"
+    ]
+  },
+  "cloud_golem_ambient": {
+    "subtitles": "sounds.legendary_monsters.cloud_golem_ambient",
+    "sounds": [
+      "legendary_monsters:cloud_golem_ambient"
+    ]
+  },
+  "cloud_golem_death": {
+    "subtitles": "sounds.legendary_monsters.cloud_golem_death",
+    "sounds": [
+      "legendary_monsters:cloud_golem_death"
+    ]
+  },
+  "cloud_golem_music": {
+    "subtitles": "sounds.legendary_monsters.cloud_golem_music",
+    "sounds": [
+      "legendary_monsters:cloud_golem_music"
+    ]
+  },
+  "cloud_golem_music_stereo": {
+    "subtitles": "sounds.legendary_monsters.cloud_golem_music_stereo",
+    "sounds": [
+      "legendary_monsters:cloud_golem_music_stereo"
+    ]
+  },
+  "lightning_strike": {
+    "subtitles": "sounds.legendary_monsters.lightning_strike",
+    "sounds": [
+      "legendary_monsters:lightning_strike"
+    ]
+  },
+  "endersent_tp_hit": {
+    "subtitles": "sounds.legendary_monsters.endersent_tp_hit",
+    "sounds": [
+      "legendary_monsters:endersent_tp_hit"
+    ]
+  },
+  "ground_impact": {
+    "subtitles": "sounds.legendary_monsters.ground_impact",
+    "sounds": [
+      "legendary_monsters:ground_impact"
+    ]
+  },
+  "the_warped_one_roar": {
+    "subtitles": "sounds.legendary_monsters.the_warped_one_roar",
+    "sounds": [
+      "legendary_monsters:the_warped_one_roar"
+    ]
+  },
+  "powerful_sword_impact": {
+    "subtitles": "sounds.legendary_monsters.powerful_sword_impact",
+    "sounds": [
+      "legendary_monsters:powerful_sword_impact"
+    ]
+  },
+  "powerful_sword_impact2": {
+    "subtitles": "sounds.legendary_monsters.powerful_sword_impact2",
+    "sounds": [
+      "legendary_monsters:powerful_sword_impact2"
+    ]
+  },
+  "soul_fly": {
+    "subtitles": "sounds.legendary_monsters.soul_fly",
+    "sounds": [
+      "legendary_monsters:soul_fly"
+    ]
+  },
+  "weapon_impact": {
+    "subtitles": "sounds.legendary_monsters.weapon_impact",
+    "sounds": [
+      "legendary_monsters:weapon_impact"
+    ]
+  },
+  "the_warped_one_shoot": {
+    "subtitles": "sounds.the_warped_one_shoot",
+    "sounds": [
+      "legendary_monsters:the_warped_one_shoot"
+    ]
+  },
+  "the_warped_one_hurt": {
+    "subtitles": "the_warped_one_hurt",
+    "sounds": [
+      "legendary_monsters:the_warped_one_hurt"
+    ]
+  },
+  "dimensional_bomb_explode": {
+    "subtitles": "dimensional_bomb_explode",
+    "sounds": [
+      "legendary_monsters:dimensional_bomb_explode"
+    ]
+  },
+  "dimensional_bomb_explosion2": {
+    "subtitles": "dimensional_bomb_explosion2",
+    "sounds": [
+      "legendary_monsters:dimensional_bomb_explosion2"
+    ]
+  },
+  "dimensional_shoot_charge": {
+    "subtitles": "dimensional_shoot_charge",
+    "sounds": [
+      "legendary_monsters:dimensional_shoot_charge"
+    ]
+  },
+  "energy_explosion": {
+    "subtitles": "energy_explosion",
+    "sounds": [
+      "legendary_monsters:energy_explosion"
+    ]
+  },
+  "heavy_swing": {
+    "subtitles": "heavy_swing",
+    "sounds": [
+      "legendary_monsters:heavy_swing"
+    ]
+  },
+  "the_warped_one_stun": {
+    "subtitles": "the_warped_one_stun",
+    "sounds": [
+      "legendary_monsters:the_warped_one_stun"
+    ]
+  },
+  "huge_energy_explosion": {
+    "subtitles": "huge_energy_explosion",
+    "sounds": [
+      "legendary_monsters:huge_energy_explosion"
+    ]
+  },
+  "the_warped_one_hurt2": {
+    "subtitles": "the_warped_one_hurt2",
+    "sounds": [
+      "legendary_monsters:the_warped_one_hurt2"
+    ]
+  },
+  "annihilation_laser_charge": {
+    "subtitles": "annihilation_laser_charge",
+    "sounds": [
+      "legendary_monsters:annihilation_laser_charge"
+    ]
+  },
+  "single_annihilation_laser_shoot": {
+    "subtitles": "single_annihilation_laser_shoot",
+    "sounds": [
+      "legendary_monsters:single_annihilation_laser_shoot"
+    ]
+  },
+  "quad_laser_shoot": {
+    "subtitles": "quad_laser_shoot",
+    "sounds": [
+      "legendary_monsters:quad_laser_shoot"
+    ]
+  },
+  "obliterator_arm_shoot": {
+    "subtitles": "obliterator_arm_shoot",
+    "sounds": [
+      "legendary_monsters:obliterator_arm_shoot"
+    ]
+  },
+  "ominous_explosion": {
+    "subtitles": "ominous_explosion",
+    "sounds": [
+      "legendary_monsters:ominous_explosion"
+    ]
+  },
+  "flame_burst": {
+    "subtitles": "flame_burst",
+    "sounds": [
+      "legendary_monsters:flame_burst"
+    ]
+  },
+  "block": {
+    "subtitles": "block",
+    "sounds": [
+      "legendary_monsters:block"
+    ]
+  },
+  "ultimate_flame_impact": {
+    "subtitles": "ultimate_flame_impact",
+    "sounds": [
+      "legendary_monsters:ultimate_flame_impact"
+    ]
+  },
+  "ultimate_flame_big_impact": {
+    "subtitles": "ultimate_flame_big_impact",
+    "sounds": [
+      "legendary_monsters:ultimate_flame_big_impact"
+    ]
+  },
+  "flame_drifter_charge_shoot": {
+    "subtitles": "flame_drifter_charge_shoot",
+    "sounds": [
+      "legendary_monsters:flame_drifter_charge_shoot"
+    ]
+  },
+  "the_obliterator_short_roar": {
+    "subtitles": "the_obliterator_short_roar",
+    "sounds": [
+      "legendary_monsters:the_obliterator_short_roar"
+    ]
+  },
+   "stab_hit": {
+    "subtitles": "stab_hit",
+    "sounds": [
+      "legendary_monsters:stab_hit"
+    ]
+  },
+  "heavy_stab": {
+    "subtitles": "heavy_stab",
+    "sounds": [
+      "legendary_monsters:heavy_stab"
+    ]
+  },
+  "pp_stab": {
+    "subtitles": "pp_stab",
+    "sounds": [
+      "legendary_monsters:pp_stab"
+    ]
+  },
+  "soul_shield_smash": {
+    "subtitles": "soul_shield_smash",
+    "sounds": [
+      "legendary_monsters:soul_shield_smash"
+    ]
+  },
+  "obliterator_stereo": {
+    "subtitles": "obliterator_stereo",
+    "sounds": [
+      "legendary_monsters:obliterator_stereo"
+    ]
+  },
+  "obliterator_mono": {
+    "subtitles": "obliterator_mono",
+    "sounds": [
+      "legendary_monsters:obliterator_mono"
+    ]
+  },
+  "dagger_throw": {
+    "subtitles": "dagger_throw",
+    "sounds": [
+      "legendary_monsters:dagger_throw"
+    ]
+  },
+  "possessed_paladin_roll": {
+    "subtitles": "possessed_paladin_roll",
+    "sounds": [
+      "legendary_monsters:possessed_paladin_roll"
+    ]
+  },
+  "ominous_windup": {
+    "subtitles": "ominous_windup",
+    "sounds": [
+      "legendary_monsters:ominous_windup"
+    ]
+  },
+  "spear_stab": {
+    "subtitles": "spear_stab",
+    "sounds": [
+      "legendary_monsters:spear_stab"
+    ]
+  },
+  "wandering_eye_hurt": {
+    "subtitles": "wandering_eye_hurt",
+    "sounds": [
+      "legendary_monsters:wandering_eye_hurt"
+    ]
+  },
+  "wandering_eye_ambient": {
+    "subtitles": "wandering_eye_ambient",
+    "sounds": [
+      "legendary_monsters:wandering_eye_ambient"
+    ]
+  },
+  "possessed_paladin_mono": {
+    "subtitles": "possessed_paladin_mono",
+    "sounds": [
+      "legendary_monsters:possessed_paladin_mono"
+    ]
+  },
+  "possessed_paladin_stereo": {
+    "subtitles": "possessed_paladin_stereo",
+    "sounds": [
+      "legendary_monsters:possessed_paladin_stereo"
+    ]
+  }
+}
+

@@ -1,0 +1,15 @@
+{
+  "name": "legendary_monsters:skeletosaurus_nest",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "legendary_monsters:skeletosaurus_nest",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

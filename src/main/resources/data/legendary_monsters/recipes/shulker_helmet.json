@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "legendary_monsters:large_shulker_shell"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:shulker_helmet",
+    "count": 1
+  }
+}

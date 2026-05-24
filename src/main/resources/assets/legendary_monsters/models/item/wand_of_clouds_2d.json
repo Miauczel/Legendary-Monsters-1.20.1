@@ -1,0 +1,6 @@
+{
+  "parent":"item/generated",
+  "textures": {
+    "layer0": "legendary_monsters:item/wand_of_clouds_2d"
+  }
+}

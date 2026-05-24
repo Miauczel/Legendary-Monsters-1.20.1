@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iIi",
+    "iSi",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "I": {
+      "item": "legendary_monsters:knights_sword"
+    },
+    "S": {
+      "item": "legendary_monsters:corrupted_soul"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:knight_summoner",
+    "count": 1
+  }
+}

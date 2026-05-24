@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "legendary_monsters:big_spike_trap_block",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "legendary_monsters:big_spike_trap_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "legendary_monsters:blocks/big_spike_trap_block"
+}

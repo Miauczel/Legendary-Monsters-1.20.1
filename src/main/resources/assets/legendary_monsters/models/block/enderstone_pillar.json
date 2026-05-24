@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "legendary_monsters:block/enderstone_pillar_top",
+    "side": "legendary_monsters:block/enderstone_pillar"
+  }
+}

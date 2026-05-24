@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "legendary_monsters:soul_fortress_remains",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 27,
+    "separation": 18,
+
+    "salt": 5478396
+  }
+}

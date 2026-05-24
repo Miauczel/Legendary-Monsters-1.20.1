@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "legendary_monsters:item/axe_of_lightning3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "legendary_monsters:item/axe_of_lightning2d"
+    },
+    "ground": {
+      "parent": "legendary_monsters:item/axe_of_lightning2d"
+    },
+    "fixed": {
+      "parent": "legendary_monsters:item/axe_of_lightning2d"
+    }
+  }
+}

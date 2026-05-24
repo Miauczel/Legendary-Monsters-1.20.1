@@ -1,0 +1,37 @@
+{
+  "parent": "legendary_monsters:end_root",
+  "criteria": {
+    "space_station": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "legendary_monsters:space_station"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.legendary_monsters.locate_space_station.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "legendary_monsters:eye_of_annihilation"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.legendary_monsters.locate_space_station.title"
+    }
+  },
+  "requirements": [["space_station"]]
+}

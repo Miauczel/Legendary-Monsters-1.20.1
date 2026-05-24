@@ -1,0 +1,6 @@
+{
+  "parent":"item/generated",
+  "textures": {
+    "layer0": "legendary_monsters:item/sharp_battle_axe2d"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:warped_mushroom_cap_part"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_warped_fungussus.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_warped_fungussus.description"
+    },
+    "frame": "task"
+  },
+  "parent": "legendary_monsters:nether_root",
+  "criteria": {
+    "fungussus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:warped_fungussus"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GiG",
+    " G "
+  ],
+  "key": {
+    "G": { "item": "legendary_monsters:enderitium_gem"},
+    "i": { "item": "minecraft:ender_eye"}
+  },
+  "result": {
+    "item": "legendary_monsters:eye_of_annihilation",
+    "count": 1
+  }
+}

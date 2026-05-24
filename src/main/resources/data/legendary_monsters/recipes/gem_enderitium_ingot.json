@@ -1,0 +1,18 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#":  {
+      "item": "legendary_monsters:enderitium_gem"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:enderitium_ingot",
+    "count": 1
+  }
+}

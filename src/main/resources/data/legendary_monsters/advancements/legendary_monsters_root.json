@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:dinosaur_bone_shield"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.legendary_monsters_root.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.legendary_monsters_root.description"
+    },
+    "background": "legendary_monsters:textures/block/ancient_dripstone_tiles.png",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

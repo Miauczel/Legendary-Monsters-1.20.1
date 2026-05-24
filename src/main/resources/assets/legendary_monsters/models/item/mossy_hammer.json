@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "legendary_monsters:item/mossy_hammer3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "legendary_monsters:item/mossy_hammer2d"
+    },
+    "ground": {
+      "parent": "legendary_monsters:item/mossy_hammer2d"
+    },
+    "fixed": {
+      "parent": "legendary_monsters:item/mossy_hammer2d"
+    }
+  }
+}

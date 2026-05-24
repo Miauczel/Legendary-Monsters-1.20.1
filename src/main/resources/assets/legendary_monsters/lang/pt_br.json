@@ -1,0 +1,598 @@
+{
+  "item.legendary_monsters.dinosaur_bone" : "Osso de Dinossauro",
+  "item.legendary_monsters.ambushers_skin" : "Pele de Emboscador",
+  "item.legendary_monsters.sharp_battle_axe" : "Machado de Batalha Afiado",
+  "item.legendary_monsters.anchor_handle" : "Haste de Âncora",
+  "item.legendary_monsters.reinforced_monstrous_anchor" : "Âncora Monstruosa Reforçada",
+  "item.legendary_monsters.ancient_spike" : "Espinho Antigo",
+
+  "item.legendary_monsters.shulker_mimic_spawn_egg" : "Ovo de Shulker Mimico",
+  "item.legendary_monsters.ancient_guardian_spawn_egg" : "Ovo de Guardião Ancestral",
+  "item.legendary_monsters.posessed_paladin_spawn_egg" : "Ovo de Paladino Possuído",
+  "item.legendary_monsters.monstrous_anchor" : "Âncora Monstruosa",
+  "item.legendary_monsters.spiky_shield" : "Escudo Espinhoso",
+  "item.legendary_monsters.withered_ribcage" : "Caixa Torácica Decomposta",
+  "item.legendary_monsters.chorus_blade" : "Lâmina do Coro",
+  "item.legendary_monsters.chorus_mask" : "Máscara do Coro",
+  "item.legendary_monsters.chorus_crystal" : "Cristal do Coro",
+  "item.legendary_monsters.chorus_cannon" : "Canhão do Coro",
+  "item.legendary_monsters.infected_chorus_fruit" : "Fruta do Coro Infectada",
+  "item.legendary_monsters.chorus_bomb_projectile" : "Bomba do Coro",
+  "item.legendary_monsters.large_shulker_shell" : "Casca de Shulker Grande",
+  "item.legendary_monsters.shulker_shield" : "Escudo de Shulker",
+  "item.legendary_monsters.shulker_helmet" : "Capacete de Shulker",
+  "item.legendary_monsters.the_great_frost" : "A Grande Geada",
+  "item.legendary_monsters.dinosaur_bone_shield" : "Escudo de Osso de Dinossauro",
+  "item.legendary_monsters.frozen_rune" : "Runa Congelada",
+  "item.legendary_monsters.frostbitten_shield" : "Escudo Gélido",
+  "item.legendary_monsters.mossy_chestplate" : "Peitoral Musgoso",
+  "item.legendary_monsters.lava_eaters_skin" : "Pele do Devora-Lava",
+  "item.legendary_monsters.fiery_jaw" : "Mandíbula Flamejante",
+  "item.legendary_monsters.void_sword" : "Espada do Vazio",
+  "item.legendary_monsters.dinosaur_bone_meal" : "Farinha de Osso de Dinossauro",
+  "item.legendary_monsters.entity_warper" : "Teleportador de Entidades",
+  "item.legendary_monsters.nature_crystal" : "Cristal da Natureza",
+  "item.legendary_monsters.warped_mushroom_cap_part" : "Pedaço de Chapéu de Fungo",
+  "item.legendary_monsters.void_gem" : "Gema do Vazio",
+  "item.legendary_monsters.withered_bone" : "Osso Decomposto",
+  "item.legendary_monsters.void_entity_warper" : "Teleportador de Entidades do Vazio",
+  "item.legendary_monsters.mossy_hammer" : "Martelo Musgoso",
+  "item.legendary_monsters.overgrown_colossus_spawn_egg" : "Ovo de Colosso do Musgo",
+  "item.legendary_monsters.mossy_golem_spawn_egg" : "Ovo de Golem Musgoso",
+  "item.legendary_monsters.the_obliterator_spawn_egg" : "Ovo de Obliterator",
+
+  "item.legendary_monsters.flameborn_guard_spawn_egg" : "Ovo de Guarda Flamejante",
+
+  "item.legendary_monsters.flame_drifter_spawn_egg" : "Ovo de Sentinela Flamejante",
+  "item.legendary_monsters.annihilation_pursuer_spawn_egg": "Ovo de Acusador da Aniquilação",
+
+  "item.legendary_monsters.hovering_hurricane_spawn_egg" : "Ovo de Furacão Flutuante",
+  "item.legendary_monsters.stratling_spawn_egg" : "Ovo de Stratus",
+  "item.legendary_monsters.spike_bug_spawn_egg" : "Ovo de Verme-Espinho",
+  "item.legendary_monsters.ambusher_spawn_egg" : "Ovo de Emboscador",
+  "item.legendary_monsters.skeletosaurus_spawn_egg" : "Ovo de Esqueletossauro",
+  "item.legendary_monsters.warped_fungussus_spawn_egg" : "Ovo de Fungoso Distorcido",
+  "item.legendary_monsters.chorusling_spawn_egg" : "Ovo de Criatura do Coro",
+  "item.legendary_monsters.lava_eater_spawn_egg" : "Ovo de Devora-Lava",
+  "item.legendary_monsters.endersent_spawn_egg" : "Ovo de Sentinela do Coro",
+  "item.legendary_monsters.frostbitten_golem_spawn_egg" : "Ovo de Golem Gélido",
+  "item.legendary_monsters.withered_abomination_spawn_egg" : "Ovo de Abominação Decomposta",
+  "item.legendary_monsters.dune_sentinel_spawn_egg" : "Ovo de Sentinela das Dunas",
+  "item.legendary_monsters.cloud_golem_spawn_egg" : "Ovo de Cumulonimbus",
+  "item.legendary_monsters.haunted_knight_spawn_egg" : "Ovo de Cavaleiro Assombrado",
+  "item.legendary_monsters.haunted_guard_spawn_egg" : "Ovo de Guarda Assombrado",
+  "item.legendary_monsters.bomber_spawn_egg" : "Ovo de Bombardeiro",
+  "item.legendary_monsters.fatal_mortar" : "Ovo de Morteiro Letal",
+  "item.legendary_monsters.ender_hammer" : "Martelo do End",
+  "item.legendary_monsters.withered_scythe" : "Foice Decomposta",
+  "item.legendary_monsters.dinosaur_bone_club" : "Porrete de Osso de Dinossauro",
+  "item.legendary_monsters.air_rune" : "Runa do Ar",
+  "item.legendary_monsters.wand_of_clouds" : "Varinha das Nuvens",
+  "item.legendary_monsters.sharp_sai" : "Sai Afiado",
+  "item.legendary_monsters.axe_of_lightning" : "Machado do Relâmpago",
+  "item.legendary_monsters.molten_metal_ingot" : "Barra de Metal Derretido",
+  "item.legendary_monsters.atmospheric_boots" : "Botas Atmosféricas",
+  "item.legendary_monsters.soul_great_sword" : "Grande Espada das Almas",
+  "item.legendary_monsters.spiky_spear" : "Lança Espinhosa",
+  "item.legendary_monsters.golden_halbert" : "Alabarda Dourada",
+  "item.legendary_monsters.knights_sword" : "Espada do Cavaleiro",
+  "item.legendary_monsters.corrupted_soul" : "Alma Corrompida",
+  "item.legendary_monsters.purified_soul" : "Alma Purificada",
+  "item.legendary_monsters.knight_summoner" : "Invocador de Cavaleiro",
+  "item.legendary_monsters.guard_summoner" : "Invocador de Guarda",
+  "item.legendary_monsters.deactivated_knight_summoner" : "Invocador de Cavaleiro Desativado",
+  "item.legendary_monsters.deactivated_guard_summoner" : "Invocador de Guarda Desativado",
+  "item.legendary_monsters.knights_sword_blade_half" : "Parte da Lâmina de uma Espada",
+  "item.legendary_monsters.long_stick_half" : "Metade de um Cabo Longo",
+  "item.legendary_monsters.primal_ice_shard" : "Fragmento de Gelo Primitivo",
+  "item.legendary_monsters.withered_horn" : "Chifre Decomposto",
+  "item.legendary_monsters.guide_book" : "Livro Guia",
+  "item.legendary_monsters.skeloraptor_spawn_egg" : "Ovo de Esqueloraptor",
+  "item.legendary_monsters.fatal_mortar_spawn_egg" : "Ovo de Morteiro Letal",
+  "item.legendary_monsters.chiseled_ancient_dripstone_shard" : "Fragmento de Espeleotema Antigo Talhado",
+  "item.legendary_monsters.sand_cannon" : "Canhão de Areia",
+  "item.legendary_monsters.blastproof_metal_scrap" : "Sucata de Metal À Prova de Explosões",
+  "item.legendary_monsters.blastproof_helmet" : "Capacete de Arenito Antigo",
+  "item.legendary_monsters.ancient_sandstone_shard" : "Fragmento de Arenito Antigo",
+  "item.legendary_monsters.ancient_detonator" : "Detonador Antigo",
+  "item.legendary_monsters.crystal_of_sandstorm" : "Cristal da Tempestade de Areia",
+  "item.legendary_monsters.explosive_sand" : "Areia Explosiva",
+  "item.legendary_monsters.sickle_of_harvest" : "Foice da Colheita",
+
+  "item.legendary_monsters.heart_of_tornado" : "Coração do Tornado",
+
+  "item.legendary_monsters.cloud_rod" : "Vara de Nuvem",
+
+  "item.legendary_monsters.music_disc_advance" : "Disco de Música",
+
+  "item.legendary_monsters.music_disc_obliterator" : "Disco de Música",
+
+  "item.legendary_monsters.music_disc_obliterator.desc" : "Ubjuara0 - Obliterador",
+
+  "item.legendary_monsters.music_disc_advance.desc" : "Light Canvas - Melhorar",
+  "item.legendary_monsters.crystal_of_air" : "Cristal do Ar",
+  "item.legendary_monsters.fiery_boots" : "Botas Flamejantes",
+
+  "item.legendary_monsters.eye_of_sandstorm" : "Olho da Tempestade de Areia",
+  "item.legendary_monsters.eye_of_many_ribs" : "Olho de Espinoso",
+  "item.legendary_monsters.eye_of_frost" : "Olho do Gelo",
+  "item.legendary_monsters.eye_of_soul" : "Olho da Alma",
+  "item.legendary_monsters.eye_of_air" : "Olho do Ar",
+  "item.legendary_monsters.eye_of_moss" : "Olho do Musgo",
+  "item.legendary_monsters.eye_of_chorus" : "Olho do Coro",
+  "item.legendary_monsters.eye_of_shulker" : "Olho do Shulker",
+  "item.legendary_monsters.eye_of_bones" : "Olho dos Ossos",
+  "item.legendary_monsters.eye_of_magma" : "Olho do Magma",
+  "item.legendary_monsters.eye_of_ghost" : "Olho do Fantasma",
+
+
+  "entity.legendary_monsters.ice_spike": "Espinho de Gelo",
+  "entity.legendary_monsters.skeletosaurus": "Esqueletossauro",
+
+  "entity.legendary_monsters.hovering_hurricane": "Furacão Flutuante",
+  "entity.legendary_monsters.stratling": "Stratus",
+  "entity.legendary_monsters.mossy_golem": "Golem Musgoso",
+  "entity.legendary_monsters.overgrown_colossus": "Colosso do Musgo",
+  "entity.legendary_monsters.warped_fungussus": "Fungoso Distorcido",
+  "entity.legendary_monsters.frostbitten_golem": "Golem Gélido",
+  "entity.legendary_monsters.lava_eater": "Devora-Lava",
+  "entity.legendary_monsters.endersent": "Sentinela do Coro",
+  "entity.legendary_monsters.chorusling": "Criatura do Coro",
+  "entity.legendary_monsters.shulker_mimic": "Shulker Mimico",
+  "entity.legendary_monsters.ambusher": "Emboscador",
+  "entity.legendary_monsters.spiky_bug": "Verme-Espinho",
+  "entity.legendary_monsters.withered_abomination": "Abominação Decompostad",
+  "entity.legendary_monsters.ancient_guardian": "Guardião Ancestral",
+  "entity.legendary_monsters.cloud_golem": "Cumulonimbus, o Golem das Nuvens",
+  "entity.legendary_monsters.dark_cloud_golem": "Cumulonimbus, Golem da tempestade",
+  "entity.legendary_monsters.knights_armor": "Cavaleiro",
+  "entity.legendary_monsters.guard": "Guarda",
+  "entity.legendary_monsters.haunted_knight": "Cavaleiro Assombrado",
+  "entity.legendary_monsters.haunted_guard": "Guarda Assombrado",
+  "entity.legendary_monsters.posessed_paladin": "Paladino Possuído",
+  "entity.legendary_monsters.dune_sentinel": "Sentinela das Dunas",
+  "entity.legendary_monsters.skeloraptor": "Esqueloraptor",
+  "entity.legendary_monsters.bomb": "Bomba",
+  "entity.legendary_monsters.bomber": "Bombardeiro",
+
+  "entity.legendary_monsters.the_obliterator": "O Obliterador, o Monstro do Fim",
+
+  "entity.legendary_monsters.flameborn_guard": "Guarda Flamejante",
+
+  "entity.legendary_monsters.flame_drifter": "Sentinela Flamejante",
+
+  "entity.legendary_monsters.annihilation_pursuer": "Acusador da Aniquilação",
+
+  "entity.legendary_monsters.wandering_eye": "Olho Ambulante",
+
+  "entity.legendary_monsters.flameborn_warrior": "Guerreiro Flamejante",
+  "creativetab.legendary_monsters" : "Monstros Lendários",
+
+  "sounds.legendary_monsters.endersent_attack": "Sentinela do Coro Esmaga o Chão",
+  "sounds.legendary_monsters.endersent_ambient": "Sentinela do Coro Fala",
+  "sounds.legendary_monsters.endersent_death": "Sentinela do Coro Morre em Agonia",
+
+  "effect.legendary_monsters.chorus_infection": "Infecção do Coro",
+  "effect.legendary_monsters.freeze": "Congelamento",
+  "effect.legendary_monsters.soul_fracture": "Alma Fraturada",
+  "effect.legendary_monsters.bleeding": "Sangramento",
+  "effect.legendary_monsters.soul_rage": "Fúria da Alma",
+  "effect.legendary_monsters.stun": "Atordoamento",
+  "effect.legendary_monsters.fear": "Medo",
+  "effect.legendary_monsters.broken_armor": "Armadura Quebrada",
+  "effect.legendary_monsters.gravity_pull": "Atração Gravitacional",
+  "effect.legendary_monsters.curse_of_desert": "Maldição do Deserto",
+
+  "effect.legendary_monsters.unbreakable": "Inquebrável",
+
+  "effect.legendary_monsters.annihilation": "Aniquilação",
+  "block.legendary_monsters.ancient_dripstone_bricks": "Tijolos de Espeleotema Antigo",
+  "block.legendary_monsters.ancient_dripstone_block": "Bloco de Espeleotema Antigo",
+  "block.legendary_monsters.ancient_dripstone_brick_pillar": "Pilar de Tijolos de Espeleotema Antigo",
+  "block.legendary_monsters.chiseled_ancient_dripstone_bricks": "Tijolos de Espeleotema Antigo Talhados",
+  "block.legendary_monsters.ancient_dripstone_tiles": "Azulejos de Espeleotema Antigo",
+  "block.legendary_monsters.ancient_dripstone_brick_slab": "Laje de Tijolos de Espeleotema Antigo",
+  "block.legendary_monsters.ancient_dripstone_brick_wall": "Parede de Tijolos de Espeleotema Antigo",
+  "block.legendary_monsters.ancient_dripstone_brick_stairs": "Escadas de Tijolos de Espeleotema Antigo",
+  "block.legendary_monsters.ancient_dripstone_tile_slab": "Laje de Azulejos de Espeleotema Antigo",
+  "block.legendary_monsters.ancient_dripstone_tile_stairs": "Escadas de Azulejos de Espeleotema Antigo",
+  "block.legendary_monsters.ancient_dripstone_tile_wall": "Parede de Azulejos de Espeleotema Antigo",
+  "block.legendary_monsters.cloud_block": "Bloco de Nuvem",
+  "block.legendary_monsters.cloud_bricks": "Tijolos de Nuvem",
+  "block.legendary_monsters.skeletosaurus_egg": "Ovo de Esqueletossauro",
+
+  "block.legendary_monsters.polished_diorite_pillar": "Pilar de Diorito Polido",
+
+  "block.legendary_monsters.chiseled_diorite": "Diorito Talhado",
+
+  "advancements.legendary_monsters.legendary_monsters_root.title": "Monstros Lendários",
+  "advancements.legendary_monsters.legendary_monsters_root.description": "Novos mobs desafiadores!",
+  "advancements.legendary_monsters.nether_root.title": "Monstros Lendários: Nether",
+  "advancements.legendary_monsters.nether_root.description": "Novos Desafios no Nether!",
+  "advancements.legendary_monsters.end_root.title": "Monstros Lendários: End",
+  "advancements.legendary_monsters.end_root.description": "Novos Desafios no End!",
+
+  "advancements.legendary_monsters.locate_skeletosaurus_nest.title": "Há Muito Tempo Atrás",
+  "advancements.legendary_monsters.locate_skeletosaurus_nest.description": "Localize o ninho do esqueletossauro",
+
+  "advancements.legendary_monsters.locate_space_station.title": "O Lugar do Começo",
+  "advancements.legendary_monsters.locate_space_station.description": "Localize a Estação Espacial",
+  "advancements.legendary_monsters.defeat_skeletosaurus.title": "O Esqueleto Ancestral",
+  "advancements.legendary_monsters.defeat_skeletosaurus.description": "Derrote o Esqueletossauro",
+
+  "advancements.legendary_monsters.locate_soul_fortress_remains.title": "A Fortaleza da Alma",
+  "advancements.legendary_monsters.locate_soul_fortress_remains.description": "Localize os restos da fortaleza da alma",
+  "advancements.legendary_monsters.defeat_withered_abomination.title": "O Devorador de Almas",
+  "advancements.legendary_monsters.defeat_withered_abomination.description": "Derrote a Abominação Decomposta",
+
+  "advancements.legendary_monsters.locate_mossy_temple.title": "Coberto de Musgo",
+  "advancements.legendary_monsters.locate_mossy_temple.description": "Localize o Templo Musgoso",
+  "advancements.legendary_monsters.defeat_overgrown_colossus.title": "A Fera Musgosa",
+  "advancements.legendary_monsters.defeat_overgrown_colossus.description": "Derrote o Colosso do Musgo",
+
+  "advancements.legendary_monsters.locate_ancient_stronghold.title": "Espeleotemas Pra Toda Parte",
+  "advancements.legendary_monsters.locate_ancient_stronghold.description": "Localize o Forte Ancestral",
+  "advancements.legendary_monsters.defeat_ancient_guardian.title": "O Monstro de Um Braço",
+  "advancements.legendary_monsters.defeat_ancient_guardian.description": "Derrote o Guardião Ancestral",
+  "advancements.legendary_monsters.defeat_ambusher.title": "Um Impostor",
+  "advancements.legendary_monsters.defeat_ambusher.description": "Derrote um Emboscador",
+  "advancements.legendary_monsters.defeat_spiky_bug.title": "Um Verme Nojento",
+  "advancements.legendary_monsters.defeat_spiky_bug.description": "Derrote um Verme-Espinho",
+
+  "advancements.legendary_monsters.locate_shulker_tower.title": "Não Há Gravidade Aqui!",
+  "advancements.legendary_monsters.locate_shulker_tower.description": "Localize a Torre de Shulker",
+  "advancements.legendary_monsters.defeat_shulker_mimic.title": "Caixa de Shulker Assustadora",
+  "advancements.legendary_monsters.defeat_shulker_mimic.description": "Derrote o Shulker Mimico",
+
+  "advancements.legendary_monsters.locate_ancient_tower_remains.title": "Longe de Casa",
+  "advancements.legendary_monsters.locate_ancient_tower_remains.description": "Localize os restos da torre ancestral",
+  "advancements.legendary_monsters.defeat_endersent.title": "O Cara Alto",
+  "advancements.legendary_monsters.defeat_endersent.description": "Derrote a Sentinela do Coro",
+  "advancements.legendary_monsters.defeat_chorusling.title": "A Infecção do Coro",
+  "advancements.legendary_monsters.defeat_chorusling.description": "Derrote uma Criatura do Coro",
+
+  "advancements.legendary_monsters.locate_cloudy_temple.title": "Me Sentindo nas Nuvens...",
+  "advancements.legendary_monsters.locate_cloudy_temple.description": "Localize o Templo Nebuloso",
+  "advancements.legendary_monsters.defeat_cloud_golem.title": "Contra os Deuses",
+  "advancements.legendary_monsters.defeat_cloud_golem.description": "Derrote o Golem das Nuvens",
+
+  "advancements.legendary_monsters.locate_lava_eater.title": "Quente pra Valer",
+  "advancements.legendary_monsters.locate_lava_eater.description": "Encontre o Ninho do Devora-Lava",
+  "advancements.legendary_monsters.defeat_lava_eater.title": "Fera Flamejante",
+  "advancements.legendary_monsters.defeat_lava_eater.description": "Derrote o Devora-Lava",
+
+  "advancements.legendary_monsters.locate_frostbitten_temple.title": "Um Frio de Bater os Dentes",
+  "advancements.legendary_monsters.locate_frostbitten_temple.description": "Localize o Templo Gélido",
+  "advancements.legendary_monsters.defeat_frostbitten_golem.title": "O Golem Mais Gelado",
+  "advancements.legendary_monsters.defeat_frostbitten_golem.description": "Derrote o Golem Gélido",
+
+  "advancements.legendary_monsters.defeat_warped_fungussus.title": "Está Teleportando!",
+  "advancements.legendary_monsters.defeat_warped_fungussus.description": "Derrote o Fungoso Distorcido",
+
+  "advancements.legendary_monsters.locate_abandoned_crypt.title": "Fachada Aterrorizante",
+  "advancements.legendary_monsters.locate_abandoned_crypt.description": "Localize a Cripta Abandonada",
+  "advancements.legendary_monsters.defeat_haunted_knight.title": "Armadura Viva",
+  "advancements.legendary_monsters.defeat_haunted_knight.description": "Derrote um Cavaleiro Assombrado",
+  "advancements.legendary_monsters.defeat_haunted_guard.title": "Guarda Morto-Vivo",
+  "advancements.legendary_monsters.defeat_haunted_guard.description": "Derrote um Guarda Assombrado",
+  "advancements.legendary_monsters.defeat_posessed_paladin.title": "Finalmente Livre",
+  "advancements.legendary_monsters.defeat_posessed_paladin.description": "Derrote o Paladino Possuído",
+
+  "advancements.legendary_monsters.defeat_the_obliterator.title": "Obliterando o Obliterator",
+  "advancements.legendary_monsters.defeat_the_obliterator.description": "Derrote o Obliterator",
+
+  "advancements.legendary_monsters.defeat_flameborn.title": "Chamas do Ender",
+  "advancements.legendary_monsters.defeat_flameborn.description": "Derrote um Guarda e um Guerreiro Flamejante",
+
+  "advancements.legendary_monsters.defeat_wandering_eye.title": "O Grande Olho",
+  "advancements.legendary_monsters.defeat_wandering_eye.description": "Derrote um Olho Ambulante",
+
+  "advancements.legendary_monsters.defeat_flame_drifter.title": "Quebra Sentinelas",
+  "advancements.legendary_monsters.defeat_flame_drifter.description": "Derrote uma Sentinela Flamejante",
+
+  "advancements.legendary_monsters.defeat_bomber.title": "Bombas de Arenito",
+  "advancements.legendary_monsters.defeat_bomber.description": "Derrote um Bombardeiro",
+  "advancements.legendary_monsters.defeat_dune_sentinel.title": "Máquina de Guerra Ancestral",
+  "advancements.legendary_monsters.defeat_dune_sentinel.description": "Derrote a Sentinela das Dunas",
+  "advancements.legendary_monsters.locate_ruined_pyramid.title": "Nem Tudo se Mantem de Pé!",
+  "advancements.legendary_monsters.locate_ruined_pyramid.description": "Localize a Pirâmide Arruinada",
+
+  "advancements.legendary_monsters.defeat_annihilation_pursuer.title": "Desacelerando Um Pouco...",
+  "advancements.legendary_monsters.defeat_annihilation_pursuer.description": "Derrote um Acusador da Aniquilação",
+  "death.attack.legendary_monsters.spikes": "%s foi perfurado por espinhos.",
+  "item.legendary_monsters.soul_great_sword1": "\u00A76Habilidade Especial: \u00A77 50% de chance de aplicar o efeito 'sangramento' em seus inimigos",
+  "item.legendary_monsters.soul_great_sword2": "\u00A77após causar um acerto crítico.",
+  "item.legendary_monsters.soul_great_sword3": "\u00A72Habilidade Especial 2:\u00A77 Esta espada concede o efeito 'Fúria da Alma' por 10 segundos",
+  "item.legendary_monsters.soul_great_sword4": "\u00A77aumentando sua velocidade de ataque em 0.5, pontos de armadura em 6 e durabilidade de armadura em 1.",
+  "item.legendary_monsters.soul_great_sword5": "\u00A77[SEGURE CLIQUE DIREITO PARA USAR]",
+
+
+  "block.legendary_monsters.chiseled_enderstone_pillar": "Pilar de Pedra do End Talhada",
+
+  "item.legendary_monsters.wand_of_clouds1": "\u00A76Habilidade Especial: \u00A77 Invoca 1 grande nuvem explosiva [14 de dano] e",
+  "item.legendary_monsters.wand_of_clouds2": "\u00A773 pequenas nuvens explosivas[5 de dano cada] acima de seus inimigos. \u00A76[CLIQUE DIREITO EM UMA ENTIDADE PARA USAR]",
+
+
+  "item.legendary_monsters.withered_ribcage1": "§6Habilidade Especial: §7este peitoral protege o jogador",
+  "item.legendary_monsters.withered_ribcage2": "§7 do efeito decomposição. e aplica o efeito decomposição em entidades que te atacam",
+
+  "item.legendary_monsters.withered_scythe1": "§6Habilidade Especial: Segure clique direito para avançar rapidamente",
+  "item.legendary_monsters.withered_scythe2": "§7 e danificar entidades",
+
+
+
+  "item.legendary_monsters.m_anchor1": "§6Habilidade Especial: §7segure clique direito por 1,5 segundos para  lançar no ar",
+  "item.legendary_monsters.m_anchor2": "§7 e atordoar completamente (por 3 seg. mobs não podem te atacar e se mover) todas as entidades ao seu redor (em um raio de 4 blocos).",
+  "item.legendary_monsters.m_anchor3": "§6Habilidade Especial 2: §7Ataque para causar 4 de dano a entidades próximas em um raio de 3 blocos",
+
+
+  "item.legendary_monsters.mossy_chestplate1": "\u00A76Habilidade Especial: \u00A77 Use a tecla 'R' para invocar nuvens de veneno ao seu redor, ",
+  "item.legendary_monsters.mossy_chestplate2": "§7que danificam mobs e curam você.",
+
+
+  "item.legendary_monsters.mossy_hammer1": "§6Habilidade Especial: §7 Causa 10 de dano a todas as entidades e aplica",
+  "item.legendary_monsters.mossy_hammer2": "§7efeito de veneno a cada entidade em um raio de 4 blocos, e se o jogador tiver farinha",
+  "item.legendary_monsters.mossy_hammer3": "§7 de osso em seu inventário, blocos de musgo aparecem sob cada entidade danificada em um raio de 3 blocos!",
+  "item.legendary_monsters.mossy_hammer4": "§6[CLIQUE DIREITO EM UM BLOCO PARA USAR] ",
+  "item.legendary_monsters.mossy_hammer5": "§7Também pode ser usado como picareta!  ",
+
+  "item.legendary_monsters.sand_cannon1": "§6Habilidade Especial: §7 Segure clique por 1.5 seg. para disparar uma Bomba de Arenito",
+
+
+  "item.legendary_monsters.chorus_helmet1": "§6Habilidade Especial:§7 esta Máscara protege o jogador",
+
+  "item.legendary_monsters.chorus_helmet2": "§7 da Infecção do Coro.",
+
+
+
+
+  "item.legendary_monsters.chorus_blade1": "§6Habilidade Especial: §7 Teleporta o jogador para um local aleatório próximo.",
+  "item.legendary_monsters.chorus_blade2": "§7 por exemplo, pode ser usado para esquivar de um ataque. §6[CLIQUE DIREITO PARA USAR]",
+
+
+  "item.legendary_monsters.axe_of_lightning1": "§6Habilidade Especial:§7 clique direito para invocar um Raio§6[9 de dano por Tick, Ignora Armadura],",
+  "item.legendary_monsters.axe_of_lightning2": "§7Clique Direito em bloco para invocar uma onda de choque de Explosão Elétrica na direção",
+  "item.legendary_monsters.axe_of_lightning3": "§7que você está olhando§6[Dano desta arma por acerto da onda de choque, Ignora Armadura]",
+
+
+  "item.legendary_monsters.atm_boots1": "§6Habilidade Especial: §750% de Redução de Dano de Queda",
+
+
+  "item.legendary_monsters.dino_club1": "§6Habilidade Especial: §7clique direito em um bloco para invocar",
+  "item.legendary_monsters.dino_club2": "§7ondas de choque em formato circular.",
+
+  "item.legendary_monsters.entity_warper1": "§6Habilidade Especial: §7Teleporta todas as entidades",
+  "item.legendary_monsters.entity_warper2": "§7em um raio de 4 blocos para o jogador! §6[CLIQUE DIREITO PARA USAR].",
+
+  "item.legendary_monsters.void_entity_warper1": "§6Habilidade Especial: §7Permite que você escolha qualquer",
+  "item.legendary_monsters.void_entity_warper2": "§7entidade para teleportar até você em um raio de 6 blocos! §6[CLIQUE DIREITO PARA USAR]",
+
+
+  "item.legendary_monsters.great_frost1": "§6Habilidade Especial: §7Clique Direito para invocar Espinhos de Gelo",
+  "item.legendary_monsters.great_frost2": "§6Habilidade Especial 2: §7Clique Direito + shift em bloco para invocar Espinhos de Gelo ao seu redor",
+
+
+  "item.legendary_monsters.shulker_helmet1": "§7 Este capacete protege o jogador do efeito de levitação.",
+
+  "item.legendary_monsters.dino_shield": "§6Extremamente Resistente!",
+
+  "item.legendary_monsters.blast_proof_helmet1": "§6Habilidade Especial:§7 35% de redução de dano de explosão",
+  "item.legendary_monsters.blast_proof_helmet2": "§6(Explosões de Creeper não são mais tão perigosos!)",
+
+
+  "item.legendary_monsters.fiery_jaw1": "§6Habilidade Especial: §7 Mandíbula Flamejante Empurra toda entidade em",
+  "item.legendary_monsters.fiery_jaw2": "§7 um raio de 3 blocos, para longe do jogador, e o jogador começa a cuspir fogo§6[CLIQUE DIREITO PARA USAR]",
+
+
+  "item.legendary_monsters.golden_halberd1": "§6Habilidade Especial: §7 25% de chance de aplicar o efeito 'sangramento' em seus inimigos",
+
+  "item.legendary_monsters.golden_halberd2": "§7após causar um acerto crítico.",
+
+
+  "item.legendary_monsters.fiery_boots1": "§6Habilidade Especial: §7Use a tecla 'X' para espalhar fogo em sua posição enquanto caminha.",
+
+  "item.legendary_monsters.frost_shield1": "§6Habilidade Especial: §7 Congela seu inimigo por 3 segundos",
+
+  "item.legendary_monsters.frost_shield2": "§6[BLOQUEAR PARA USAR]",
+
+  "item.legendary_monsters.chorus_cannon1": "§6Habilidade Especial: §7 Segure clique por 1.5 seg. para disparar uma Bomba do Coro que",
+
+  "item.legendary_monsters.chorus_cannon2": "§7Aplica o efeito de Infecção do Coro em seus inimigos",
+
+  "item.legendary_monsters.spiky_shield1": "\u00A76Habilidade Especial: \u00A77 50% de chance de aplicar o efeito 'sangramento' em seus inimigos",
+  "item.legendary_monsters.spiky_shield2": "\u00A77de refletir o dano de volta ao seu inimigo quando você está bloqueando com o escudo",
+  "item.legendary_monsters.spiky_shield3": "§2[Dano: 5 + 25% do dano de ataque do seu inimigo] ",
+  "item.legendary_monsters.spiky_shield4": "§6[BLOQUEAR PARA USAR]",
+
+  "item.legendary_monsters.shulker_shield1": "§6Habilidade Especial: §760% de chance de aplicar efeito de levitação em seus inimigos",
+  "item.legendary_monsters.shulker_shield2": "§6[BLOQUEAR PARA USAR",
+
+  "item.legendary_monsters.heartoftornado1": "§6Segure Clique Direito para disparar um tornado que agarra entidades[durar 3 segundos]",
+
+  "death.attack.legendary_monsters.laser": "%s foi exterminado por %s usando energia de relâmpago pura",
+
+  "death.attack.legendary_monsters.clouds": "%s foi esmagado até a morte por %s",
+
+  "death.attack.legendary_monsters.ghost": "%s deixou a realidade",
+
+  "death.attack.legendary_monsters.gravity": "%s subiu demais",
+
+  "death.attack.legendary_monsters.void": "%s foi aniquilado por %s",
+  "legendary_monsters.message.stratling_interaction": "Clique Direito para Interagir (Negociar)",
+
+
+  "item.legendary_monsters.totem_of_moss" : "Totem do Musgo",
+
+  "item.legendary_monsters.totem_of_moss.desc" : "Clique Direito para invocar um Golem Musgoso que te auxilia em batalhas e acelera o crescimento de plantações próximas enquanto estiver perto de plantações jovens. o golem pode ser re-invocado quando morre",
+
+
+  "legendary_monsters.message.pet_sit_enable": " §cModo Sentar§f Ativado",
+  "legendary_monsters.message.pet_walk_enable": " §aModo Andar§f Ativado",
+  "legendary_monsters.message.pet_stand_enable": " §cModo Ficar Parado§f Ativado",
+  "legendary_monsters.message.pet_stand_disable": " §aModo Andar Livremente§f Ativado",
+
+  "legendary_monsters.message.mossy_golem_string_message_name": "Golem Musgoso",
+  "legendary_monsters.message.knight_string_message_name": "Cavaleiro",
+  "legendary_monsters.message.guard_string_message_name": "Guarda",
+  "legendary_monsters.message.skeloraptor_string_message_name": "Esqueloraptor",
+
+  "legendary_monsters.message.obliterator_p3_1_message": "§a.",
+  "legendary_monsters.message.obliterator_p3_2_message": "§a'...'",
+
+  "legendary_monsters.message.obliterator_ultimate": "§aSua Perdição se Aproxima",
+
+
+  "key.categories.legendary_monsters": "Categoria dos Atalhos: Monstros Lendários",
+  "key.legendary_monsters.mossy_chestplate_ability": "Habilidade dos Peitorais",
+  "key.legendary_monsters.fiery_boots_ability": "Habilidade das Botas",
+
+  "key.legendary_monsters.skeloraptor_roar": "Habilidade de Rugido do Esqueloraptor",
+
+  "key.legendary_monsters.skeloraptor_attack": "Habilidade de Ataque do Esqueloraptor",
+
+  "key.legendary_monsters.helmet": "Habilidade dos Capacetes",
+
+  "item.legendary_monsters.totem_of_moss1": "§6Clique Direito em um Bloco para invocar um Golem Musgoso que faz plantações crescerem muito mais rápido enquanto perto de plantações não crescidas ",
+  "item.legendary_monsters.totem_of_moss2": "§7e pode te ajudar durante lutas. O golem é domesticado automaticamente. Pode ser re-invocado facilmente após a morte ",
+
+  "item.legendary_monsters.totem_of_moss3": "§fShift + Clique Direito no golem para o colocar no '§aModo Aguardando§7'",
+
+
+  "item.legendary_monsters.guard_summoner1": "§6Clique direito no bloco para invocar um guarda que te protege. ",
+  "item.legendary_monsters.guard_summoner2": "§7Você pode domesticá-lo com barras de ferro",
+  "item.legendary_monsters.guard_summoner3": "§6Causa mais dano e em um ARCO maior que o cavaleiro, mas é mais lento.",
+  "item.legendary_monsters.guard_summoner4": "§7pode ser facilmente re-invocado após a morte usando barras de ferro e o invocador desativado",
+
+  "item.legendary_monsters.knight_summoner1": "§6Clique direito no bloco para invocar um cavaleiro que te protege. ",
+  "item.legendary_monsters.knight_summoner2": "§7Você pode domesticá-lo com barras de ferro",
+
+  "item.legendary_monsters.knight_summoner3": "§6Causa menos dano que o guarda mas, pode fazer combos rápidos e pode bloquear ataques recebidos",
+  "item.legendary_monsters.knight_summoner4": "§7pode ser facilmente re-invocado após a morte usando barras de ferro e o invocador desativado",
+  "legendary_monsters.message.skeloraptor_time_until_next_roar": "Esqueletoraptor está recuperando a voz",
+  "block.legendary_monsters.skeletosaurus_egg1": "§7Coloque no chão e espere, para chocar um Esqueloraptor, uma vez totalmente crescido domestique-o com carne crua,",
+  "block.legendary_monsters.skeletosaurus_egg2": "§7você pode montá-lo e fazê-lo atacar enquanto você está montado (Padrões de Ataque do Esqueletossauro)",
+  "block.legendary_monsters.skeletosaurus_egg3": "§7você pode usar a tecla 'R' para rugir e assustar mobs.",
+  "block.legendary_monsters.skeletosaurus_egg4": "§6-Coloque em Areia das Almas e espere um tempo para a eclosão mais rápido.",
+  "legendary_monsters.message.skeloraptor_mount": "Pressione 'R' para Rugir, Pressione Shift Esquerdo para Desmontar",
+
+  "legendary_monsters.message.teleport_machine": "§aInsira um 'Olho de Cristal' na máquina de teleporte para invocar a sua PERDIÇÃO",
+
+  "item.legendary_monsters.atom_splitter1": "§7Segure clique direito por 1.5s para disparar um Raio de Aniquilação",
+  "item.legendary_monsters.atom_splitter2": "§7Shift + Segure clique direito por 1.5s para disparar uma Bomba de Aniquilação em Aglomerado",
+  "item.legendary_monsters.atom_splitter3": "§7É inquebrável",
+
+
+  "item.legendary_monsters.the_tesseract1": "§7Segure clique direito por 1.5s para invocar Portais de Aniquilação em um padrão de Estrela.",
+  "item.legendary_monsters.the_tesseract2": "§7Durante a invocação do Portal, entidades próximas são afetadas por sua atração gravitacional.",
+
+  "item.legendary_monsters.buckler_of_annihilation1": "§7Segure clique direito + shift por 0.5s para realizar um ataque em área, e para disparar 3 pequenas Bombas de Aniquilação [8 de dano ignoram armadura]. A recarga aparece após acertar uma entidade com o ataque em área",
+  "item.legendary_monsters.enderitium_ingot": "Barra de Enderitío",
+
+  "item.legendary_monsters.bottle_of_annihilation": "Frasco de Aniquilação",
+
+  "item.legendary_monsters.enderitium_upgrade_smithing_template": "Molde de Ferraria",
+
+  "item.legendary_monsters.annihilator_upgrade_smithing_template": "Molde de Ferraria",
+
+  "item.legendary_monsters.portal_shard": "Fragmento de Portal",
+  "item.legendary_monsters.enderitium_gem": "Gema de Enderitío",
+  "item.legendary_monsters.raw_enderitium": "Enderitío Bruto",
+  "item.legendary_monsters.enderitium_sword": "Espada de Enderitío",
+  "item.legendary_monsters.enderitium_axe": "Machado de Enderitío",
+  "item.legendary_monsters.enderitium_shovel": "Pá de Enderitío",
+  "item.legendary_monsters.enderitium_hoe": "Enxada de Enderitío",
+  "item.legendary_monsters.enderitium_pickaxe": "Picareta de Enderitío",
+
+
+  "block.legendary_monsters.enderitium_ore": "Minério de Enderitío",
+  "block.legendary_monsters.enderitium_block": "Bloco de Enderitío",
+
+  "block.legendary_monsters.chiseled_enderstone_bricks": "Tijolos de Pedra Final Talhados",
+  "block.legendary_monsters.enderstone_bricks": "Tijolos de Pedra Final",
+
+  "block.legendary_monsters.enderstone_brick_stairs": "Escadas de Tijolos de Pedra Final",
+
+  "block.legendary_monsters.enderstone_brick_slab": "Laje de Tijolos de Pedra Final",
+
+  "block.legendary_monsters.enderstone_brick_wall": "Parede de Tijolos de Pedra Final",
+
+  "block.legendary_monsters.enderstone_pillar": "Pilar de Pedra Final",
+  "block.legendary_monsters.enderstone": "Pedra Final",
+  "block.legendary_monsters.cobbled_enderstone": "Pedregulho de Pedra Final",
+
+  "block.legendary_monsters.smooth_enderstone": "Pedra Final Lisa",
+
+  "block.legendary_monsters.smooth_enderstone_slab": "Laje de Pedra Final Lisa",
+  "block.legendary_monsters.smooth_enderstone_stairs": "Escadas de Pedra Final Lisa",
+  "block.legendary_monsters.smooth_enderstone_wall": "Muro de Pedra Final Lisa",
+
+  "block.legendary_monsters.cobbled_enderstone_slab": "Laje de Pedra Final Pedregulhosa",
+  "block.legendary_monsters.cobbled_enderstone_stairs": "Escadas de Pedra Final Pedregulhosa",
+  "block.legendary_monsters.cobbled_enderstone_wall": "Muro de Pedra Final Pedregulhosa",
+
+
+  "block.legendary_monsters.enderstone_slab": "Laje de Pedra Final",
+  "block.legendary_monsters.enderstone_stairs": "Escadas de Pedra Final",
+  "block.legendary_monsters.enderstone_wall": "Muro de Pedra Final",
+
+  "block.legendary_monsters.ender_anchor": "Âncora de Renascimento do End",
+
+  "block.legendary_monsters.teleport_machine": "Máquina de Teleporte",
+  "block.legendary_monsters.annihilation_lantern": "Lanterna da Aniquilação",
+
+
+  "item.legendary_monsters.ancient_sandstone_shard1": "§7Obtido ao matar Bombardeiros no deserto",
+
+  "item.legendary_monsters.atom_splitter": "Divisor de Átomos",
+
+  "item.legendary_monsters.buckler_of_annihilation": "Escudo da Aniquilação",
+
+  "item.legendary_monsters.eye_crystal" : "Olho de Cristal",
+
+  "item.legendary_monsters.the_tesseract" : "O Tesseract",
+
+  "item.legendary_monsters.cloud_bread" : "Pão de Nuvem",
+
+  "item.legendary_monsters.dark_cloud_bread" : "Pão de Nuvem Tempestuosa",
+
+  "item.legendary_monsters.wandering_eye_spawn_egg" : "Ovo de Olho Ambulante",
+
+  "item.legendary_monsters.enderitium_sickle" : "Foice de Enderitío",
+
+  "item.legendary_monsters.flameborn_warrior_spawn_egg" : "Ovo de Guerreiro Flamejante",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade5": "Barra de Enderitío",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade4": "Ingredientes:",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade3": "Equipamento de Diamante",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade2": "Aplica-se a:",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade1": "Melhoria de Enderitío",
+
+  "item.legendary_monsters.smithing_template.annihilator_upgrade5": "Fragmento de Portal",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade4": "Ingredientes:",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade3": " Equipamento de Netherita",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade2": "Aplica-se a:",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade1": "Melhoria do Aniquilador",
+  "block.legendary_monsters.ender_anchor1":"Preencha com Lanternas da Aniquilação para definir ponto de renascimento no end",
+
+  "item.legendary_monsters.annihilator_helmet" : "Capacete do Aniquilador",
+
+  "item.legendary_monsters.annihilator_chestplate" : "Peitoral do Aniquilador",
+
+  "item.legendary_monsters.annihilator_leggings" : "Calças do Aniquilador",
+
+  "item.legendary_monsters.annihilator_boots" : "Botas do Aniquilador",
+
+  "item.legendary_monsters.annihilator_helmet1" : "Você não provoca endermen quando olha para eles, Pressione a tecla 'C' para se teleportar instantaneamente para a posição que você está olhando (em um raio de 15 blocos)",
+
+  "item.legendary_monsters.annihilator_chestplate1" : "Quando você está com metade da vida ou menos, uma Supernova de Aniquilação explode em sua posição, e você se torna invulnerável por 3 segundos.",
+
+  "item.legendary_monsters.bottled_lightning" : "Relâmpago Engarrafado",
+
+
+  "item.legendary_monsters.eye_of_annihilation" : "Olho da Aniquilação",
+  "item.legendary_monsters.annihilator_leggings1" : "25% de chance de transformar seu ataque em AOE que ignora armadura, (dano da sua arma atual / 2) ao acertar um crítico",
+  "item.legendary_monsters.annihilator_unknown" : "Habilidade ainda em desenvolvimento, será adicionada em breve",
+
+  "item.legendary_monsters.annihilator_boots1" : "Protege você contra fraqueza e lentidão",
+
+  "legendary_monsters.message.stun": "Atordoado!"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:infected_chorus_fruit"
+    },
+    "C": {
+      "item": "legendary_monsters:entity_warper"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:void_entity_warper",
+    "count": 1
+  }
+}

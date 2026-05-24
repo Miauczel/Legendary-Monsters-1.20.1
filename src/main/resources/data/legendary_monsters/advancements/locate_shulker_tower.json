@@ -1,0 +1,37 @@
+{
+  "parent": "legendary_monsters:end_root",
+  "criteria": {
+    "tower": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "legendary_monsters:shulker_tower"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.legendary_monsters.locate_shulker_tower.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "legendary_monsters:large_shulker_shell"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.legendary_monsters.locate_shulker_tower.title"
+    }
+  },
+  "requirements": [["tower"]]
+}

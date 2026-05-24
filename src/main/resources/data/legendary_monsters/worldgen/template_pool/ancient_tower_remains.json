@@ -1,0 +1,15 @@
+{
+  "name": "legendary_monsters:ancient_tower_remains",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "legendary_monsters:ancient_tower_remains",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

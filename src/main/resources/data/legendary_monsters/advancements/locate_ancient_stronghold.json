@@ -1,0 +1,37 @@
+{
+  "parent": "legendary_monsters:legendary_monsters_root",
+  "criteria": {
+    "ancient_stronghold": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "legendary_monsters:ancient_stronghold"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.legendary_monsters.locate_ancient_stronghold.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "legendary_monsters:ancient_dripstone_bricks"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.legendary_monsters.locate_ancient_stronghold.title"
+    }
+  },
+  "requirements": [["ancient_stronghold"]]
+}

@@ -1,0 +1,39 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:ice_spikes",
+    {
+      "id": "biomesoplenty:snowy_coniferous_forest",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:muskeg",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:snowy_maple_woods",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:snowy_fir_clearing",
+      "required": false
+    },
+
+    {
+      "id": "biomeswevegone:frosted_coniferous_forest",
+
+      "required": false
+    },
+
+
+    {
+      "id": "biomeswevegone:frosted_taiga",
+
+      "required": false
+    }
+
+  ]
+}
+

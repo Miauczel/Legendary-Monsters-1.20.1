@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "legendary_monsters:annihilator_upgrade_smithing_template" },
+  "base": { "item":  "minecraft:netherite_boots" },
+  "addition": { "item": "legendary_monsters:portal_shard" },
+  "result": { "item": "legendary_monsters:annihilator_boots" }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "legendary_monsters:block/chiseled_enderstone_pillar_top",
+    "side": "legendary_monsters:block/chiseled_enderstone_pillar"
+  }
+}

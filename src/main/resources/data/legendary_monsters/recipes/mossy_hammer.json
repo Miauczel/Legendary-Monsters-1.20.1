@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iMi",
+    "iEi",
+    " / "
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "minecraft:moss_block"
+    },
+    "E": {
+      "item": "legendary_monsters:nature_crystal"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:mossy_hammer",
+    "count": 1
+  }
+}

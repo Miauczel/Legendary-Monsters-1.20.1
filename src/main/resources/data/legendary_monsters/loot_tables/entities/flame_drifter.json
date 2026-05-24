@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "name": "powder",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "legendary_monsters:enderitium_gem"
+
+        }
+      ]
+    },
+    {
+      "name": "powder",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 14.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "legendary_monsters:bottle_of_annihilation"
+
+        }
+      ]
+    }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "legendary_monsters:nether_root",
+  "criteria": {
+    "soul_fortress": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "legendary_monsters:soul_fortress_remains"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.legendary_monsters.locate_soul_fortress_remains.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "legendary_monsters:withered_bone"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.legendary_monsters.locate_soul_fortress_remains.title"
+    }
+  },
+  "requirements": [["soul_fortress"]]
+}

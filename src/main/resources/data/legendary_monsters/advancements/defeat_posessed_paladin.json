@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:soul_great_sword"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_posessed_paladin.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_posessed_paladin.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:defeat_beheaded_knight",
+  "criteria": {
+    "ambusher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:posessed_paladin"
+        }
+      }
+    }
+  }
+}

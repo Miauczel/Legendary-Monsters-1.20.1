@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "#O#",
+    "#B#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:basalt"
+    },
+    "B": {
+      "item": "legendary_monsters:dinosaur_bone"
+    },
+    "O": {
+      "item": "minecraft:bone_block"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:skeletosaurus_egg",
+    "count": 1
+  }
+}

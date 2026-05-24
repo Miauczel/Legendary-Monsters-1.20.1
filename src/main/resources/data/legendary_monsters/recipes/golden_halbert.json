@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#g ",
+    "g/g",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "/": {
+      "item": "legendary_monsters:long_stick_half"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:golden_halbert",
+    "count": 1
+  }
+}

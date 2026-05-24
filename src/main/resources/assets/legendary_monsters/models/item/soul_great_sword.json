@@ -1,0 +1,34 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "legendary_monsters:item/soul_great_sword_3d"
+  },
+
+  "perspectives": {
+    "gui": {
+      "parent": "legendary_monsters:item/soul_great_sword_2d"
+    },
+    "ground": {
+      "parent": "legendary_monsters:item/soul_great_sword_2d"
+    },
+    "fixed": {
+      "parent": "legendary_monsters:item/soul_great_sword_2d"
+    }
+  },
+
+  "overrides": [
+    {
+      "predicate": {
+        "legendary_monsters:parrying": 1.0
+      },
+      "model": "legendary_monsters:item/soul_great_sword_parry"
+    },
+    {
+      "predicate": {
+        "legendary_monsters:summoning": 1.0
+      },
+      "model": "legendary_monsters:item/soul_great_sword_summoning"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "legendary_monsters:item/enderitium_sickle_3d",
+		"particle": "legendary_monsters:item/enderitium_sickle_3d"
+	},
+	"elements": [
+		{
+			"name": "RightWeapon",
+			"from": [6.9, 0.5, 7],
+			"to": [8.9, 4.5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.9, -2.5, 0]},
+			"faces": {
+				"north": {"uv": [2, 12, 4, 16], "texture": "#0"},
+				"east": {"uv": [0, 12, 2, 16], "texture": "#0"},
+				"south": {"uv": [6, 12, 8, 16], "texture": "#0"},
+				"west": {"uv": [4, 12, 6, 16], "texture": "#0"},
+				"up": {"uv": [4, 12, 2, 10], "texture": "#0"},
+				"down": {"uv": [6, 10, 4, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "RightWeapon",
+			"from": [5.902, -3.498, 8.002],
+			"to": [9.898, 0.498, 7.998],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.9, -6.5, 0]},
+			"faces": {
+				"north": {"uv": [8, 10, 12, 14], "texture": "#0"},
+				"east": {"uv": [8, 10, 8, 14], "texture": "#0"},
+				"south": {"uv": [12, 10, 16, 14], "texture": "#0"},
+				"west": {"uv": [12, 10, 12, 14], "texture": "#0"},
+				"up": {"uv": [12, 10, 8, 10], "texture": "#0"},
+				"down": {"uv": [16, 10, 12, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "RightWeapon",
+			"from": [3.902, 4.502, 8.002],
+			"to": [10.898, 14.498, 7.998],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.9, 1.5, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 10], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 10], "texture": "#0"},
+				"south": {"uv": [7, 0, 14, 10], "texture": "#0"},
+				"west": {"uv": [7, 0, 7, 10], "texture": "#0"},
+				"up": {"uv": [7, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [14, 0, 7, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 3.75, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -84, 0],
+			"translation": [0, 4.25, 2.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 84, 0],
+			"translation": [0, 4.25, 2.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"rotation": [-105.02, 87.22, 136.27],
+			"translation": [0, 3.5, -7]
+		}
+	},
+	"groups": [
+		{
+			"name": "RightWeapon",
+			"origin": [4.9, 13.5, 0],
+			"rotation": [-90, 0, 90],
+			"color": 7,
+			"children": [0, 1, 2]
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+  "values": [
+"legendary_monsters:ancient_dripstone_bricks",
+    "legendary_monsters:ancient_dripstone_block",
+    "legendary_monsters:ancient_dripstone_tiles",
+    "legendary_monsters:ancient_dripstone_brick_stairs",
+    "legendary_monsters:ancient_dripstone_brick_wall",
+    "legendary_monsters:ancient_dripstone_brick_slab",
+    "legendary_monsters:ancient_dripstone_tile_slab",
+      "legendary_monsters:ancient_dripstone_tile_stairs",
+    "legendary_monsters:ancient_dripstone_tile_wall",
+    "legendary_monsters:chiseled_ancient_dripstone_bricks",
+
+    "legendary_monsters:polished_diorite_pillar",
+
+      "legendary_monsters:enderstone",
+      "legendary_monsters:cobbled_enderstone",
+      "legendary_monsters:enderstone_bricks",
+      "legendary_monsters:enderstone_brick_stairs",
+      "legendary_monsters:enderstone_brick_slab",
+      "legendary_monsters:enderstone_brick_wall",
+      "legendary_monsters:enderstone_brick_stairs",
+      "legendary_monsters:smooth_enderstone",
+      "legendary_monsters:enderstone_pillar",
+      "legendary_monsters:chiseled_enderstone_pillar",
+      "legendary_monsters:chiseled_enderstone_bricks",
+
+    "legendary_monsters:enderitium_block",
+
+    "legendary_monsters:enderitium_ore",
+    "legendary_monsters:chiseled_diorite",
+    "legendary_monsters:smooth_enderstone",
+
+    "legendary_monsters:smooth_enderstone_stairs",
+    "legendary_monsters:smooth_enderstone_slab",
+    "legendary_monsters:smooth_enderstone_wall",
+
+    "legendary_monsters:cobbled_enderstone_stairs",
+    "legendary_monsters:cobbled_enderstone_slab",
+    "legendary_monsters:cobbled_enderstone_wall",
+
+
+    "legendary_monsters:enderstone_stairs",
+    "legendary_monsters:enderstone_slab",
+    "legendary_monsters:enderstone_wall",
+    "legendary_monsters:ender_anchor",
+    "legendary_monsters:annihilation_lantern"
+]
+}

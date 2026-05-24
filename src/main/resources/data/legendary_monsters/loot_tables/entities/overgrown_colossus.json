@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "rune",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendary_monsters:nature_crystal"
+
+        }
+      ]
+    }
+    ]
+}

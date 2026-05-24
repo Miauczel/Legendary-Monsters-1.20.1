@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:mossy_hammer"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_overgrown_colossus.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_overgrown_colossus.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:locate_mossy_temple",
+  "criteria": {
+    "colossus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:overgrown_colossus"
+        }
+      }
+    }
+  }
+}

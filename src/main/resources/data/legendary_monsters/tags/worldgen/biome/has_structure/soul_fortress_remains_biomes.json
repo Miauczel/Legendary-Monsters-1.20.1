@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:soul_sand_valley",
+    "minecraft:nether_wastes",
+
+    {
+      "id": "biomesoplenty:withered_abyss",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:visceral_heap",
+      "required": false
+    }
+  ]
+}
+

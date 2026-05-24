@@ -1,0 +1,21 @@
+package net.miauczel.legendary_monsters.item.custom.Network;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.simple.SimpleChannel;
+
+public class NetworkHandler {
+    private static final String PROTOCOL_VERSION = "1";
+    public static final SimpleChannel CHANNEL = NetworkRegistry.newSimpleChannel(
+            new ResourceLocation("legendary_monsters", "main"),
+            () -> PROTOCOL_VERSION,
+            PROTOCOL_VERSION::equals,
+            PROTOCOL_VERSION::equals
+    );
+
+    public static void registerPackets() {
+        int id = 0;
+        CHANNEL.registerMessage(id++, LevitationAbilityPacket.class, LevitationAbilityPacket::toBytes, LevitationAbilityPacket::new, LevitationAbilityPacket::handle);
+        CHANNEL.registerMessage(id++, ParticlePacket.class, ParticlePacket::toBytes, ParticlePacket::new, ParticlePacket::handle);
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P#P",
+    "#G#",
+    "P#P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:gunpowder"
+    },
+    "#": {
+      "item": "legendary_monsters:ancient_sandstone_shard"
+    },
+    "G": {
+      "item": "legendary_monsters:crystal_of_sandstorm"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:sand_cannon",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:chorus_blade"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_endersent.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_endersent.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:locate_ancient_tower_remains",
+  "criteria": {
+    "endersent": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:endersent"
+        }
+      }
+    }
+  }
+}

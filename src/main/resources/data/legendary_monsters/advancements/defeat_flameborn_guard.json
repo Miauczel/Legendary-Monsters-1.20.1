@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:enderitium_gem"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_flameborn.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_flameborn.description"
+    },
+    "frame": "task"
+  },
+  "parent": "legendary_monsters:defeat_flame_drifter",
+  "criteria": {
+    "flameborn_guard": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type":"legendary_monsters:flameborn_guard"
+        }
+      }
+    },
+    "flameborn_warrior": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type":"legendary_monsters:flameborn_warrior"
+        }
+      }
+    }
+  }
+}

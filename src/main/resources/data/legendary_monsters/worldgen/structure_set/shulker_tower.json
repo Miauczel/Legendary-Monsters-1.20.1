@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "legendary_monsters:shulker_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 65,
+    "separation": 35,
+    "salt": 7539258
+  }
+}

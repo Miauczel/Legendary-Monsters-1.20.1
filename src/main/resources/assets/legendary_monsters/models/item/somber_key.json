@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+
+  "base": {
+    "parent": "legendary_monsters:item/somber_key_3d"
+  },
+
+  "perspectives": {
+    "gui": {
+      "parent": "legendary_monsters:item/somber_key_2d"
+    },
+    "ground": {
+      "parent": "legendary_monsters:item/somber_key_2d"
+    },
+    "fixed": {
+      "parent": "legendary_monsters:item/somber_key_2d"
+    }
+  }
+}

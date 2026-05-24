@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:eye_of_shulker"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.end_root.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.end_root.description"
+    },
+    "background": "legendary_monsters:textures/item/end_background.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

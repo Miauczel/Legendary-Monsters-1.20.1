@@ -1,0 +1,37 @@
+{
+  "parent": "legendary_monsters:nether_root",
+  "criteria": {
+    "nest": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "legendary_monsters:skeletosaurus_nest"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.legendary_monsters.locate_skeletosaurus_nest.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "legendary_monsters:dinosaur_bone"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.legendary_monsters.locate_skeletosaurus_nest.title"
+    }
+  },
+  "requirements": [["nest"]]
+}

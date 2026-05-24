@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "CIC"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:chorus_crystal"
+    },
+    "C": {
+      "item": "legendary_monsters:infected_chorus_fruit"
+    },
+    "I": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:chorus_blade",
+    "count": 1
+  }
+}

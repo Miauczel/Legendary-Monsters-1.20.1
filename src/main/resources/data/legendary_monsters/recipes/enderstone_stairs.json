@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " ##",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item":
+        "legendary_monsters:enderstone"
+
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:enderstone_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "rune",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendary_monsters:chiseled_ancient_dripstone_shard"
+
+        }
+      ]
+    }
+    ]
+}

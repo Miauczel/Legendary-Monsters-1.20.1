@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "P": {
+      "item": "legendary_monsters:infected_chorus_fruit"
+    },
+    "C": {
+      "item": "legendary_monsters:chorus_crystal"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:chorus_mask",
+    "count": 1
+  }
+}

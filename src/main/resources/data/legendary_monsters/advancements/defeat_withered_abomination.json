@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:withered_scythe"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_withered_abomination.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_withered_abomination.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:locate_soul_fortress_remains",
+  "criteria": {
+    "abomination": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:withered_abomination"
+        }
+      }
+    }
+  }
+}

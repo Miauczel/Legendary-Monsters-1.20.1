@@ -1,0 +1,6 @@
+{
+  "parent":"item/generated",
+  "textures": {
+    "layer0": "legendary_monsters:item/dinosaur_bone_club_2d3"
+  }
+}

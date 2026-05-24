@@ -1,0 +1,95 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "legendary_monsters:item/buckler_of_annihilation",
+		"particle": "legendary_monsters:item/buckler_of_annihilation"
+	},
+
+	"gui_light": "front",
+	"overrides": [
+		{"predicate": {"minecraft:blocking": 1}, "model": "legendary_monsters:item/buckler_of_annihilation_blocking"}
+	],
+	"elements": [
+		{
+			"from": [1.5, 5, 1],
+			"to": [3.5, 22, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.75, 13.5, 9.5]},
+			"faces": {
+				"north": {"uv": [4.25, 4.25, 4.75, 8.5], "texture": "#0"},
+				"east": {"uv": [0, 4.25, 4.25, 8.5], "texture": "#0"},
+				"south": {"uv": [9, 4.25, 9.5, 8.5], "texture": "#0"},
+				"west": {"uv": [4.75, 4.25, 9, 8.5], "texture": "#0"},
+				"up": {"uv": [4.75, 4.25, 4.25, 0], "texture": "#0"},
+				"down": {"uv": [5.25, 0, 4.75, 4.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0.5, 11, 7],
+			"to": [1.5, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.75, 13.5, 9.5]},
+			"faces": {
+				"north": {"uv": [1.25, 9.75, 1.5, 11], "texture": "#0"},
+				"east": {"uv": [0, 9.75, 1.25, 11], "texture": "#0"},
+				"south": {"uv": [2.75, 9.75, 3, 11], "texture": "#0"},
+				"west": {"uv": [1.5, 9.75, 2.75, 11], "texture": "#0"},
+				"up": {"uv": [1.5, 9.75, 1.25, 8.5], "texture": "#0"},
+				"down": {"uv": [1.75, 8.5, 1.5, 9.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.5, 10.5, 8.5],
+			"to": [9.5, 16.5, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 14, 10]},
+			"faces": {
+				"north": {"uv": [7.25, 2.5, 8.75, 4], "texture": "#0"},
+				"east": {"uv": [5.25, 2.5, 5.75, 4], "texture": "#0"},
+				"south": {"uv": [5.75, 2.5, 7.25, 4], "texture": "#0"},
+				"west": {"uv": [8.75, 2.5, 9.25, 4], "texture": "#0"},
+				"up": {"uv": [6.75, 2.5, 5.25, 2], "texture": "#0"},
+				"down": {"uv": [8.25, 2, 6.75, 2.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-180, 0, -180],
+			"translation": [-1.5, -7.5, 5.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-1.5, -7.5, 2.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, -77, -180],
+			"translation": [5.5, -11, 5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 101, -180],
+			"translation": [4.5, -11, 4]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [24.28, 55.62, -5.5],
+			"translation": [1.25, -2.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"fixed": {
+			"rotation": [-180, -90, -180],
+			"translation": [1.25, -5.25, 4.5]
+		},
+		"on_shelf": {
+			"rotation": [0, 90, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "shield",
+			"origin": [-12.25, 18.5, -2.5],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

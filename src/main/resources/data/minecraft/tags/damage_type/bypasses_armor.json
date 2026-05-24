@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "legendary_monsters:laser",
+
+    "legendary_monsters:ghost",
+    "legendary_monsters:clouds",
+
+    "legendary_monsters:gravity",
+    "legendary_monsters:void",
+    "legendary_monsters:cut",
+
+    "legendary_monsters:impale"
+  ]
+}

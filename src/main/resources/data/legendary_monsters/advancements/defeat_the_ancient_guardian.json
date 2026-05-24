@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:monstrous_anchor"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_ancient_guardian.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_ancient_guardian.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:locate_ancient_stronghold",
+  "criteria": {
+    "guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:ancient_guardian"
+        }
+      }
+    }
+  }
+}

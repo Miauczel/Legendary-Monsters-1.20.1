@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "E",
+    "#"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "E": {
+      "item": "legendary_monsters:nature_crystal"
+    },
+    "#": {
+      "item": "minecraft:cobblestone"
+    }
+
+  },
+  "result": {
+    "item": "legendary_monsters:totem_of_moss",
+    "count": 1
+  }
+}

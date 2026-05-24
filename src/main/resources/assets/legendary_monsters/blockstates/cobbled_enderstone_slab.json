@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "legendary_monsters:block/cobbled_enderstone_slab"
+    },
+    "type=double": {
+      "model": "legendary_monsters:block/cobbled_enderstone"
+    },
+    "type=top": {
+      "model": "legendary_monsters:block/cobbled_enderstone_slab_top"
+    }
+  }
+}

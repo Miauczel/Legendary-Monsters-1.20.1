@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item":
+      "legendary_monsters:cobbled_enderstone"
+    }
+  },
+  "result": {
+    "item":
+    "legendary_monsters:cobbled_enderstone_wall",
+    "count": 6
+  }
+}

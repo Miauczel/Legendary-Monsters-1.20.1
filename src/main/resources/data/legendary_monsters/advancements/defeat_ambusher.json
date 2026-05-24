@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:ancient_dripstone_shard"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_ambusher.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_ambusher.description"
+    },
+    "frame": "task"
+  },
+  "parent": "legendary_monsters:locate_ancient_stronghold",
+  "criteria": {
+    "ambusher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:ambusher"
+        }
+      }
+    }
+  }
+}

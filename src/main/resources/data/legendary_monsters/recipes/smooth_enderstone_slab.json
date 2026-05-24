@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item":
+      "legendary_monsters:smooth_enderstone"
+    }
+  },
+  "result": {
+    "item":
+    "legendary_monsters:smooth_enderstone_slab",
+    "count": 6
+  }
+}

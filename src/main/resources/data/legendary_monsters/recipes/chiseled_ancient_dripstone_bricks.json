@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "_",
+    "_"
+  ],
+  "key": {
+    "_": {
+      "item": "legendary_monsters:ancient_dripstone_brick_slab"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:chiseled_ancient_dripstone_bricks",
+    "count": 1
+  }
+}

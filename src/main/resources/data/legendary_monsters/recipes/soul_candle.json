@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "minecraft:honeycomb"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "A": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    "S",
+    "H",
+    "A"
+  ],
+  "result": {
+    "count": 1,
+    "item": "legendary_monsters:soul_candle"
+  }
+}

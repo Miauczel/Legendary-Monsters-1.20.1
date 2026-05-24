@@ -1,0 +1,15 @@
+{
+  "name": "legendary_monsters:lava_eater_spawn",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "legendary_monsters:lava_eater_spawn",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+
+  "render_type": "translucent",
+  "textures": {
+    "all": "legendary_monsters:block/enderstone_bricks"
+  }
+}

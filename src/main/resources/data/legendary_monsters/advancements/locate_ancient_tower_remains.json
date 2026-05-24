@@ -1,0 +1,37 @@
+{
+  "parent": "legendary_monsters:end_root",
+  "criteria": {
+    "ancient_tower_remains": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "legendary_monsters:ancient_tower_remains"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.legendary_monsters.locate_ancient_tower_remains.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "legendary_monsters:infected_chorus_fruit"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.legendary_monsters.locate_ancient_tower_remains.title"
+    }
+  },
+  "requirements": [["ancient_tower_remains"]]
+}

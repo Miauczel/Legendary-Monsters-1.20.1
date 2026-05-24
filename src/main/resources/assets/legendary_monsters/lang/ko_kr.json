@@ -1,0 +1,706 @@
+{
+  "item.legendary_monsters.dinosaur_bone" : "공룡 뼈다귀",
+  "item.legendary_monsters.ambushers_skin" : "앰버셔의 가죽",
+  "item.legendary_monsters.sharp_battle_axe" : "예리한 전투 도끼",
+  "item.legendary_monsters.anchor_handle" : "닻의 손잡이",
+  "item.legendary_monsters.reinforced_monstrous_anchor" : "보강된 괴물의 닻",
+  "item.legendary_monsters.ancient_spike" : "고대의 가시",
+
+  "item.legendary_monsters.shulker_mimic_spawn_egg" : "셜커 미믹 생성 알",
+  "item.legendary_monsters.ancient_guardian_spawn_egg" : "고대 수호자 생성 알",
+  "item.legendary_monsters.posessed_paladin_spawn_egg" : "빙의된 팔라딘 생성 알",
+
+  "item.legendary_monsters.beheaded_knight_spawn_egg" : "머리 잃은 기사 생성 알",
+
+  "item.legendary_monsters.resurrected_knight_spawn_egg" : "되살아난 기사 생성 알",
+  "item.legendary_monsters.monstrous_anchor" : "괴물의 닻",
+  "item.legendary_monsters.spiky_shield" : "가시 돚힌 방패",
+  "item.legendary_monsters.withered_ribcage" : "시들어버린 갈비뼈",
+  "item.legendary_monsters.chorus_blade" : "후렴 칼날",
+  "item.legendary_monsters.chorus_mask" : "후렴 가면",
+  "item.legendary_monsters.chorus_crystal" : "후렴 수정",
+  "item.legendary_monsters.chorus_cannon" : "후렴 대포",
+  "item.legendary_monsters.infected_chorus_fruit" : "감염된 후렴과",
+  "item.legendary_monsters.chorus_bomb_projectile" : "후렴 폭탄",
+  "item.legendary_monsters.large_shulker_shell" : "거대한 셜커 껍데기",
+  "item.legendary_monsters.shulker_shield" : "셜커 방패",
+  "item.legendary_monsters.shulker_helmet" : "셜커 투구",
+  "item.legendary_monsters.the_great_frost" : "위대한 서리",
+  "item.legendary_monsters.dinosaur_bone_shield" : "공룡 뼈 방패",
+  "item.legendary_monsters.frozen_rune" : "빙결의 룬",
+  "item.legendary_monsters.frostbitten_shield" : "얼어붙은 방패",
+  "item.legendary_monsters.mossy_chestplate" : "이끼 낀 흉갑",
+  "item.legendary_monsters.lava_eaters_skin" : "라바이터의 가죽",
+  "item.legendary_monsters.fiery_jaw" : "작렬하는 턱",
+  "item.legendary_monsters.void_sword" : "공허 검",
+  "item.legendary_monsters.dinosaur_bone_meal" : "공룡 뼛가루",
+  "item.legendary_monsters.entity_warper" : "대상 이동기",
+  "item.legendary_monsters.nature_crystal" : "자연의 수정",
+  "item.legendary_monsters.warped_mushroom_cap_part" : "뒤틀린 버섯 갓 조각",
+  "item.legendary_monsters.void_gem" : "공허 보석",
+  "item.legendary_monsters.withered_bone" : "시들어버린 뼈다귀",
+  "item.legendary_monsters.void_entity_warper" : "공허 대상 이동기",
+  "item.legendary_monsters.mossy_hammer" : "이끼 낀 망치",
+  "item.legendary_monsters.overgrown_colossus_spawn_egg" : "무성한 거상 생성 알",
+  "item.legendary_monsters.mossy_golem_spawn_egg" : "이끼 낀 골렘 생성 알",
+  "item.legendary_monsters.the_obliterator_spawn_egg" : "어블리터레이터 생성 알",
+
+  "item.legendary_monsters.flameborn_guard_spawn_egg" : "불꽃의 경비병 생성 알",
+
+  "item.legendary_monsters.flame_drifter_spawn_egg" : "화염 표류자 생성 알",
+  "item.legendary_monsters.annihilation_pursuer_spawn_egg": "소멸의 속행자 생성 알",
+
+  "item.legendary_monsters.hovering_hurricane_spawn_egg" : "호버링 허리케인 생성 알",
+  "item.legendary_monsters.stratling_spawn_egg" : "스트래틀링 생성 알",
+  "item.legendary_monsters.spike_bug_spawn_egg" : "가시 돋친 벌레 생성 알",
+  "item.legendary_monsters.ambusher_spawn_egg" : "앰버셔 생성 알",
+  "item.legendary_monsters.skeletosaurus_spawn_egg" : "스켈레토사우르스 생성 알",
+  "item.legendary_monsters.warped_fungussus_spawn_egg" : "뒤틀린 포자체 생성 알",
+  "item.legendary_monsters.chorusling_spawn_egg" : "코로슬링 생성 알",
+  "item.legendary_monsters.lava_eater_spawn_egg" : "라바이터 생성 알",
+  "item.legendary_monsters.endersent_spawn_egg" : "코로센트 생성 알",
+  "item.legendary_monsters.frostbitten_golem_spawn_egg" : "얼어붙은 골렘 생성 알",
+  "item.legendary_monsters.withered_abomination_spawn_egg" : "시들어버린 괴수 생성 알",
+  "item.legendary_monsters.dune_sentinel_spawn_egg" : "사구의 파수꾼 생성 알",
+  "item.legendary_monsters.cloud_golem_spawn_egg" : "구름 골렘, 큐뮬로님버스 생성 알",
+  "item.legendary_monsters.haunted_knight_spawn_egg" : "망령 깃든 기사 생성 알",
+  "item.legendary_monsters.haunted_guard_spawn_egg" : "망령 깃든 근위병 생성 알",
+  "item.legendary_monsters.bomber_spawn_egg" : "봄버 생성 알",
+  "item.legendary_monsters.fatal_mortar" : "치명적인 박격포 생성 알",
+  "item.legendary_monsters.ender_hammer" : "엔더 헤머",
+  "item.legendary_monsters.withered_scythe" : "시들어버린 대낫",
+  "item.legendary_monsters.dinosaur_bone_club" : "공룡 뼈 곤봉",
+  "item.legendary_monsters.air_rune" : "대기의 룬",
+  "item.legendary_monsters.wand_of_clouds" : "구름의 지팡이",
+  "item.legendary_monsters.sharp_sai" : "예리한 사이",
+  "item.legendary_monsters.axe_of_lightning" : "낙뢰의 도끼",
+  "item.legendary_monsters.molten_metal_ingot" : "녹아내린 금속 주괴",
+  "item.legendary_monsters.atmospheric_boots" : "대기의 부츠",
+  "item.legendary_monsters.soul_great_sword" : "영혼의 대검",
+  "item.legendary_monsters.spiky_spear" : "가시 돋친 창",
+  "item.legendary_monsters.golden_halbert" : "금빛 미늘창",
+  "item.legendary_monsters.knights_sword" : "기사의 검",
+  "item.legendary_monsters.corrupted_soul" : "타락한 영혼",
+  "item.legendary_monsters.purified_soul" : "정화된 영혼",
+  "item.legendary_monsters.knight_summoner" : "기사 소환기",
+  "item.legendary_monsters.guard_summoner" : "근위병 소환기",
+  "item.legendary_monsters.deactivated_knight_summoner" : "비활성화 된 기사 소환기",
+  "item.legendary_monsters.deactivated_guard_summoner" : "비활성화 된 근위병 소환기",
+  "item.legendary_monsters.knights_sword_blade_half" : "부러진 기사의 칼날",
+  "item.legendary_monsters.long_stick_half" : "부러진 긴 막대기",
+  "item.legendary_monsters.primal_ice_shard" : "원시의 얼음 파편",
+  "item.legendary_monsters.withered_horn" : "시들어버린 뿔",
+  "item.legendary_monsters.guide_book" : "가이드 북",
+  "item.legendary_monsters.skeloraptor_spawn_egg" : "스켈로랩터 생성 알",
+  "item.legendary_monsters.fatal_mortar_spawn_egg" : "치명적인 박격포 생성 알",
+  "item.legendary_monsters.chiseled_ancient_dripstone_shard" : "조각된 고대 점적석 파편",
+  "item.legendary_monsters.sand_cannon" : "모래 대포",
+  "item.legendary_monsters.blastproof_metal_scrap" : "방폭의 금속 잔해",
+  "item.legendary_monsters.blastproof_helmet" : "방폭의 투구",
+  "item.legendary_monsters.ancient_sandstone_shard" : "고대의 사암 조각",
+  "item.legendary_monsters.ancient_detonator" : "고대의 기폭장치",
+  "item.legendary_monsters.crystal_of_sandstorm" : "모래 폭풍의 수정",
+  "item.legendary_monsters.explosive_sand" : "폭발성 모래",
+  "item.legendary_monsters.sickle_of_harvest" : "수확의 낫",
+
+  "item.legendary_monsters.heart_of_tornado" : "폭풍의 심장",
+
+  "item.legendary_monsters.cloud_rod" : "구름 막대기",
+
+  "item.legendary_monsters.music_disc_advance" : "음반",
+
+  "item.legendary_monsters.music_disc_obliterator" : "음반",
+
+  "item.legendary_monsters.music_disc_possessed_paladin" : "음반",
+
+  "item.legendary_monsters.music_disc_obliterator.desc" : "Ubjuara0 - Obliterator",
+
+  "item.legendary_monsters.music_disc_possessed_paladin.desc" : "Makai Symphony - Collapsing Kingdom",
+
+
+  "item.legendary_monsters.music_disc_advance.desc" : "Light Canvas - Advance",
+  "item.legendary_monsters.crystal_of_air" : "대기의 수정",
+  "item.legendary_monsters.fiery_boots" : "작렬하는 부츠",
+
+  "item.legendary_monsters.eye_of_sandstorm" : "모래 폭풍의 눈",
+  "item.legendary_monsters.eye_of_many_ribs" : "수많은 갈비뼈의 눈",
+  "item.legendary_monsters.eye_of_frost" : "서리의 눈",
+  "item.legendary_monsters.eye_of_soul" : "영혼의 눈",
+  "item.legendary_monsters.eye_of_air" : "대기의 눈",
+  "item.legendary_monsters.eye_of_moss" : "이끼의 눈",
+  "item.legendary_monsters.eye_of_chorus" : "후렴의 눈",
+  "item.legendary_monsters.eye_of_shulker" : "셜커의 눈",
+  "item.legendary_monsters.eye_of_bones" : "뼈의 눈",
+  "item.legendary_monsters.eye_of_magma" : "용암의 눈",
+  "item.legendary_monsters.eye_of_ghost" : "유령의 눈",
+
+
+ "entity.legendary_monsters.ice_spike": "얼음 가시",
+  "entity.legendary_monsters.skeletosaurus": "스켈레토사우르스",
+
+  "entity.legendary_monsters.hovering_hurricane": "호버링 허리케인",
+  "entity.legendary_monsters.stratling": "스트래틀링",
+  "entity.legendary_monsters.mossy_golem": "이끼 낀 골렘",
+  "entity.legendary_monsters.overgrown_colossus": "무성한 거상",
+  "entity.legendary_monsters.warped_fungussus": "뒤틀린 포자체",
+  "entity.legendary_monsters.frostbitten_golem": "얼어붙은 골렘",
+  "entity.legendary_monsters.lava_eater": "라바이터",
+  "entity.legendary_monsters.endersent": "코로센트",
+  "entity.legendary_monsters.chorusling": "코로슬링",
+  "entity.legendary_monsters.shulker_mimic": "셜커 미믹",
+  "entity.legendary_monsters.ambusher": "앰버셔",
+  "entity.legendary_monsters.spiky_bug": "가시 돋친 벌레",
+  "entity.legendary_monsters.withered_abomination": "시들어버린 괴수",
+  "entity.legendary_monsters.ancient_guardian": "고대의 수호자",
+  "entity.legendary_monsters.cloud_golem": "큐뮬로님버스",
+  "entity.legendary_monsters.dark_cloud_golem": "구름 골렘",
+  "entity.legendary_monsters.knights_armor": "기사",
+  "entity.legendary_monsters.guard": "근위병",
+  "entity.legendary_monsters.haunted_knight": "망령 깃든 기사",
+  "entity.legendary_monsters.haunted_guard": "망령 깃든 근위병",
+  "entity.legendary_monsters.posessed_paladin": "빙의된 팔라딘",
+  "entity.legendary_monsters.dune_sentinel": "사구의 파수꾼",
+  "entity.legendary_monsters.skeloraptor": "스켈로랩터",
+  "entity.legendary_monsters.bomb": "폭탄",
+  "entity.legendary_monsters.bomber": "봄버",
+
+  "entity.legendary_monsters.the_obliterator": "어블리터레이터",
+
+  "entity.legendary_monsters.flameborn_guard": "불꽃의 근위병",
+
+
+  "entity.legendary_monsters.flame_drifter": "화염 표류자",
+
+  "entity.legendary_monsters.annihilation_pursuer": "소멸의 속행자",
+
+  "entity.legendary_monsters.beheaded_knight": "머리 잃은 기사",
+
+  "entity.legendary_monsters.resurrected_knight": "되살아난 기사",
+
+  "entity.legendary_monsters.wandering_eye": "방랑하는 눈",
+
+
+  "entity.legendary_monsters.flameborn_warrior": "불꽃의 전사",
+  "creativetab.legendary_monsters" : "레전더리 몬스터즈",
+
+  "sounds.legendary_monsters.endersent_attack": "엔더센트가 땅을 내리침",
+  "sounds.legendary_monsters.endersent_ambient": "엔더센트가 말을 걺",
+  "sounds.legendary_monsters.endersent_death": "엔더센트가 고통 속에서 죽음",
+
+  "effect.legendary_monsters.chorus_infection": "후렴 감염",
+  "effect.legendary_monsters.freeze": "동결",
+  "effect.legendary_monsters.soul_fracture": "영혼의 균열",
+  "effect.legendary_monsters.bleeding": "출혈",
+  "effect.legendary_monsters.soul_rage": "영혼의 격노",
+  "effect.legendary_monsters.stun": "기절",
+  "effect.legendary_monsters.fear": "공포",
+  "effect.legendary_monsters.broken_armor": "갑옷 파괴",
+  "effect.legendary_monsters.gravity_pull": "중력의 이끌림",
+  "effect.legendary_monsters.curse_of_desert": "사막의 저주",
+
+  "effect.legendary_monsters.unbreakable": "파괴불가",
+
+  "effect.legendary_monsters.annihilation": "소멸",
+
+  "block.legendary_monsters.swinging_axe": "흔들리는 도끼",
+
+  "block.legendary_monsters.somber_trapdoor": "암울한 다락문",
+  "block.legendary_monsters.ancient_dripstone_bricks": "고대의 점적석 벽돌",
+  "block.legendary_monsters.ancient_dripstone_block": "고대의 점적석 블록",
+  "block.legendary_monsters.ancient_dripstone_brick_pillar": "고대의 점적석 벽돌 기둥",
+  "block.legendary_monsters.chiseled_ancient_dripstone_bricks": "조각된 고대의 점적석 벽돌",
+  "block.legendary_monsters.ancient_dripstone_tiles": "고대의 점적석 타일",
+  "block.legendary_monsters.ancient_dripstone_brick_slab": "고대의 점적석 벽돌 반 블록",
+  "block.legendary_monsters.ancient_dripstone_brick_wall": "고대의 점적석 벽돌 담장",
+  "block.legendary_monsters.ancient_dripstone_brick_stairs": "고대의 점적석 벽돌 계단",
+  "block.legendary_monsters.ancient_dripstone_tile_slab": "고대의 점적석 타일 반 블록",
+  "block.legendary_monsters.ancient_dripstone_tile_stairs": "고대의 점적석 타일 계단",
+  "block.legendary_monsters.ancient_dripstone_tile_wall": "고대의 점적석 타일 담장",
+  "block.legendary_monsters.cloud_block": "구름 블록",
+  "block.legendary_monsters.cloud_bricks": "구름 벽돌",
+  "block.legendary_monsters.skeletosaurus_egg": "스켈레토사우르스 알",
+
+  "block.legendary_monsters.polished_diorite_pillar": "윤나는 섬록암 기둥",
+
+  "block.legendary_monsters.chiseled_diorite": "조각된 섬록암",
+
+  "block.legendary_monsters.indestructible_block": "파괴되지 않는 블록",
+
+  "advancements.legendary_monsters.legendary_monsters_root.title": "레전더리 몬스터즈",
+  "advancements.legendary_monsters.legendary_monsters_root.description": "새로운 도전과 몹들!",
+  "advancements.legendary_monsters.nether_root.title": "레전더리 몬스터즈: 네더",
+  "advancements.legendary_monsters.nether_root.description": "네더의 새로운 도전!",
+  "advancements.legendary_monsters.end_root.title": "레전더리 몬스터즈: 엔드",
+  "advancements.legendary_monsters.end_root.description": "엔드의 새로운 도전!",
+
+  "advancements.legendary_monsters.locate_skeletosaurus_nest.title": "유통기한 지남",
+  "advancements.legendary_monsters.locate_skeletosaurus_nest.description": "스켈레토사우르스의 둥지를 발견하세요",
+
+  "advancements.legendary_monsters.locate_space_station.title": "모든 것이 시작된 곳",
+  "advancements.legendary_monsters.locate_space_station.description": "우주 정거장을 발견하세요",
+  "advancements.legendary_monsters.defeat_skeletosaurus.title": "사골국 100인분!",
+  "advancements.legendary_monsters.defeat_skeletosaurus.description": "스켈레토사우르스를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.locate_soul_fortress_remains.title": "영혼 요새",
+  "advancements.legendary_monsters.locate_soul_fortress_remains.description": "영혼 요새 잔해를 발견하세요",
+  "advancements.legendary_monsters.defeat_withered_abomination.title": "영혼을 먹는 자",
+  "advancements.legendary_monsters.defeat_withered_abomination.description": "시들어버린 괴수를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.locate_mossy_temple.title": "이끼로 나를 감싸줘",
+  "advancements.legendary_monsters.locate_mossy_temple.description": "이끼 사원을 발견하세요",
+  "advancements.legendary_monsters.defeat_overgrown_colossus.title": "이끼 낀 짐승",
+  "advancements.legendary_monsters.defeat_overgrown_colossus.description": "무성한 거상을 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.locate_ancient_stronghold.title": "뾰족 뾰족",
+  "advancements.legendary_monsters.locate_ancient_stronghold.description": "고대의 요새를 찾으세요",
+  "advancements.legendary_monsters.defeat_ancient_guardian.title": "새로운 시대에 걸고 왔다!",
+  "advancements.legendary_monsters.defeat_ancient_guardian.description": "고대의 수호자를 쓰러뜨리세요",
+  "advancements.legendary_monsters.defeat_ambusher.title": "우리들 가운데 스파이가 있는 것 같아",
+  "advancements.legendary_monsters.defeat_ambusher.description": "앰버셔를 쓰러뜨리세요",
+  "advancements.legendary_monsters.defeat_spiky_bug.title": "에프킬라 가져와!",
+  "advancements.legendary_monsters.defeat_spiky_bug.description": "가시 돋힌 벌레를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.locate_shulker_tower.title": "윙가르디움 레비오우사",
+  "advancements.legendary_monsters.locate_shulker_tower.description": "셜커 탑을 발견하세요",
+  "advancements.legendary_monsters.defeat_shulker_mimic.title": "스푸키 스케어리 셜커 박스",
+  "advancements.legendary_monsters.defeat_shulker_mimic.description": "셜커 미믹을 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.locate_ancient_tower_remains.title": "파프롬홈",
+  "advancements.legendary_monsters.locate_ancient_tower_remains.description": "고대의 탑의 잔해를 발견하세요",
+  "advancements.legendary_monsters.defeat_endersent.title": "키다리 아저씨",
+  "advancements.legendary_monsters.defeat_endersent.description": "코로센트를 쓰러뜨리세요",
+  "advancements.legendary_monsters.defeat_chorusling.title": "후렴 감염",
+  "advancements.legendary_monsters.defeat_chorusling.description": "코로슬링을 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.locate_cloudy_temple.title": "구름으로 만들어졌나봐...",
+  "advancements.legendary_monsters.locate_cloudy_temple.description": "구름 사원을 발견하세요",
+  "advancements.legendary_monsters.defeat_cloud_golem.title": "신을 마주하라",
+  "advancements.legendary_monsters.defeat_cloud_golem.description": "구름 골렘을 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.locate_lava_eater.title": "바닥이 용암이야!",
+  "advancements.legendary_monsters.locate_lava_eater.description": "라바이터의 둥지를 찾으세요",
+  "advancements.legendary_monsters.defeat_lava_eater.title": "불타는 짐승",
+  "advancements.legendary_monsters.defeat_lava_eater.description": "라바이터를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.locate_frostbitten_temple.title": "얼어붙은 곳",
+  "advancements.legendary_monsters.locate_frostbitten_temple.description": "얼어붙은 사원을 발견하세요",
+  "advancements.legendary_monsters.defeat_frostbitten_golem.title": "아이스 에이지",
+  "advancements.legendary_monsters.defeat_frostbitten_golem.description": "얼어붙은 골렘을 쓰러뜨리세요",
+
+
+  "advancements.legendary_monsters.defeat_warped_fungussus.title": "어디로든 문",
+  "advancements.legendary_monsters.defeat_warped_fungussus.description": "뒤틀린 포자체를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.locate_abandoned_crypt.title": "옛 전투의 메아리",
+  "advancements.legendary_monsters.locate_abandoned_crypt.description": "무너진 왕국을 발견하세요",
+  "advancements.legendary_monsters.defeat_haunted_knight.title": "리빙 아머",
+  "advancements.legendary_monsters.defeat_haunted_knight.description": "망령 깃든 기사를 쓰러뜨리세요",
+  "advancements.legendary_monsters.defeat_haunted_guard.title": "잊혀진 근위병",
+  "advancements.legendary_monsters.defeat_haunted_guard.description": "망령 깃든 근위병을 쓰러뜨리세요",
+  "advancements.legendary_monsters.defeat_posessed_paladin.title": "자유의 날개",
+  "advancements.legendary_monsters.defeat_posessed_paladin.description": "빙의된 팔라딘을 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.defeat_the_obliterator.title": "섬멸자의 섬멸",
+  "advancements.legendary_monsters.defeat_the_obliterator.description": "어블리터레이터를 쓰러뜨리세요",
+
+
+  "advancements.legendary_monsters.defeat_flameborn.title": "엔드의 불꽃",
+  "advancements.legendary_monsters.defeat_flameborn.description": "불꽃에서 태어난 경비병과 전사를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.defeat_wandering_eye.title": "초 전도체 발견!",
+  "advancements.legendary_monsters.defeat_wandering_eye.description": "방랑하는 눈을 쓰러뜨리세요",
+
+
+  "advancements.legendary_monsters.defeat_flame_drifter.title": "로빈슨 크루소",
+  "advancements.legendary_monsters.defeat_flame_drifter.description": "화염 표류자를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.defeat_bomber.title": "사암 폭탄",
+  "advancements.legendary_monsters.defeat_bomber.description": "봄버를 쓰러뜨리세요",
+  "advancements.legendary_monsters.defeat_dune_sentinel.title": "고대의 대포",
+  "advancements.legendary_monsters.defeat_dune_sentinel.description": "사구의 파수꾼을 쓰러뜨리세요",
+  "advancements.legendary_monsters.locate_ruined_pyramid.title": "2번째 피라미드",
+  "advancements.legendary_monsters.locate_ruined_pyramid.description": "무너진 피라미드를 발견하세요",
+
+  "advancements.legendary_monsters.defeat_annihilation_pursuer.title": "소멸을 향하여...",
+  "advancements.legendary_monsters.defeat_annihilation_pursuer.description": "소멸의 속행자를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.defeat_beheaded_knight.title": "듀라한",
+  "advancements.legendary_monsters.defeat_beheaded_knight.description": "머리 잃은 기사를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.defeat_resurrected_knight.title": "머리를 쓰는 방법",
+  "advancements.legendary_monsters.defeat_resurrected_knight.description": "되살아난 기사를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.defeat_fractured_apostle.title": "해리 넌 마법사란다",
+  "advancements.legendary_monsters.defeat_fractured_apostle.description": "프랙처드 사도를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.defeat_fractured.title": "몸은 없어도 영혼은 그대로",
+  "advancements.legendary_monsters.defeat_fractured.description": "프랙처드를 쓰러뜨리세요",
+
+  "advancements.legendary_monsters.defeat_haunted_duo.title": "유대의 힘",
+  "advancements.legendary_monsters.defeat_haunted_duo.description": "망령 깃든 2인조를 쓰러뜨리세요",
+
+
+  "death.attack.legendary_monsters.spikes": "%s이(가) 가시에 꿰뚫렸습니다.",
+
+  "item.legendary_monsters.soul_great_sword1": "우클릭으로 무기의 피해 + 반사 피해의 30%의 피해를 주며",
+  "item.legendary_monsters.soul_great_sword2": "최대 체력의 20%를 치유할 수 있는 ",
+  "item.legendary_monsters.soul_great_sword3": "패링을 발동시킵니다",
+  "item.legendary_monsters.soul_great_sword4": "",
+  "item.legendary_monsters.soul_great_sword5": "shift + 우클릭을 1초간 누르고 반경 10블록 내의 대상을 보면 유도 망령 단검을 해방시킵니다",
+
+
+  "block.legendary_monsters.chiseled_enderstone_pillar": "조각된 엔더석 기둥",
+
+  "item.legendary_monsters.wand_of_clouds1": "\u00A76특수 능력: \u00A77 한 개의 커다란 폭발성 구름[피해량 14]을 소환합니다",
+  "item.legendary_monsters.wand_of_clouds2": "\u00A773 그리고 적 위에 작은 폭발성 구름[각각 피해량 5]을 소환합니다 \u00A76[공격 대상에게 우클릭하여 사용 가능]",
+
+
+  "item.legendary_monsters.withered_ribcage1": "§6특수 능력: §7시듦 효과로 부터 착용자를 보호합니다",
+  "item.legendary_monsters.withered_ribcage2": "§7그리고 착용자를 공격한 대상에게 시듦효과를 부여합니다",
+
+  "item.legendary_monsters.withered_scythe1": "§6특수 능력: §7우클릭으로 돌진하며",
+  "item.legendary_monsters.withered_scythe2": "§7부딪힌 대상에게 피해를 줍니다",
+
+
+
+  "item.legendary_monsters.m_anchor1": "§6특수 능력: §7우클릭을 1.5초간 눌러 주변의 모든 대상을(4블럭 이내)",
+  "item.legendary_monsters.m_anchor2": "§7허공으로 떠오리며 기절시킵니다(3초간 공격및 이동 불가) .",
+  "item.legendary_monsters.m_anchor3": "§6특수 능력 2: §7공격 시 3블록 내의 주변 대상에 4의 피해를 줍니다 ",
+
+
+  "item.legendary_monsters.mossy_chestplate1": "\u00A76특수 능력: \u00A77 'R' 키를 눌러 몹에게 피해를 주고 ",
+  "item.legendary_monsters.mossy_chestplate2": "§7사용자를 회복시키는 독성 구름을 발생시킵니다.",
+
+
+  "item.legendary_monsters.mossy_hammer1": "§6특수 능력:§7 4블록 내의 모든 대상에게 10 피해를 주며 독 효과를 부여합니다",
+  "item.legendary_monsters.mossy_hammer2": "§7사용자의 인벤토리 안에 뼛가루가 있을 경우",
+  "item.legendary_monsters.mossy_hammer3": "§7주변 3 블록 내의 모든 대상 아래에 이끼 블록을 생성합니다!",
+  "item.legendary_monsters.mossy_hammer4": "§6[우클릭으로 방어 시 사용] ",
+  "item.legendary_monsters.mossy_hammer5": "§7곡괭이로 사용할 수 있습니다!  ",
+
+  "item.legendary_monsters.sand_cannon1": "§6특수 능력:§7 1.5초 간 우클릭하여, 사암 폭탄을 발사합니다",
+
+
+  "item.legendary_monsters.chorus_helmet1": "§6특수 능력:§7 후렴 감염으로부터",
+
+  "item.legendary_monsters.chorus_helmet2": "§7플레이어를 보호합니다",
+
+  "item.legendary_monsters.chorus_blade1": "§6특수 능력: §7사용자를 무작위 위치로 순간이동 시킵니다.",
+  "item.legendary_monsters.chorus_blade2": "§7공격을 피하는 데 사용할 수 있습니다. §6[우클릭으로 사용 가능]",
+
+
+  "item.legendary_monsters.axe_of_lightning1": "§6특수 능력:§7 우클릭하여 낙뢰를 소환합니다§6[틱당 피해 9, 방어구 무시],",
+  "item.legendary_monsters.axe_of_lightning2": "§7블록을 우클릭하여 바라보는 방향으로 전기 폭발 충격파 소환합니다",
+  "item.legendary_monsters.axe_of_lightning3": "§7전기 폭발 충격파 소환합니다§6[무기와 같은 피해량의 충격파, 방어구 무시]",
+
+
+  "item.legendary_monsters.atm_boots1": "§6특수 능력: §7낙하 피해가 50% 감소합니다",
+
+
+  "item.legendary_monsters.dino_club1": "§6특수 능력: §7블록에 우클릭하여",
+  "item.legendary_monsters.dino_club2": "§7원형 충격파를 소환합니다.",
+
+  "item.legendary_monsters.entity_warper1": "§6특수 능력:§7 4블록 내의 모든 대상을",
+  "item.legendary_monsters.entity_warper2": "§7사용자의 위치로 끌고옵니다! §6[우클릭으로 사용 가능].",
+
+  "item.legendary_monsters.void_entity_warper1": "§6특수 능력: §76블록 번위 내의 아무 대상을 선택하여",
+  "item.legendary_monsters.void_entity_warper2": "§7사용자의 위치로 순간이동시킵니다! §6[우클릭으로 사용 가능]",
+
+
+  "item.legendary_monsters.great_frost1": "§6특수 능력: §7우클릭으로 얼음 가시를 소환할 수 있습니다",
+  "item.legendary_monsters.great_frost2": "§6특수 능력 2: §7shift + 우클릭으로 사용자의 주변에 얼음 가시를 솟아나게 합니다",
+
+
+  "item.legendary_monsters.shulker_helmet1": "§7착용자를 공중부양으로부터 보호합니다",
+
+  "item.legendary_monsters.dino_shield": "§6높은 내구도!",
+
+  "item.legendary_monsters.blast_proof_helmet1": "§6특수 능력:§7 폭발 피해를 35% 감소시킵니다",
+  "item.legendary_monsters.blast_proof_helmet2": "§6(뒤에서 나타난 크리퍼가 이제는 그리 위험하지 않습니다!)",
+
+
+  "item.legendary_monsters.fiery_jaw1": "§6특수 능력: §7 사용자 중심의 3 블럭 내의 모든 대상을 밀쳐내고",
+  "item.legendary_monsters.fiery_jaw2": "§7 화염의 숨결을 발사합니다§6[우클릭으로 사용 가능]",
+
+
+  "item.legendary_monsters.golden_halberd1": "§6특수 능력: §7 25% 확률로 치명타 피해 적중 시",
+
+  "item.legendary_monsters.golden_halberd2": "§7피격 대상에게 출혈 효과를 부여합니다.",
+
+
+  "item.legendary_monsters.fiery_boots1": "§6특수 능력: §7'X'로 걷는 동안 당신의 위치에 화염을 흩뿌립니다'.",
+
+  "item.legendary_monsters.frost_shield1": "§6특수 능력:§7 3초간 적을 얼립니다",
+
+  "item.legendary_monsters.frost_shield2": "§6[방어 시 사용]",
+
+  "item.legendary_monsters.chorus_cannon1": "§6특수 능력:§7 1.5초간 클릭하면 피격 대상에게 후렴감염을 부여하는",
+
+  "item.legendary_monsters.chorus_cannon2": "§7후렴 폭탄을 발사합니다",
+
+  "item.legendary_monsters.spiky_shield1": "\u00A76특수 능력: \u00A77방패로 방어시 50% 확률로 출혈 효과를 부여하며",
+  "item.legendary_monsters.spiky_shield2": "\u00A77피격된 피해를 공격자에게 반사합니다",
+  "item.legendary_monsters.spiky_shield3": "§2[피해: 5 + 적의 공격의 피해량 25%] ",
+  "item.legendary_monsters.spiky_shield4": "§6[방어 시 사용]",
+
+  "item.legendary_monsters.shulker_shield1": "§6특수 능력:§7 60% 확률로 공격자에게 공중부양 효과를 부여합니다",
+  "item.legendary_monsters.shulker_shield2": "§6[방어 시 사용]",
+
+  "item.legendary_monsters.heartoftornado1": "§6우클릭으로 대상을 붙잡는 토네이도를 소환합니다[3초 동안 지속]",
+
+  "death.attack.legendary_monsters.laser": "%s이(가) %s의 순수한 우뢰의 힘에 말살되었습니다",
+
+  "death.attack.legendary_monsters.clouds": "%s이(가) %s에 의해 으깨져 사망했습니다",
+
+  "death.attack.legendary_monsters.ghost": "%s이(가) 이승에 작별을 고했습니다",
+
+  "death.attack.legendary_monsters.cut": "%s이(가) 두동강 났습니다",
+
+  "death.attack.legendary_monsters.gravity": "%s이(가) 너무 오랫동안 허공에 떠 있었습니다",
+
+  "death.attack.legendary_monsters.void": "%s이(가) %s에 의해 소멸되었습니다",
+
+  "death.attack.legendary_monsters.impale": "%s이(가) 꿰뚫렸습니다",
+
+  "legendary_monsters.message.stratling_interaction":"우클릭으로 상호작용(거래)",
+
+
+  "item.legendary_monsters.totem_of_moss" : "이끼의 토템",
+
+  "item.legendary_monsters.somber_key" : "암울한 열쇠",
+
+  "item.legendary_monsters.totem_of_moss.desc" : "우클릭하면 성장하지 않은 작물 근처에서 작물의 성장 속도를 높이며, 전투에 도움을 주는 이끼 골렘을 소환합니다. 이끼 골렘은 사망 시 재소환 가능합니다",
+
+
+  "legendary_monsters.message.pet_sit_enable": " §c앉기§f 모드 활성화 됨",
+  "legendary_monsters.message.pet_walk_enable": " §a걷기§f 모드 활성화 됨",
+  "legendary_monsters.message.pet_stand_enable": " §c대기§f 모드 활성화 됨",
+  "legendary_monsters.message.pet_stand_disable": " §a자유 행동§f 모드 활성화 됨",
+
+  "legendary_monsters.message.pet_wander_enable": " §a자유 행동§f 모드 활성화 됨",
+  "legendary_monsters.message.pet_follow_enable": " §6따라오기§f 모드 활성화 됨",
+
+
+  "legendary_monsters.message.mossy_golem_string_message_name": "이끼 낀 골렘",
+  "legendary_monsters.message.knight_string_message_name": "기사",
+  "legendary_monsters.message.guard_string_message_name": "근위병",
+  "legendary_monsters.message.skeloraptor_string_message_name": "스켈로랩터",
+
+  "legendary_monsters.message.obliterator_p3_1_message": "§a.",
+  "legendary_monsters.message.obliterator_p3_2_message": "§a'...'",
+
+  "legendary_monsters.message.obliterator_ultimate": "§a종말이 도래하였다",
+
+
+  "key.categories.legendary_monsters": "레전더리 몬스터즈 키 카테고리",
+  "key.legendary_monsters.mossy_chestplate_ability": "레전더리 몬스터즈 흉갑 능력",
+  "key.legendary_monsters.fiery_boots_ability": "레전더리 몬스터즈 부츠 능력",
+
+  "key.legendary_monsters.skeloraptor_roar": "스켈로랩터의 포효 능력",
+
+  "key.legendary_monsters.skeloraptor_attack": "스켈로랩터의 공격 능력",
+
+  "key.legendary_monsters.helmet": "레전더리 몬스터즈 투구 능력",
+
+  "item.legendary_monsters.totem_of_moss1": "§6블록에 우클릭하면 성장하지 않은 작물 근처에서 작물의 성장 속도를 크게 높이며, 전투에 도움을 주는 이끼 골렘을 소환합니다. ",
+  "item.legendary_monsters.totem_of_moss2": "§7자동으로 길들여지며, 사망 후에도 다시 소환할 수 있습니다 ",
+
+  "item.legendary_monsters.totem_of_moss3": "§f골렘에 Shift + 우클릭하면 ‘§a앉기 모드§7’를 활성화합니다.'",
+
+
+  "item.legendary_monsters.guard_summoner1": "§6R블럭에 우클릭하여 당신을 호위하는 근위병을 소환할 수 있습니다",
+  "item.legendary_monsters.guard_summoner2": "§7소환 후 자동으로 길들여집니다",
+  "item.legendary_monsters.guard_summoner3": "§6기사보다 더 넓은 범위를 공격하며 더 큰 피해를 주지만, 속도는 더 느립니다",
+  "item.legendary_monsters.guard_summoner4": "§7철 주괴와 비활성화된 소환기를 조합하면 사망 후 다시 소환할 수 있습니다.",
+  "item.legendary_monsters.guard_summoner5": "§7다이아몬드나 다른 광물을 들고 shift + 우클릭으로 색상을 변경할 수 있습니다",
+
+  "item.legendary_monsters.knight_summoner1": "§6블럭에 우클릭하여 당신을 호위하는 기사를 소환할 수 있습니다 . ",
+  "item.legendary_monsters.knight_summoner2": "§7소환 후 자동으로 길들여집니다",
+  "item.legendary_monsters.knight_summoner3": "§6근위병보다 피해량은 낮지만, 빠른 연속 공격이 가능하며 들어오는 공격을 방어할 수 있습니다",
+  "item.legendary_monsters.knight_summoner4": "§7철 주괴와 비활성화된 소환기를 조합하면 사망 후 다시 소환할 수 있습니다.",
+  "item.legendary_monsters.knight_summoner5": "§7다이아몬드나 다른 광물을 들고 shift + 우클릭으로 색상을 변경할 수 있습니다",
+
+"legendary_monsters.message.skeloraptor_time_until_next_roar": "포효 재사용 대기: ",
+  "block.legendary_monsters.skeletosaurus_egg1": "§7설치하고 기다리면 날고기로 길들일 수 있는 스켈로랩터가 부화합니다.",
+  "block.legendary_monsters.skeletosaurus_egg2": "§7탑승할 수 있으며 탑승한 동안 공격할 수 있습니다 (스켈레토사우르스의 공격 방식)",
+  "block.legendary_monsters.skeletosaurus_egg3": "§7'R' 키를 눌러 적에게 포효할 수 있습니다",
+  "block.legendary_monsters.skeletosaurus_egg4": "§6-영혼 모래 위에 두어 더 빠르게 부화시킬 수 있습니다.",
+  "legendary_monsters.message.skeloraptor_mount": "'R' 키로 포효, 왼쪽 shift 키로 내리기",
+
+  "legendary_monsters.message.teleport_machine": "§a순간이동기에 눈 수정을 넣어서 보스를 소환할 수 있습니다",
+
+  "item.legendary_monsters.atom_splitter1": "§7우클릭을 1.5초간 눌러 소멸의 빔을 발사할 수 있습니다",
+  "item.legendary_monsters.atom_splitter2": "§7Shift + 우클릭을 1.5초간 눌러 소멸 폭탄을 발사할 수 있습니다",
+  "item.legendary_monsters.atom_splitter3": "§7탄약 시스템에 속지마세요! 내구도 무한!",
+
+  "item.legendary_monsters.the_tesseract1": "§7우클릭을 1.5초간 눌러 별 형태로 소멸 포탈을 생성합니다.",
+  "item.legendary_monsters.the_tesseract2": "§7포탈이 생성되는 중에는 주변 대상이 중력에 의해 이끌려옵니다.",
+
+  "item.legendary_monsters.buckler_of_annihilation1": "§7shift + 우클릭을 0.5초간 눌러 범위 공격 및 작은 소멸 폭탄[피해 8, 방어구 무시] 3개 발사합니다. 범위 공격으로 대상에 적중 시 재사용 대기시간 발생합니다",
+  "item.legendary_monsters.enderitium_ingot": "엔더리티움 주괴",
+
+  "item.legendary_monsters.bottle_of_annihilation": "소멸이 담긴 병",
+
+  "item.legendary_monsters.enderitium_upgrade_smithing_template": "대장장이 형판",
+
+  "item.legendary_monsters.annihilator_upgrade_smithing_template": "대장장이 형판",
+
+  "item.legendary_monsters.portal_shard": "포탈 파편",
+  "item.legendary_monsters.enderitium_gem": "엔더리티움 결정",
+  "item.legendary_monsters.raw_enderitium": "엔더리티움 원석",
+  "item.legendary_monsters.enderitium_sword": "엔더리티움 검",
+  "item.legendary_monsters.enderitium_axe": "엔더리티움 도끼",
+  "item.legendary_monsters.enderitium_shovel": "엔더리티움 삽",
+  "item.legendary_monsters.enderitium_hoe": "엔더리티움 괭이",
+  "item.legendary_monsters.enderitium_pickaxe": "엔더리티움 곡괭이",
+
+  "block.legendary_monsters.enderitium_ore": "엔더리티움 광석",
+  "block.legendary_monsters.enderitium_block": "엔더리티움 블록",
+
+  "block.legendary_monsters.chiseled_enderstone_bricks": "조각된 엔더석 벽돌",
+  "block.legendary_monsters.enderstone_bricks": "엔더석 벽돌",
+
+  "block.legendary_monsters.enderstone_brick_stairs": "엔더석 벽돌 계단",
+
+  "block.legendary_monsters.enderstone_brick_slab": "엔더석 벽돌 반 블록",
+
+  "block.legendary_monsters.enderstone_brick_wall": "엔더석 벽돌 담장",
+
+  "block.legendary_monsters.enderstone_pillar": "엔더석 기둥",
+  "block.legendary_monsters.enderstone": "엔더석",
+  "block.legendary_monsters.cobbled_enderstone": "엔더석 조약돌",
+
+  "block.legendary_monsters.smooth_enderstone": "매끄러운 엔더석",
+
+  "block.legendary_monsters.smooth_enderstone_slab": "매끄러운 엔더석 반 블록",
+  "block.legendary_monsters.smooth_enderstone_stairs": "매끄러운 엔더석 계단",
+  "block.legendary_monsters.smooth_enderstone_wall": "매끄러운 엔더석 담장",
+
+  "block.legendary_monsters.cobbled_enderstone_slab": "엔더석 조약돌 반 블록",
+  "block.legendary_monsters.cobbled_enderstone_stairs": "엔더석 조약돌 계단",
+  "block.legendary_monsters.cobbled_enderstone_wall": "엔더석 조약돌 담장",
+
+  "block.legendary_monsters.enderstone_slab": "엔더석 반 블록",
+  "block.legendary_monsters.enderstone_stairs": "엔더석 계단",
+  "block.legendary_monsters.enderstone_wall": "엔더석 담장",
+
+  "block.legendary_monsters.ender_anchor": "엔더 정박기",
+
+  
+  "block.legendary_monsters.teleport_machine": "순간이동기",
+  "block.legendary_monsters.annihilation_lantern": "소멸 랜턴",
+
+  "block.legendary_monsters.soul_candle": "영혼 초",
+
+
+  "item.legendary_monsters.ancient_sandstone_shard1": "§7밤의 사막에서 나오는 봄버를 쓰러뜨려 획득할 수 있습니다",
+
+  "item.legendary_monsters.atom_splitter": "원자 분할기",
+
+  "item.legendary_monsters.buckler_of_annihilation": "소멸의 방패",
+
+  "item.legendary_monsters.eye_crystal" : "눈 수정",
+
+  "item.legendary_monsters.the_tesseract" : "테서렉트",
+
+  "item.legendary_monsters.cloud_bread" : "구름 빵",
+
+  "item.legendary_monsters.dark_cloud_bread" : "먹구름 빵",
+
+  "item.legendary_monsters.wandering_eye_spawn_egg" : "방랑하는 눈",
+
+  "item.legendary_monsters.enderitium_sickle" : "엔더리티움 낫",
+
+  "item.legendary_monsters.flameborn_warrior_spawn_egg" : "불꽃의 전사 생성 알",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade5": " 엔더리티움 주괴",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade4": "쟤료:",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade3": " 다이아몬드 장비",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade2": "적용 대상:",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade1": "엔더리티움 강화",
+
+  "item.legendary_monsters.smithing_template.annihilator_upgrade5": " 포탈 파편",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade4": "쟤료:",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade3": " 네더라이트 장비",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade2": "적용 대상:",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade1": "소멸자 강화",
+  "block.legendary_monsters.ender_anchor1":"소멸 랜턴으로 충전하여 엔드에서 리스폰 할 수 있습니다",
+
+
+  "item.legendary_monsters.annihilator_helmet" : "소멸자의 투구",
+
+  "item.legendary_monsters.annihilator_chestplate" : "소멸자의 흉갑",
+
+  "item.legendary_monsters.annihilator_leggings" : "소멸자의 레깅스",
+
+  "item.legendary_monsters.annihilator_boots" : "소멸자의 부츠",
+
+  "item.legendary_monsters.annihilator_helmet1" : "엔더맨이 당신의 시선에 분노하지 않으며, 'C' 키를 누르면 즉시 보고 있는 위치로 순간이동할 수 있습니다 (15 블록 범위 내)",
+
+  "item.legendary_monsters.annihilator_chestplate1" : "체력이 절반 이하일 때 착용자의 위치에서 소멸 초신성이 폭발하고, 3초 동안 무적 상태가 됩니다",
+
+  "item.legendary_monsters.bottled_lightning" : "번개가 담긴 병",
+
+
+  "item.legendary_monsters.shattered_greatsword" : "부서진 대검",
+  "item.legendary_monsters.shattered_greatsword1" : "'몰락한 왕국의 기사'",
+
+  "item.legendary_monsters.resurrected_javelin" : "되살아난 투창",
+
+  "item.legendary_monsters.metal_debris" : "금속 파편",
+
+  "item.legendary_monsters.somber_key_ring" : "암울한 열쇠 고리",
+
+  "item.legendary_monsters.somber_key_blade" : "암울한 열쇠 날",
+
+  "item.legendary_monsters.somber_key_part" : "서로 다른 부품을 결합하여 암울한 열쇠를 제작할 수 있습니다",
+
+
+  "item.legendary_monsters.eye_of_annihilation" : "소멸의 눈",
+  "item.legendary_monsters.annihilator_leggings1" : "치명타 적중 시 25% 확률로 공격이 방어구를 무시하는 광역 공격으로 변화하며, (현재 무기 피해량 / 2)의 피해를 입힙니다",
+  "item.legendary_monsters.annihilator_unknown" : "개발중인 능력이지만 곧 추가될 예정입니다",
+
+  "item.legendary_monsters.annihilator_boots1" : "나약함과 구속에 저항을 가집니다",
+
+  "legendary_monsters.message.stun": "기절!",
+
+  "legendary_monsters.message.possessed_paladin_snore": "''Zzzzz...''",
+
+  "legendary_monsters.message.possessed_paladin_talk1": "'한 명이 쓰러지고..'",
+
+  "legendary_monsters.message.possessed_paladin_talk2": "'그 영혼은 갇혔으니..'",
+
+  "legendary_monsters.message.possessed_paladin_talk3": "'그림자가 다시금 별들을 뒤덮으리라'",
+
+  "legendary_monsters.message.possessed_paladin_talk4": "'이 모습으로 싸워주마..'",
+
+  "legendary_monsters.message.possessed_paladin_talk5": "'..균열의 전조, 오리온'",
+
+  "legendary_monsters.message.possessed_paladin_talk6": "'난..'",
+
+  "legendary_monsters.message.possessed_paladin_talk7": "'..자유다..'",
+
+  "legendary_monsters.message.possessed_paladin_talk8": "'나는 또다시 죽음을 피해낼 길을 찾아낼 것이다.'",
+  "legendary_monsters.message.possessed_paladin_talk9": "'아직 끝나지 않았다.'",
+
+  "legendary_monsters.message.possessed_paladin_talk10": "'나의 그림자가 다시금 별들을 뒤덮으리라'",
+
+  "legendary_monsters.message.possessed_paladin_kill_parry": "/kill 명령어조차 날 막지 못한다",
+
+  "block.legendary_monsters.somber_trapdoor1": "암울한 열쇠를 들고 중간을 우클릭하여 봉인을 해방합니다",
+
+  "block.legendary_monsters.small_spike_trap_block": "작은 가시 함정 블록",
+
+  "block.legendary_monsters.big_spike_trap_block": "큰 가시 함정 블록",
+  "legendary_monsters.message.somber_trapdoor": "암울한 열쇠를 들고 중간을 우클릭하여 봉인을 해방합니다",
+
+  "legendary_monsters.bar_name.possessed_paladin_p2": "균열의 전조, 오리온",
+
+  "item.legendary_monsters.fractured_apostle_spawn_egg" : "프랙처드 생성 알",
+
+  "entity.legendary_monsters.fractured_apostle": "프랙처드 사제",
+
+  "item.legendary_monsters.fractured_spawn_egg" : "프랙처드 생성 알",
+
+  "entity.legendary_monsters.fractured": "프랙처드"
+
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": "legendary_monsters:enderstone_deposit_placed",
+  "step": "underground_ores"
+}

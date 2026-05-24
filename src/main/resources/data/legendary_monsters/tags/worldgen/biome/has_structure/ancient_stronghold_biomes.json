@@ -1,0 +1,50 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_forest",
+    "minecraft:taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+      "id": "biomesoplenty:coniferous_forest",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_forest",
+      "required": false
+    },
+    {
+      "id":"biomesoplenty:ominous_woods",
+      "required": false
+    },
+
+    {
+      "id": "biomeswevegone:black_forest",
+
+      "required": false
+    },
+
+    {
+      "id": "biomeswevegone:redwood_thicket",
+
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cika_woods",
+
+      "required": false
+    },
+
+    {
+      "id": "biomeswevegone:coniferous_forest",
+
+      "required": false
+    },
+
+    {
+      "id": "biomeswevegone:dacite_ridges",
+
+      "required": false
+    }
+  ]
+}
+

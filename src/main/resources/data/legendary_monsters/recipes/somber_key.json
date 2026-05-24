@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+
+     "item": "legendary_monsters:somber_key_blade"
+    },
+    {
+
+      "item": "legendary_monsters:somber_key_ring"
+    }
+  ],
+  "result": {
+    "item": "legendary_monsters:somber_key"
+  }
+}

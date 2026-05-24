@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " ##",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:ancient_dripstone_tiles"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:ancient_dripstone_tile_stairs",
+    "count": 4
+  }
+}

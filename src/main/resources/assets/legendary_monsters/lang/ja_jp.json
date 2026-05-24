@@ -1,0 +1,715 @@
+{
+  "item.legendary_monsters.dinosaur_bone" : "恐竜の骨",
+  "item.legendary_monsters.ambushers_skin" : "アンブッシャーの皮",
+  "item.legendary_monsters.sharp_battle_axe" : "鋭い戦斧",
+  "item.legendary_monsters.anchor_handle" : "錨の持ち手",
+  "item.legendary_monsters.reinforced_monstrous_anchor" : "強化されたモンスターアンカー",
+  "item.legendary_monsters.ancient_spike" : "古代の鍾乳石",
+
+  "item.legendary_monsters.shulker_mimic_spawn_egg" : "シュルカーミミックのスポーンエッグ",
+  "item.legendary_monsters.ancient_guardian_spawn_egg" : "古代の守護者のスポーンエッグ",
+  "item.legendary_monsters.posessed_paladin_spawn_egg" : "憑依されたパラディンのスポーンエッグ",
+
+  "item.legendary_monsters.beheaded_knight_spawn_egg" : "斬首された騎士のスポーンエッグ",
+
+  "item.legendary_monsters.resurrected_knight_spawn_egg" : "復活した騎士のスポーンエッグ",
+  "item.legendary_monsters.monstrous_anchor" : "怪物の錨",
+  "item.legendary_monsters.spiky_shield" : "刺の盾",
+  "item.legendary_monsters.withered_ribcage" : "枯れ果てた胸郭",
+  "item.legendary_monsters.chorus_blade" : "コーラスブレード",
+  "item.legendary_monsters.chorus_mask" : "コーラスマスク",
+  "item.legendary_monsters.chorus_crystal" : "コーラスクリスタル",
+  "item.legendary_monsters.chorus_cannon" : "コーラスキャノン",
+  "item.legendary_monsters.infected_chorus_fruit" : "感染したコーラスフルーツ",
+  "item.legendary_monsters.chorus_bomb_projectile" : "コーラスボム",
+  "item.legendary_monsters.large_shulker_shell" : "大型のシュルカーの殻",
+  "item.legendary_monsters.shulker_shield" : "シュルカーの盾",
+  "item.legendary_monsters.shulker_helmet" : "シュルカーヘルメット",
+  "item.legendary_monsters.the_great_frost" : "大霜",
+  "item.legendary_monsters.dinosaur_bone_shield" : "恐竜の骨の盾",
+  "item.legendary_monsters.frozen_rune" : "凍りしルーン",
+  "item.legendary_monsters.frostbitten_shield" : "凍傷の盾",
+  "item.legendary_monsters.mossy_chestplate" : "苔むしたチェストプレート",
+  "item.legendary_monsters.lava_eaters_skin" : "ラバイーターの皮",
+  "item.legendary_monsters.fiery_jaw" : "灼熱の顎",
+  "item.legendary_monsters.void_sword" : "虚空の剣",
+  "item.legendary_monsters.dinosaur_bone_meal" : "恐竜の骨粉",
+  "item.legendary_monsters.entity_warper" : "エンティティワーパー",
+  "item.legendary_monsters.nature_crystal" : "自然のクリスタル",
+  "item.legendary_monsters.warped_mushroom_cap_part" : "歪んだキノコの傘",
+  "item.legendary_monsters.void_gem" : "ボイドジェム",
+  "item.legendary_monsters.withered_bone" : "枯れ果てた骨",
+  "item.legendary_monsters.void_entity_warper" : "ボイドエンティティワーパー",
+  "item.legendary_monsters.mossy_hammer" : "苔むしたハンマー",
+  "item.legendary_monsters.overgrown_colossus_spawn_egg" : "生い茂った巨像のスポーンエッグ",
+  "item.legendary_monsters.mossy_golem_spawn_egg" : "苔むしたゴーレムのスポーンエッグ",
+  "item.legendary_monsters.the_obliterator_spawn_egg" : "ジ・オブリテレイターのスポーンエッグ",
+
+  "item.legendary_monsters.flameborn_guard_spawn_egg" : "フレイムボーン・ガードのスポーンエッグ",
+
+  "item.legendary_monsters.flame_drifter_spawn_egg" : "フレイムドリフターのスポーンエッグ",
+  "item.legendary_monsters.annihilation_pursuer_spawn_egg": "アナイアレイション・パーサーのスポーンエッグ",
+
+  "item.legendary_monsters.hovering_hurricane_spawn_egg" : "ホバリングハリケーンのスポーンエッグ",
+  "item.legendary_monsters.stratling_spawn_egg" : "ストラットリングのスポーンエッグ",
+  "item.legendary_monsters.spike_bug_spawn_egg" : "スパイキーワームのスポーンエッグ",
+  "item.legendary_monsters.ambusher_spawn_egg" : "アンブッシャーのスポーンエッグ",
+  "item.legendary_monsters.skeletosaurus_spawn_egg" : "スケルトザウルスのスポーンエッグ",
+  "item.legendary_monsters.warped_fungussus_spawn_egg" : "ワープド・ファンガスのスポーンエッグ",
+  "item.legendary_monsters.chorusling_spawn_egg" : "コーラスリングのスポーンエッグ",
+  "item.legendary_monsters.lava_eater_spawn_egg" : "ラバイーターのスポーンエッグ",
+  "item.legendary_monsters.endersent_spawn_egg" : "コーラスセントのスポーンエッグ",
+  "item.legendary_monsters.frostbitten_golem_spawn_egg" : "フロストバイトゴーレムのスポーンエッグ",
+  "item.legendary_monsters.withered_abomination_spawn_egg" : "枯れ果てた忌み鬼のスポーンエッグ",
+  "item.legendary_monsters.dune_sentinel_spawn_egg" : "デューン・センチネルのスポーンエッグ",
+  "item.legendary_monsters.cloud_golem_spawn_egg" : "キュムロニンバスのスポーンエッグ",
+  "item.legendary_monsters.haunted_knight_spawn_egg" : "騎士の亡霊のスポーンエッグ",
+  "item.legendary_monsters.haunted_guard_spawn_egg" : "衛兵の亡霊のスポーンエッグ",
+  "item.legendary_monsters.bomber_spawn_egg" : "ボンバーのスポーンエッグ",
+  "item.legendary_monsters.fatal_mortar" : "致命的な迫撃砲のスポーンエッグ",
+  "item.legendary_monsters.ender_hammer" : "エンダーハンマー",
+  "item.legendary_monsters.withered_scythe" : "枯れ果てた大鎌",
+  "item.legendary_monsters.dinosaur_bone_club" : "恐竜の骨の棍棒",
+  "item.legendary_monsters.air_rune" : "空気のルーン",
+  "item.legendary_monsters.wand_of_clouds" : "雲の杖",
+  "item.legendary_monsters.sharp_sai" : "鋭いサイ",
+  "item.legendary_monsters.axe_of_lightning" : "稲妻の斧",
+  "item.legendary_monsters.molten_metal_ingot" : "溶融金属インゴット",
+  "item.legendary_monsters.atmospheric_boots" : "アトモスフィアブーツ",
+  "item.legendary_monsters.soul_great_sword" : "魂の大剣",
+  "item.legendary_monsters.spiky_spear" : "とげとげの槍",
+  "item.legendary_monsters.golden_halbert" : "黄金のハルバード",
+  "item.legendary_monsters.knights_sword" : "騎士の剣",
+  "item.legendary_monsters.corrupted_soul" : "堕落した魂",
+  "item.legendary_monsters.purified_soul" : "浄化された魂",
+  "item.legendary_monsters.knight_summoner" : "ナイトサモナー",
+  "item.legendary_monsters.guard_summoner" : "ガードサモナー",
+  "item.legendary_monsters.deactivated_knight_summoner" : "非活性化したナイトサモナー",
+  "item.legendary_monsters.deactivated_guard_summoner" : "非活性化したガードサモナー",
+  "item.legendary_monsters.knights_sword_blade_half" : "剣の刃の片割れ",
+  "item.legendary_monsters.long_stick_half" : "長い持ち手の片割れ",
+  "item.legendary_monsters.primal_ice_shard" : "原始の氷の破片",
+  "item.legendary_monsters.withered_horn" : "枯れ果てた角",
+  "item.legendary_monsters.guide_book" : "ガイドブック",
+  "item.legendary_monsters.skeloraptor_spawn_egg" : "スケロラプトルのスポーンエッグ",
+  "item.legendary_monsters.fatal_mortar_spawn_egg" : "致命的な迫撃砲のスポーンエッグ",
+  "item.legendary_monsters.chiseled_ancient_dripstone_shard" : "彫刻された古代の鍾乳石の破片",
+  "item.legendary_monsters.sand_cannon" : "サンドキャノン",
+  "item.legendary_monsters.blastproof_metal_scrap" : "耐爆性金属スクラップ",
+  "item.legendary_monsters.blastproof_helmet" : "防爆ヘルメット",
+  "item.legendary_monsters.ancient_sandstone_shard" : "古代の砂岩の破片",
+  "item.legendary_monsters.ancient_detonator" : "古代の起爆装置",
+  "item.legendary_monsters.crystal_of_sandstorm" : "砂嵐のクリスタル",
+  "item.legendary_monsters.explosive_sand" : "爆発砂",
+  "item.legendary_monsters.sickle_of_harvest" : "収穫の鎌",
+
+  "item.legendary_monsters.heart_of_tornado" : "竜巻の心",
+
+  "item.legendary_monsters.cloud_rod" : "クラウドロッド",
+
+  "item.legendary_monsters.music_disc_advance" : "レコード",
+
+  "item.legendary_monsters.music_disc_obliterator" : "レコード",
+
+  "item.legendary_monsters.music_disc_possessed_paladin" : "レコード",
+
+  "item.legendary_monsters.music_disc_obliterator.desc" : "Ubjuara0 - Obliterator",
+
+  "item.legendary_monsters.music_disc_possessed_paladin.desc" : "Makai Symphony - Collapsing Kingdom",
+
+
+  "item.legendary_monsters.music_disc_advance.desc" : "Light Canvas - Advance",
+  "item.legendary_monsters.crystal_of_air" : "空気のクリスタル",
+  "item.legendary_monsters.fiery_boots" : "灼熱のブーツ",
+
+  "item.legendary_monsters.eye_of_sandstorm" : "サンドストームアイ",
+  "item.legendary_monsters.eye_of_many_ribs" : "リブアイ",
+  "item.legendary_monsters.eye_of_frost" : "フロストアイ",
+  "item.legendary_monsters.eye_of_soul" : "ソウルアイ",
+  "item.legendary_monsters.eye_of_air" : "エアアイ",
+  "item.legendary_monsters.eye_of_moss" : "モスアイ",
+  "item.legendary_monsters.eye_of_chorus" : "コーラスアイ",
+  "item.legendary_monsters.eye_of_shulker" : "シュルカーアイ",
+  "item.legendary_monsters.eye_of_bones" : "ボーンアイ",
+  "item.legendary_monsters.eye_of_magma" : "マグマアイ",
+  "item.legendary_monsters.eye_of_ghost" : "ゴーストアイ",
+
+
+  "entity.legendary_monsters.ice_spike": "アイススパイク",
+  "entity.legendary_monsters.skeletosaurus": "スケルトザウルス",
+
+  "entity.legendary_monsters.hovering_hurricane": "ホバリングハリケーン",
+  "entity.legendary_monsters.stratling": "ストラットリング",
+  "entity.legendary_monsters.mossy_golem": "苔むしたゴーレム",
+  "entity.legendary_monsters.overgrown_colossus": "生い茂った巨像",
+  "entity.legendary_monsters.warped_fungussus": "ワープド・ファンガス",
+  "entity.legendary_monsters.frostbitten_golem": "フロストバイトゴーレム",
+  "entity.legendary_monsters.lava_eater": "ラバイーター",
+  "entity.legendary_monsters.endersent": "コーラスセント",
+  "entity.legendary_monsters.chorusling": "コーラスリング",
+  "entity.legendary_monsters.shulker_mimic": "シュルカーミミック",
+  "entity.legendary_monsters.ambusher": "アンブッシャー",
+  "entity.legendary_monsters.spiky_bug": "スパイキーワーム",
+  "entity.legendary_monsters.withered_abomination": "枯れ果てた忌み鬼",
+  "entity.legendary_monsters.ancient_guardian": "古代の守護者",
+  "entity.legendary_monsters.cloud_golem": "キュムロニンバス",
+  "entity.legendary_monsters.dark_cloud_golem": "キュムロニンバス",
+  "entity.legendary_monsters.knights_armor": "騎士",
+  "entity.legendary_monsters.guard": "衛兵",
+  "entity.legendary_monsters.haunted_knight": "騎士の亡霊",
+  "entity.legendary_monsters.haunted_guard": "衛兵の亡霊",
+  "entity.legendary_monsters.posessed_paladin": "憑依されたパラディン",
+  "entity.legendary_monsters.dune_sentinel": "デューン・センチネル",
+  "entity.legendary_monsters.skeloraptor": "スケロラプトル",
+  "entity.legendary_monsters.bomb": "ボム",
+  "entity.legendary_monsters.bomber": "ボンバー",
+
+  "entity.legendary_monsters.the_obliterator": "ジ・オブリテレイター",
+
+  "entity.legendary_monsters.flameborn_guard": "フレイムボーン・ガード",
+
+
+  "entity.legendary_monsters.flame_drifter": "フレイムドリフター",
+
+  "entity.legendary_monsters.annihilation_pursuer": "アナイアレイション・パーサー",
+
+  "entity.legendary_monsters.beheaded_knight": "斬首された騎士",
+
+  "entity.legendary_monsters.resurrected_knight": "復活した騎士",
+
+  "entity.legendary_monsters.wandering_eye": "ワンダリングアイ",
+
+
+  "entity.legendary_monsters.flameborn_warrior": "フレイムボーン・ウォリアー",
+  "creativetab.legendary_monsters" : "Legendary Monsters",
+
+  "sounds.legendary_monsters.endersent_attack": "コーラスセントが地面を叩き割る",
+  "sounds.legendary_monsters.endersent_ambient": "コーラスセントトーク",
+  "sounds.legendary_monsters.endersent_death": "コーラスセントは苦しみながら死ぬ",
+
+  "effect.legendary_monsters.chorus_infection": "コーラス感染",
+  "effect.legendary_monsters.freeze": "フリーズ",
+  "effect.legendary_monsters.soul_fracture": "ソウルフラクチャー",
+  "effect.legendary_monsters.bleeding": "出血",
+  "effect.legendary_monsters.soul_rage": "ソウルレイジ",
+  "effect.legendary_monsters.stun": "スタン",
+  "effect.legendary_monsters.fear": "恐怖",
+  "effect.legendary_monsters.broken_armor": "壊れた鎧",
+  "effect.legendary_monsters.gravity_pull": "重力の引力",
+  "effect.legendary_monsters.curse_of_desert": "砂漠の呪い",
+
+  "effect.legendary_monsters.unbreakable": "不可壊",
+
+  "effect.legendary_monsters.annihilation": "消滅",
+
+  "block.legendary_monsters.swinging_axe": "斧のトラップ",
+
+  "block.legendary_monsters.somber_trapdoor": "不吉なトラップドア",
+  "block.legendary_monsters.ancient_dripstone_bricks": "古代の鍾乳石レンガ",
+  "block.legendary_monsters.ancient_dripstone_block": "古代の鍾乳石ブロック",
+  "block.legendary_monsters.ancient_dripstone_brick_pillar": "古代の鍾乳石レンガの柱",
+  "block.legendary_monsters.chiseled_ancient_dripstone_bricks": "模様入りの鍾乳石レンガ",
+  "block.legendary_monsters.ancient_dripstone_tiles": "古代の鍾乳石タイル",
+  "block.legendary_monsters.ancient_dripstone_brick_slab": "古代の鍾乳石レンガのハーフブロック",
+  "block.legendary_monsters.ancient_dripstone_brick_wall": "古代の鍾乳石レンガの壁",
+  "block.legendary_monsters.ancient_dripstone_brick_stairs": "古代の鍾乳石レンガの階段",
+  "block.legendary_monsters.ancient_dripstone_tile_slab": "古代の鍾乳石タイルのハーフ",
+  "block.legendary_monsters.ancient_dripstone_tile_stairs": "古代の鍾乳石タイルの階段",
+  "block.legendary_monsters.ancient_dripstone_tile_wall": "古代の鍾乳石タイルの壁",
+  "block.legendary_monsters.cloud_block": "雲ブロック",
+  "block.legendary_monsters.cloud_bricks": "雲レンガ",
+  "block.legendary_monsters.skeletosaurus_egg": "スケルトザウルスの卵",
+
+  "block.legendary_monsters.polished_diorite_pillar": "磨かれた閃緑岩の柱",
+
+  "block.legendary_monsters.chiseled_diorite": "模様入りの閃緑岩",
+
+  "block.legendary_monsters.indestructible_block": "破壊不能ブロック",
+
+  "advancements.legendary_monsters.legendary_monsters_root.title": "Legendary Monsters",
+  "advancements.legendary_monsters.legendary_monsters_root.description": "新たな手強いボス！",
+  "advancements.legendary_monsters.nether_root.title": "Legendary Monsters:ネザー",
+  "advancements.legendary_monsters.nether_root.description": "ネザーでの新たな挑戦！",
+  "advancements.legendary_monsters.end_root.title": "Legendary Monsters:エンド",
+  "advancements.legendary_monsters.end_root.description": "エンドでの新たな挑戦！",
+
+  "advancements.legendary_monsters.locate_skeletosaurus_nest.title": "昔々",
+  "advancements.legendary_monsters.locate_skeletosaurus_nest.description": "スケルトザウルスの巣を見つける",
+
+  "advancements.legendary_monsters.locate_space_station.title": "始まりの場所",
+  "advancements.legendary_monsters.locate_space_station.description": "スペースステーションを見つける",
+  "advancements.legendary_monsters.defeat_skeletosaurus.title": "古のスケルトン",
+  "advancements.legendary_monsters.defeat_skeletosaurus.description": "スケルトザウルスを倒す",
+
+  "advancements.legendary_monsters.locate_soul_fortress_remains.title": "魂の要塞",
+  "advancements.legendary_monsters.locate_soul_fortress_remains.description": "魂の要塞の遺跡を見つける",
+  "advancements.legendary_monsters.defeat_withered_abomination.title": "ソウルイーター",
+  "advancements.legendary_monsters.defeat_withered_abomination.description": "枯れ果てた忌み鬼を倒す",
+
+  "advancements.legendary_monsters.locate_mossy_temple.title": "苔に覆われて",
+  "advancements.legendary_monsters.locate_mossy_temple.description": "苔むした寺院を見つける",
+  "advancements.legendary_monsters.defeat_overgrown_colossus.title": "苔むした守護者",
+  "advancements.legendary_monsters.defeat_overgrown_colossus.description": "生い茂った巨像を倒す",
+
+  "advancements.legendary_monsters.locate_ancient_stronghold.title": "どこにでも鍾乳石",
+  "advancements.legendary_monsters.locate_ancient_stronghold.description": "古代の要塞を見つける",
+  "advancements.legendary_monsters.defeat_ancient_guardian.title": "隻腕の守護者",
+  "advancements.legendary_monsters.defeat_ancient_guardian.description": "古代の守護者を倒す",
+  "advancements.legendary_monsters.defeat_ambusher.title": "詐欺師",
+  "advancements.legendary_monsters.defeat_ambusher.description": "アンブッシャーを倒す",
+  "advancements.legendary_monsters.defeat_spiky_bug.title": "不快な虫",
+  "advancements.legendary_monsters.defeat_spiky_bug.description": "スパイキーワームを倒す",
+
+  "advancements.legendary_monsters.locate_shulker_tower.title": "重力無き場所",
+  "advancements.legendary_monsters.locate_shulker_tower.description": "シュルカータワーを見つける",
+  "advancements.legendary_monsters.defeat_shulker_mimic.title": "不気味で怖いシュルカーボックス",
+  "advancements.legendary_monsters.defeat_shulker_mimic.description": "シュルカーミミックを倒す",
+
+  "advancements.legendary_monsters.locate_ancient_tower_remains.title": "家から遠く離れて",
+  "advancements.legendary_monsters.locate_ancient_tower_remains.description": "古代の塔の遺跡を見つける",
+  "advancements.legendary_monsters.defeat_endersent.title": "背の高い男",
+  "advancements.legendary_monsters.defeat_endersent.description": "コーラスセントを倒す",
+  "advancements.legendary_monsters.defeat_chorusling.title": "コーラス・インフェクション",
+  "advancements.legendary_monsters.defeat_chorusling.description": "コーラスリングを倒す",
+
+  "advancements.legendary_monsters.locate_cloudy_temple.title": "雲から作られた...",
+  "advancements.legendary_monsters.locate_cloudy_temple.description": "雲の神殿を見つける",
+  "advancements.legendary_monsters.defeat_cloud_golem.title": "神々への反逆",
+  "advancements.legendary_monsters.defeat_cloud_golem.description": "キュムロニンバスを倒す",
+
+  "advancements.legendary_monsters.locate_lava_eater.title": "火山の場所",
+  "advancements.legendary_monsters.locate_lava_eater.description": "ラバイーターの巣を見つける",
+  "advancements.legendary_monsters.defeat_lava_eater.title": "炎の獣",
+  "advancements.legendary_monsters.defeat_lava_eater.description": "ラバイーターを倒す",
+
+  "advancements.legendary_monsters.locate_frostbitten_temple.title": "凍てつく場所",
+  "advancements.legendary_monsters.locate_frostbitten_temple.description": "凍傷の寺院を見つける",
+  "advancements.legendary_monsters.defeat_frostbitten_golem.title": "最も冷たきゴーレム",
+  "advancements.legendary_monsters.defeat_frostbitten_golem.description": "フロストバイトゴーレムを倒す",
+
+  "advancements.legendary_monsters.defeat_warped_fungussus.title": "テレポートだ！",
+  "advancements.legendary_monsters.defeat_warped_fungussus.description": "ワープド・ファンガスを倒す",
+
+  "advancements.legendary_monsters.locate_abandoned_crypt.title": "過ぎ去りし戦いの残響",
+  "advancements.legendary_monsters.locate_abandoned_crypt.description": "滅亡した王国の廃教会を見つける",
+  "advancements.legendary_monsters.defeat_haunted_knight.title": "生きた鎧",
+  "advancements.legendary_monsters.defeat_haunted_knight.description": "騎士の亡霊を倒す",
+  "advancements.legendary_monsters.defeat_haunted_guard.title": "失われた衛兵",
+  "advancements.legendary_monsters.defeat_haunted_guard.description": "衛兵の亡霊を倒す",
+  "advancements.legendary_monsters.defeat_posessed_paladin.title": "魂の解放",
+  "advancements.legendary_monsters.defeat_posessed_paladin.description": "憑依されたパラディンを倒す",
+
+  "advancements.legendary_monsters.defeat_the_obliterator.title": "抹消者の抹消",
+  "advancements.legendary_monsters.defeat_the_obliterator.description": "ジ・オブリテレイターを倒す",
+
+
+  "advancements.legendary_monsters.defeat_flameborn.title": "ジ・エンドの炎",
+  "advancements.legendary_monsters.defeat_flameborn.description": "フレイムボーン・ガードとウォリアーを倒す",
+
+  "advancements.legendary_monsters.defeat_wandering_eye.title": "浮遊するf1",
+  "advancements.legendary_monsters.defeat_wandering_eye.description": "ワンダリングアイを倒す",
+
+
+  "advancements.legendary_monsters.defeat_flame_drifter.title": "ドリフトの達人",
+  "advancements.legendary_monsters.defeat_flame_drifter.description": "フレイムドリフターを倒す",
+
+  "advancements.legendary_monsters.defeat_bomber.title": "砂岩爆弾",
+  "advancements.legendary_monsters.defeat_bomber.description": "ボンバーを倒す",
+  "advancements.legendary_monsters.defeat_dune_sentinel.title": "古代の戦争兵器",
+  "advancements.legendary_monsters.defeat_dune_sentinel.description": "デューン・センチネルを倒す",
+  "advancements.legendary_monsters.locate_ruined_pyramid.title": "もう一つの砂漠の寺院！",
+  "advancements.legendary_monsters.locate_ruined_pyramid.description": "廃墟となったピラミッドを見つける",
+
+  "advancements.legendary_monsters.defeat_annihilation_pursuer.title": "少し休もう…",
+  "advancements.legendary_monsters.defeat_annihilation_pursuer.description": "アナイアレイション・パーサーを倒す",
+
+  "advancements.legendary_monsters.defeat_beheaded_knight.title": "頭の無い騎士",
+  "advancements.legendary_monsters.defeat_beheaded_knight.description": "斬首された騎士を倒す",
+
+  "advancements.legendary_monsters.defeat_resurrected_knight.title": "頭が戻ったぞ！",
+  "advancements.legendary_monsters.defeat_resurrected_knight.description": "復活した騎士を倒す",
+
+  "advancements.legendary_monsters.defeat_fractured_apostle.title": "魔術師を検知",
+  "advancements.legendary_monsters.defeat_fractured_apostle.description": "砕けた使徒を倒す",
+
+  "advancements.legendary_monsters.defeat_fractured.title": "肉体がなくとも生きている",
+  "advancements.legendary_monsters.defeat_fractured.description": "砕けた亡霊を倒す",
+
+  "advancements.legendary_monsters.defeat_haunted_duo.title": "友情パワー",
+  "advancements.legendary_monsters.defeat_haunted_duo.description": "亡霊騎士のコンビを倒す",
+
+
+  "death.attack.legendary_monsters.spikes": "%sは棘に貫かれた",
+
+  "item.legendary_monsters.soul_great_sword1": "§6[右クリック] §70.15秒以内に受ける次のダメージを防ぎ、",
+  "item.legendary_monsters.soul_great_sword2": "§2[攻撃力+防いだダメージの30%]§7を反射し、体力を20%回復する",
+  "item.legendary_monsters.soul_great_sword3": "防御貫通ダメージは防げない",
+  "item.legendary_monsters.soul_great_sword4": "§6[スニークして右クリックを長押し] §7無数の幽霊のダガーを発射する",
+  "item.legendary_monsters.soul_great_sword5": "10ブロック以内のモブを向いて使用した場合は対象を追尾する",
+
+
+  "block.legendary_monsters.chiseled_enderstone_pillar": "模様入りのエンダーストーンの柱",
+
+  "item.legendary_monsters.wand_of_clouds1": "§6[モブを右クリック] §7対象の頭上に1つの大きな雲と",
+  "item.legendary_monsters.wand_of_clouds2": "§73つの小さな雲を召喚し、落下させる",
+
+
+  "item.legendary_monsters.withered_ribcage1": "§6[装備時]",
+  "item.legendary_monsters.withered_ribcage2": "§7衰弱効果を無効化する",
+
+  "item.legendary_monsters.withered_scythe1": "§6[右クリックを長押し]",
+  "item.legendary_monsters.withered_scythe2": "§7前方に突進してモブにダメージを与える",
+
+
+
+  "item.legendary_monsters.m_anchor1": "§6[右クリックを1.5秒長押し]",
+  "item.legendary_monsters.m_anchor2": "§74ブロック以内の全てのモブを打ち上げ、3秒間動きを封じる",
+  "item.legendary_monsters.m_anchor3": "§6[攻撃時] §73ブロック以内の全てのモブに6ダメージを与える",
+
+
+  "item.legendary_monsters.mossy_chestplate1": "§6[装備時] [R]§7を押すと毒の煙を放出して",
+  "item.legendary_monsters.mossy_chestplate2": "§7モブにダメージを与え、自身を回復する",
+
+
+  "item.legendary_monsters.mossy_hammer1": "§6[ブロックを右クリック]",
+  "item.legendary_monsters.mossy_hammer2": "§74ブロック以内の全てのモブに10ダメージを与え、",
+  "item.legendary_monsters.mossy_hammer3": "§7毒効果を付与する。また、インベントリ内に骨粉がある場合、",
+  "item.legendary_monsters.mossy_hammer4": "§73ブロック以内の全てのダメージを受けたモブの下に苔が出現する",
+  "item.legendary_monsters.mossy_hammer5": "§2[ツルハシとしても使用できる]",
+
+  "item.legendary_monsters.sand_cannon1": "§6[右クリックを長押し] §7砂岩の爆弾を発射する",
+
+
+  "item.legendary_monsters.chorus_helmet1": "§6[装備時]",
+
+  "item.legendary_monsters.chorus_helmet2": "§7コーラス感染効果を無効化する",
+
+
+
+
+  "item.legendary_monsters.chorus_blade1": "§6[右クリック]",
+  "item.legendary_monsters.chorus_blade2": "§7近くのランダムな位置にテレポートする",
+
+
+  "item.legendary_monsters.axe_of_lightning1": "§6[右クリック] §7直線上に雷雲を召喚し、落雷の度に8の魔法ダメージを与える",
+  "item.legendary_monsters.axe_of_lightning2": "§6[ブロックを右クリック] §7前方に稲妻の波を放つ",
+  "item.legendary_monsters.axe_of_lightning3": "§2[手に持っている間は落雷のダメージを受けない]",
+
+
+  "item.legendary_monsters.atm_boots1": "§6[装備時] §7落下ダメージを50%軽減する",
+
+
+  "item.legendary_monsters.dino_club1": "§6[ブロックを右クリック]",
+  "item.legendary_monsters.dino_club2": "§7円形の衝撃波を発生させる",
+
+  "item.legendary_monsters.entity_warper1": "§6[右クリック] §7半径4ブロック以内の全てのモブを",
+  "item.legendary_monsters.entity_warper2": "§7自身の位置にテレポートする",
+
+  "item.legendary_monsters.void_entity_warper1": "§6[右クリック] §76ブロック以内の任意のモブを",
+  "item.legendary_monsters.void_entity_warper2": "§7自身の位置にテレポートする",
+
+
+  "item.legendary_monsters.great_frost1": "§6[モブを右クリック] §7直線上に氷柱を召喚する",
+  "item.legendary_monsters.great_frost2": "§6[スニークしてブロックを右クリック] §7周囲に氷柱を召喚する",
+
+
+  "item.legendary_monsters.shulker_helmet1": "§6[装備時] §7浮遊効果を無効化する",
+
+  "item.legendary_monsters.dino_shield": "§6耐久性が非常に高い!",
+
+  "item.legendary_monsters.blast_proof_helmet1": "§6[装備時] §7爆発ダメージを35%軽減する",
+  "item.legendary_monsters.blast_proof_helmet2": "§2[クリーパーはもうそれほど危険ではない!]",
+
+
+  "item.legendary_monsters.fiery_jaw1": "§6[右クリック]",
+  "item.legendary_monsters.fiery_jaw2": "§73ブロック以内の全てのモブを押し飛ばし、炎を放射する",
+
+
+  "item.legendary_monsters.golden_halberd1": "§6[クリティカル攻撃時]",
+
+  "item.legendary_monsters.golden_halberd2": "§725%の確率で「出血」効果を付与する",
+
+
+  "item.legendary_monsters.fiery_boots1": "§6[装備時] [X]§7を押すと歩行時に足から炎を放射する",
+
+  "item.legendary_monsters.frost_shield1": "§6[ガード時]",
+
+  "item.legendary_monsters.frost_shield2": "§7敵を3秒間凍結させる",
+
+  "item.legendary_monsters.chorus_cannon1": "§6[右クリックを長押し] §7コーラス爆弾を発射し、",
+
+  "item.legendary_monsters.chorus_cannon2": "§7モブに「コーラス感染」効果を付与する",
+
+  "item.legendary_monsters.spiky_shield1": "§6[ガード時]",
+  "item.legendary_monsters.spiky_shield2": "§750%の確率で敵にダメージを反射し、",
+  "item.legendary_monsters.spiky_shield3": "§7対象に「出血」効果を付与する",
+  "item.legendary_monsters.spiky_shield4": "§2[5+防いだダメージの25%]",
+
+  "item.legendary_monsters.shulker_shield1": "§6[ガード時]",
+  "item.legendary_monsters.shulker_shield2": "§760%の確率で敵に浮遊効果を付与する",
+
+  "item.legendary_monsters.heartoftornado1": "§右クリックを押したままにすると、モブを捕らえる竜巻を発射する[3秒間持続]",
+
+  "death.attack.legendary_monsters.laser": "%sは%sに純粋な雷エネルギーで黒焦げにされた",
+
+  "death.attack.legendary_monsters.clouds": "%sは%sによって押し潰された",
+
+  "death.attack.legendary_monsters.ghost": "%sはこの世を去った",
+
+  "death.attack.legendary_monsters.cut": "%sは真っ二つに斬られた",
+
+  "death.attack.legendary_monsters.gravity": "%sは長く浮き過ぎた",
+
+  "death.attack.legendary_monsters.void": "%sは%sによって滅ぼされた",
+
+  "death.attack.legendary_monsters.impale": "%sは串刺しにされた",
+
+  "legendary_monsters.message.stratling_interaction": "右クリックして取引",
+
+
+  "item.legendary_monsters.totem_of_moss" : "苔のトーテム",
+
+  "item.legendary_monsters.somber_key" : "不吉な鍵",
+
+  "item.legendary_monsters.totem_of_moss.desc" : "右クリックすると、戦闘であなたを助け、未成長の作物の近くにいる間は近くの作物の成長速度を速める苔むしたゴーレムを召喚します。ゴーレムは死ぬと復活できます。",
+
+
+  "legendary_monsters.message.pet_sit_enable": " モード§f: §c待機",
+  "legendary_monsters.message.pet_walk_enable": " モード§f: §a追従",
+  "legendary_monsters.message.pet_stand_enable": " モード§f: §c直立待機",
+  "legendary_monsters.message.pet_stand_disable": " モード§f: §a追従",
+
+  "legendary_monsters.message.pet_wander_enable": " モード§f: §a自由行動",
+  "legendary_monsters.message.pet_follow_enable": " モード§f: §a追従",
+
+
+  "legendary_monsters.message.mossy_golem_string_message_name": "苔むしたゴーレム",
+  "legendary_monsters.message.knight_string_message_name": "騎士",
+  "legendary_monsters.message.guard_string_message_name": "衛兵",
+  "legendary_monsters.message.skeloraptor_string_message_name": "スケロラプトル",
+
+  "legendary_monsters.message.obliterator_p3_1_message": "§a...",
+  "legendary_monsters.message.obliterator_p3_2_message": "§a......",
+
+  "legendary_monsters.message.obliterator_ultimate": "§a滅びの時だ",
+
+
+  "key.categories.legendary_monsters": "Legendary Monstersのキーカテゴリー",
+  "key.legendary_monsters.mossy_chestplate_ability": "Legendary Monstersのチェストプレートの特殊能力",
+  "key.legendary_monsters.fiery_boots_ability": "Legendary Monstersのブーツの特殊能力",
+
+  "key.legendary_monsters.skeloraptor_roar": "スケルラプトルの咆哮",
+
+  "key.legendary_monsters.skeloraptor_attack": "スケルラプトルの攻撃",
+
+  "key.legendary_monsters.helmet": "Legendary Monstersのヘルメットの特殊能力",
+
+  "item.legendary_monsters.totem_of_moss1": "§6[ブロックを右クリック] §7苔むしたゴーレムを召喚する",
+  "item.legendary_monsters.totem_of_moss2": "§7苔むしたゴーレムは最初からあなたに従い、\n戦闘を手助けしたり近くの作物の成長を促進するまた、\n死亡しても簡単に再召喚できる",
+
+  "item.legendary_monsters.totem_of_moss3": "§6[スニークして右クリック] §a'直立待機モード'§7に切り替える",
+
+
+  "item.legendary_monsters.guard_summoner1": "§6[ブロックを右クリック] §7あなたを護る衛兵を召喚する",
+  "item.legendary_monsters.guard_summoner2": "§7衛兵は最初からあなたに従う",
+  "item.legendary_monsters.guard_summoner3": "§7騎士よりも広い範囲で強力な攻撃を行えるが、移動速度が遅い",
+  "item.legendary_monsters.guard_summoner4": "§7死亡しても鉄インゴットと非活性化したサモナーを使用して簡単に再召喚できる",
+  "item.legendary_monsters.guard_summoner5": "§6[スニークして右クリック] §7ダイヤモンドやその他の素材で鎧の色を変更できる",
+
+  "item.legendary_monsters.knight_summoner1": "§6[ブロックを右クリック] §7あなたを護る騎士を召喚する",
+  "item.legendary_monsters.knight_summoner2": "§7騎士は最初からあなたに従う",
+  "item.legendary_monsters.knight_summoner3": "§7衛兵より攻撃力は低いが、素早く連続攻撃を行ったり敵の攻撃を防御できる",
+  "item.legendary_monsters.knight_summoner4": "§7死亡しても鉄インゴットと非活性化したサモナーを使用して簡単に再召喚できる",
+  "item.legendary_monsters.knight_summoner5": "§6[スニークして右クリック] §7ダイヤモンドやその他の素材で鎧の色を変更できる",
+
+  "legendary_monsters.message.skeloraptor_time_until_next_roar": "咆哮のクールダウン: ",
+  "block.legendary_monsters.skeletosaurus_egg1": "§7設置して時間が経つとスケロラプトルが孵化する",
+  "block.legendary_monsters.skeletosaurus_egg2": "§7完全に成長すると生の肉で飼い慣らすことができる",
+  "block.legendary_monsters.skeletosaurus_egg3": "§7騎乗中に§6[R]§7を押すと、咆哮して周囲のモブを逃走させる",
+  "block.legendary_monsters.skeletosaurus_egg4": "§2[ソウルサンドの上に設置するとより早く孵化する]",
+  "legendary_monsters.message.skeloraptor_mount": "「R」キーを押すと咆哮し、左Shiftで降りる",
+
+  "legendary_monsters.message.teleport_machine": "§a転移装置にアイクリスタルを配置することでボスを召喚できます",
+
+  "item.legendary_monsters.atom_splitter1": "§6[右クリックを長押し] §7破滅のビームを放つ",
+  "item.legendary_monsters.atom_splitter2": "§6[スニークして右クリックを長押し] §7破滅の拡散爆弾を発射する",
+  "item.legendary_monsters.atom_splitter3": "§2[弾薬を消費しない! しかも壊れない!]",
+
+
+  "item.legendary_monsters.the_tesseract1": "§6[右クリックを長押し]",
+  "item.legendary_monsters.the_tesseract2": "§7周囲のモブを引き寄せる破滅のポータルを生成する",
+
+  "item.legendary_monsters.buckler_of_annihilation1": "§6[スニークして右クリックを0.5秒長押し]§7\n前方を薙ぎ払い、3つの小さな破滅の爆弾を発射する\n§2[8の防御力貫通ダメージ]\n[§2薙ぎ払いがモブに当たるとクールダウンが発生する]",
+  "item.legendary_monsters.enderitium_ingot": "エンダリティウムインゴット",
+
+  "item.legendary_monsters.bottle_of_annihilation": "アナイアレイション・ボトル",
+
+  "item.legendary_monsters.enderitium_upgrade_smithing_template": "鍛冶型",
+
+  "item.legendary_monsters.annihilator_upgrade_smithing_template": "鍛冶型",
+
+  "item.legendary_monsters.portal_shard": "ポータルの欠片",
+  "item.legendary_monsters.enderitium_gem": "エンダリティウムジェム",
+  "item.legendary_monsters.raw_enderitium": "エンダリティウムの原石",
+  "item.legendary_monsters.enderitium_sword": "エンダリティウムの剣",
+  "item.legendary_monsters.enderitium_axe": "エンダリティウムの斧",
+  "item.legendary_monsters.enderitium_shovel": "エンダリティウムのシャベル",
+  "item.legendary_monsters.enderitium_hoe": "エンダリティウムのクワ",
+  "item.legendary_monsters.enderitium_pickaxe": "エンダリティウムのツルハシ",
+
+
+  "block.legendary_monsters.enderitium_ore": "エンダリティウム鉱石",
+  "block.legendary_monsters.enderitium_block": "エンダリティウムブロック",
+
+  "block.legendary_monsters.chiseled_enderstone_bricks": "模様入りのエンダーストーンレンガ",
+  "block.legendary_monsters.enderstone_bricks": "エンダーストーンレンガ",
+
+  "block.legendary_monsters.enderstone_brick_stairs": "エンダーストーンレンガの階段",
+
+  "block.legendary_monsters.enderstone_brick_slab": "エンダーストーンレンガのハーフブロック",
+
+  "block.legendary_monsters.enderstone_brick_wall": "エンダーストーンレンガの塀",
+
+  "block.legendary_monsters.enderstone_pillar": "エンダーストーンの柱",
+  "block.legendary_monsters.enderstone": "エンダーストーン",
+  "block.legendary_monsters.cobbled_enderstone": "エンダーストーンの丸石",
+
+  "block.legendary_monsters.smooth_enderstone": "滑らかなエンダーストーン",
+
+  "block.legendary_monsters.smooth_enderstone_slab": "滑らかなエンダーストーンのハーフブロック",
+  "block.legendary_monsters.smooth_enderstone_stairs": "滑らかなエンダーストーンの階段",
+  "block.legendary_monsters.smooth_enderstone_wall": "滑らかなエンダーストーンの塀",
+
+  "block.legendary_monsters.cobbled_enderstone_slab": "エンダーストーンの丸石のハーフブロック",
+  "block.legendary_monsters.cobbled_enderstone_stairs": "エンダーストーンの丸石の階段",
+  "block.legendary_monsters.cobbled_enderstone_wall": "エンダーストーンの丸石の塀",
+
+
+  "block.legendary_monsters.enderstone_slab": "エンダーストーンのハーフブロック",
+  "block.legendary_monsters.enderstone_stairs": "エンダーストーンの階段",
+  "block.legendary_monsters.enderstone_wall": "エンダーストーンの塀",
+
+  "block.legendary_monsters.ender_anchor": "エンダーアンカー",
+
+
+  "block.legendary_monsters.teleport_machine": "転移装置",
+  "block.legendary_monsters.annihilation_lantern": "アナイアレイション・ランタン",
+
+  "block.legendary_monsters.soul_candle": "魂のろうそく",
+
+
+  "item.legendary_monsters.ancient_sandstone_shard1": "§7夜の砂漠にスポーンするボンバーがドロップする",
+
+  "item.legendary_monsters.atom_splitter": "アトムスプリッター",
+
+  "item.legendary_monsters.buckler_of_annihilation": "アナイアレイション・バックラー",
+
+  "item.legendary_monsters.eye_crystal" : "アイクリスタル",
+
+  "item.legendary_monsters.the_tesseract" : "テセラクト",
+
+  "item.legendary_monsters.cloud_bread" : "雲のパン",
+
+  "item.legendary_monsters.dark_cloud_bread" : "雷雲のパン",
+
+  "item.legendary_monsters.wandering_eye_spawn_egg" : "ワンダリングアイのスポーンエッグ",
+
+  "item.legendary_monsters.enderitium_sickle" : "エンダリティウムの鎌",
+
+  "item.legendary_monsters.flameborn_warrior_spawn_egg" : "フレイムボーン・ウォリアーのスポーンエッグ",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade5": " エンダリティウムインゴット",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade4": "素材:",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade3": " ダイヤモンドの装備品",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade2": "適用先:",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade1": "エンダリティウム強化",
+
+  "item.legendary_monsters.smithing_template.annihilator_upgrade5": " ポータルの欠片",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade4": "素材:",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade3": " ネザライトの装備品",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade2": "適用先:",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade1": "アナイアレイション強化",
+  "block.legendary_monsters.ender_anchor1":"アナイアレイション・ランタンをチャージすることで、ジ・エンドでリスポーン地点を設定できる",
+
+
+  "item.legendary_monsters.annihilator_helmet" : "アナイアレイターのヘルメット",
+
+  "item.legendary_monsters.annihilator_chestplate" : "アナイアレイターのチェストプレート",
+
+  "item.legendary_monsters.annihilator_leggings" : "アナイアレイターのレギンス",
+
+  "item.legendary_monsters.annihilator_boots" : "アナイアレイターのブーツ",
+
+  "item.legendary_monsters.annihilator_helmet1" : "§6[装備時] §7エンダーマンと目を合わせても敵対化しなくなり、§6[C]§7を押すと最大15ブロック先にテレポートする",
+
+  "item.legendary_monsters.annihilator_chestplate1" : "§6[装備時] §7体力が半分を切ると破滅的な超新星爆発を起こして3秒間無敵になる",
+
+  "item.legendary_monsters.bottled_lightning" : "雷入りの瓶",
+
+
+  "item.legendary_monsters.shattered_greatsword" : "折れた大剣",
+  "item.legendary_monsters.shattered_greatsword1" : "'滅亡した王国の騎士達の武器'",
+
+  "item.legendary_monsters.resurrected_javelin" : "復活した槍",
+
+  "item.legendary_monsters.metal_debris" : "鋼鉄の破片",
+
+  "item.legendary_monsters.somber_key_ring" : "不吉な鍵の輪",
+
+  "item.legendary_monsters.somber_key_blade" : "不吉な鍵の刃",
+
+  "item.legendary_monsters.somber_key_part" : "片割れと合わせることで不吉な鍵を作成できる",
+
+
+  "item.legendary_monsters.eye_of_annihilation" : "アナイアレイションアイ",
+  "item.legendary_monsters.annihilator_leggings1" : "§6[クリティカル攻撃時] §725%の確率で範囲攻撃を行う §2[攻撃力の50%の防御力貫通ダメージ]",
+  "item.legendary_monsters.annihilator_unknown" : "アビリティはまだ作成中のため、今後に追加予定です",
+
+  "item.legendary_monsters.annihilator_boots1" : "§6[装備時] §7弱体化効果と鈍足効果を無効化する",
+
+  "legendary_monsters.message.stun": "スタンした！",
+
+  "legendary_monsters.message.possessed_paladin_snore": "''Zzz…''",
+
+  "legendary_monsters.message.possessed_paladin_talk1": "'ある者は敗れ…'",
+
+  "legendary_monsters.message.possessed_paladin_talk2": "'その魂は捕らえられた…'",
+
+  "legendary_monsters.message.possessed_paladin_talk3": "'星々は再び我が影に覆われよう'",
+
+  "legendary_monsters.message.possessed_paladin_talk4": "§c'我は…オリオン…'",
+
+  "legendary_monsters.message.possessed_paladin_talk5": "'砕かれし凶兆なり'",
+
+  "legendary_monsters.message.possessed_paladin_talk6": "'私は…'",
+
+  "legendary_monsters.message.possessed_paladin_talk7": "'…自由だ…'",
+
+  "legendary_monsters.message.possessed_paladin_talk8": "'我は…決して…死なぬ…'",
+  "legendary_monsters.message.possessed_paladin_talk9": "'これで終わりではない…'",
+
+  "legendary_monsters.message.possessed_paladin_talk10": "'我が影で再び星々を覆うのだ！'",
+
+  "legendary_monsters.message.possessed_paladin_kill_parry": "/killなど効かぬ！",
+
+  "block.legendary_monsters.somber_trapdoor1": "中央を不吉な鍵で右クリックして解錠できる",
+
+  "block.legendary_monsters.small_spike_trap_block": "小さな刺のトラップ",
+
+  "block.legendary_monsters.big_spike_trap_block": "大きな刺のトラップ",
+  "legendary_monsters.message.somber_trapdoor": "不吉な鍵で右クリックして解錠できる",
+
+  "legendary_monsters.bar_name.possessed_paladin_p2": "《砕かれし凶兆》オリオン",
+
+  "item.legendary_monsters.fractured_apostle_spawn_egg" : "砕けた使徒のスポーンエッグ",
+
+  "entity.legendary_monsters.fractured_apostle": "砕けた使徒",
+
+  "item.legendary_monsters.fractured_spawn_egg" : "砕けた亡霊のスポーンエッグ",
+
+  "entity.legendary_monsters.fractured": "砕けた亡霊"
+
+}
+
+
+
+

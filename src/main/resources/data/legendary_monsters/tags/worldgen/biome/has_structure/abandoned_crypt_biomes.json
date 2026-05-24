@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:meadow",
+    "minecraft:wooded_badlands",
+    "minecraft:cherry_grove",
+    "minecraft:stony_peaks",
+    "minecraft:snowy_slopes",
+    "minecraft:grove",
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    {
+      "id": "biomesoplenty:highland",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:aspen_forest",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:volcano",
+      "required": false
+    },
+
+    {
+      "id": "biomeswevegone:howling_peaks",
+
+      "required": false
+    }
+
+  ]
+}
+

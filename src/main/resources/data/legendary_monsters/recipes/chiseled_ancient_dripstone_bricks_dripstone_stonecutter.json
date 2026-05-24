@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "legendary_monsters:ancient_dripstone_block"
+  },
+  "result": "legendary_monsters:chiseled_ancient_dripstone_bricks",
+  "count": 1
+}

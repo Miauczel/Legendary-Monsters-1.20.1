@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "legendary_monsters:ancient_stronghold",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 30,
+    "salt": 5792349
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item":
+      "legendary_monsters:cobbled_enderstone"
+
+  },
+  "result": "legendary_monsters:cobbled_enderstone_slab",
+  "count": 1
+}

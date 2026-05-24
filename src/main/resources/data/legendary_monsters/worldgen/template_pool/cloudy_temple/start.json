@@ -1,0 +1,16 @@
+{
+  "name": "legendary_monsters:cloudy_temple/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "legendary_monsters:cloudy_temple_arena",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "terrain_adaptation": "beard_box"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    " BC",
+    " CG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "#": {
+      "item": "legendary_monsters:chorus_crystal"
+    },
+    "B": {
+      "item": "legendary_monsters:sand_cannon"
+    },
+    "C": {
+      "item": "legendary_monsters:infected_chorus_fruit"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:chorus_cannon",
+    "count": 1
+  }
+}

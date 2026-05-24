@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "legendary_monsters:item/atom_splitter_3d"
+  },
+
+  "perspectives": {
+    "gui": {
+      "parent": "legendary_monsters:item/atom_splitter_2d"
+    },
+    "ground": {
+      "parent": "legendary_monsters:item/atom_splitter_2d"
+    },
+    "fixed": {
+      "parent": "legendary_monsters:item/atom_splitter_3d"
+    }
+  }
+}

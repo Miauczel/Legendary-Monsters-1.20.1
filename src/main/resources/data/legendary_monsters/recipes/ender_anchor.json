@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "iOi",
+    "iOi"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:bottle_of_annihilation"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "O": {
+      "item": "minecraft:end_stone"
+    },
+    "i": {
+      "item": "legendary_monsters:enderitium_ingot"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:ender_anchor",
+    "count": 1
+  }
+}

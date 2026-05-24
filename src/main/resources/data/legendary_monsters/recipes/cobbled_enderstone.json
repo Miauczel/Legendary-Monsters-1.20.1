@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "legendary_monsters:cobbled_enderstone"
+  },
+  "result": "legendary_monsters:enderstone",
+  "experience": 1,
+  "cookingtime": 200
+}

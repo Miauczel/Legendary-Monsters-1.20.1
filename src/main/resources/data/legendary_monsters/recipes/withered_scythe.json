@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ##",
+    "GB ",
+    " B "
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:withered_horn"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "B": {
+      "item": "legendary_monsters:withered_bone"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:withered_scythe",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:fiery_jaw"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_lava_eater.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_lava_eater.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:locate_lava_eater",
+  "criteria": {
+    "ambusher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:lava_eater"
+        }
+      }
+    }
+  }
+}

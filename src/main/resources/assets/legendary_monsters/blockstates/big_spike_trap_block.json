@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "powered=false,half=lower": {
+      "model": "legendary_monsters:block/big_spike_trap_block_bottom"
+    },
+    "powered=true,half=lower": {
+      "model": "legendary_monsters:block/big_spike_trap_block_bottom_on"
+    },
+    "powered=true,half=upper": {
+      "model": "legendary_monsters:block/big_spike_trap_block_top_on"
+    },
+    "powered=false,half=upper": {
+      "model": "legendary_monsters:block/big_spike_trap_block_top_off"
+    }
+  }
+
+}
+

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    " B "
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:withered_horn"
+    },
+    "B": {
+      "item": "legendary_monsters:withered_bone"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:withered_ribcage",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "legendary_monsters:wandering_eye",
+    "legendary_monsters:the_obliterator",
+    "legendary_monsters:annihilation_pursuer",
+    "legendary_monsters:flameborn_guard",
+    "legendary_monsters:flame_drifter",
+    "legendary_monsters:flameborn_warrior"
+  ]
+}

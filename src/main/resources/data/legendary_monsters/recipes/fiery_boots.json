@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "B B"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:lava_eaters_skin"
+    },
+    "B": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:fiery_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "NCN",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "legendary_monsters:enderitium_gem"
+    },
+    "C": {
+      "item": "legendary_monsters:eye_crystal"
+    },
+    "N": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:buckler_of_annihilation",
+    "count": 1
+  }
+}

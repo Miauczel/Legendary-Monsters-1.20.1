@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:eye_crystal"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_annihilation_pursuer.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_annihilation_pursuer.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:defeat_flameborn_guard",
+  "criteria": {
+    "annihilation_pursuer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:annihilation_pursuer"
+        }
+      }
+    }
+  }
+}

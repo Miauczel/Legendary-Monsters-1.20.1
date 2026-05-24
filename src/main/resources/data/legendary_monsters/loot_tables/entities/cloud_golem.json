@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "name": "rune",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendary_monsters:air_rune"
+
+        }
+
+      ]
+    },
+    {
+      "name": "rune1",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendary_monsters:atmospheric_boots"
+
+        }
+      ]
+    }
+    ]
+}

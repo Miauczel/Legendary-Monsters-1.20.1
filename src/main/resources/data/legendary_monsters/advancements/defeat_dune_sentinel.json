@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:crystal_of_sandstorm"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_dune_sentinel.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_dune_sentinel.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:locate_ruined_pyramid",
+  "criteria": {
+    "ambusher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:dune_sentinel"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:ancient_spike"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_spiky_bug.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_spiky_bug.description"
+    },
+    "frame": "task"
+  },
+  "parent": "legendary_monsters:locate_ancient_stronghold",
+  "criteria": {
+    "spiky_bug": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:spiky_bug"
+        }
+      }
+    }
+  }
+}

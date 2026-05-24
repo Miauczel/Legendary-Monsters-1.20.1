@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i#",
+    "iRi",
+    "#i#"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:warped_mushroom_cap_part"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:entity_warper",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "legendary_monsters:space_station/part4",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "legendary_monsters:space_station_part4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "terrain_adaptation": "none"
+      }
+    }
+  ]
+}

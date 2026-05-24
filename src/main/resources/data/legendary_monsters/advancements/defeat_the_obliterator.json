@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:portal_shard"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_the_obliterator.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_the_obliterator.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "legendary_monsters:defeat_annihilation_pursuer",
+  "criteria": {
+    "the_obliterator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:the_obliterator"
+        }
+      }
+    }
+  }
+}

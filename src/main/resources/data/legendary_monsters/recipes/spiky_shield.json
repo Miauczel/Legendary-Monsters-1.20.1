@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "legendary_monsters:ancient_spike"
+    },
+    {
+      "item": "minecraft:shield"
+    },
+    {
+      "item": "legendary_monsters:molten_metal_ingot"
+    },
+    {
+      "item": "legendary_monsters:chiseled_ancient_dripstone_shard"
+    }
+  ],
+  "result": {
+    "item": "legendary_monsters:spiky_shield",
+    "count": 1
+  }
+}

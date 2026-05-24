@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:enderitium_ingot"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_flame_drifter.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_flame_drifter.description"
+    },
+    "frame": "task"
+  },
+  "parent": "legendary_monsters:defeat_wandering_eye",
+  "criteria": {
+    "flame_drifter": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:flame_drifter"
+        }
+      }
+    }
+  }
+}

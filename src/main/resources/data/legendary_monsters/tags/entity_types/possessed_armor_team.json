@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "legendary_monsters:haunted_guard",
+    "legendary_monsters:haunted_knight",
+    "legendary_monsters:posessed_paladin",
+    "legendary_monsters:beheaded_knight",
+    "legendary_monsters:resurrected_knight",
+    "legendary_monsters:fractured_apostle",
+    "legendary_monsters:fractured"
+  ]
+}

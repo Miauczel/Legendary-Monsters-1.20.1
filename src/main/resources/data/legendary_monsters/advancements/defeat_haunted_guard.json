@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:golden_halbert"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_haunted_guard.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_haunted_guard.description"
+    },
+    "frame": "task"
+  },
+  "parent": "legendary_monsters:locate_abandoned_crypt",
+  "criteria": {
+    "ambusher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:haunted_guard"
+        }
+      }
+    }
+  }
+}

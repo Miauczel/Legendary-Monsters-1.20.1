@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:ancient_sandstone_shard"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_bomber.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_bomber.description"
+    },
+    "frame": "task"
+  },
+  "parent": "legendary_monsters:locate_ruined_pyramid",
+  "criteria": {
+    "ambusher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:bomber"
+        }
+      }
+    }
+  }
+}

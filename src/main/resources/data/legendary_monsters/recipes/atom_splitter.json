@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " GG",
+    "#ii",
+    " E "
+  ],
+  "key": {
+    "#":{ "item": "minecraft:end_rod"},
+    "G": { "item": "legendary_monsters:bottle_of_annihilation"},
+    "i": { "item": "legendary_monsters:portal_shard"},
+    "E": { "item": "legendary_monsters:enderitium_ingot"}
+  },
+  "result": {
+    "item": "legendary_monsters:atom_splitter",
+    "count": 1
+  }
+}

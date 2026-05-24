@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    ".#.",
+    " / "
+  ],
+  "key": {
+    "#":{
+      "item": "legendary_monsters:metal_debris"
+    },
+    ".": {
+      "item": "minecraft:iron_nugget"
+    },
+
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:shattered_greatsword",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:soul_sand_valley",
+    {
+      "id": "biomesoplenty:visceral_heap",
+      "required": false
+    }
+
+  ]
+}
+

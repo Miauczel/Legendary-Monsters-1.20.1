@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "legendary_monsters:block/small_spike_trap_block"
+    },
+    "powered=true": {
+      "model": "legendary_monsters:block/small_spike_trap_block_on"
+    }
+  }
+}

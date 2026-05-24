@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "ASA"
+  ],
+  "key": {
+    "#": {
+      "item": "legendary_monsters:frozen_rune"
+    },
+    "A": {
+      "item": "legendary_monsters:primal_ice_shard"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    }
+  },
+  "result": {
+    "item": "legendary_monsters:frostbitten_shield",
+    "count": 1
+  }
+}

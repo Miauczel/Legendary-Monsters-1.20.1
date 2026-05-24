@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "legendary_monsters:somber_key_ring"
+    },
+    "title": {
+      "translate": "advancements.legendary_monsters.defeat_resurrected_knight.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_monsters.defeat_resurrected_knight.description"
+    },
+    "frame": "task"
+  },
+  "parent": "legendary_monsters:defeat_haunted_knight",
+  "criteria": {
+    "ambusher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "legendary_monsters:resurrected_knight"
+        }
+      }
+    }
+  }
+}

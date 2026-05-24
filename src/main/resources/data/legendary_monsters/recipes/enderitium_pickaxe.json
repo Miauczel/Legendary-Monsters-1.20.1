@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "legendary_monsters:enderitium_upgrade_smithing_template" },
+  "base": { "item": "minecraft:diamond_pickaxe" },
+  "addition": { "item": "legendary_monsters:enderitium_ingot" },
+  "result": { "item": "legendary_monsters:enderitium_pickaxe" }
+}

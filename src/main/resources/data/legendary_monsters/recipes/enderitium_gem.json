@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "legendary_monsters:enderitium_ingot"
+    }
+  ],
+  "result": {
+    "item": "legendary_monsters:enderitium_gem",
+    "count": 9
+  }
+}

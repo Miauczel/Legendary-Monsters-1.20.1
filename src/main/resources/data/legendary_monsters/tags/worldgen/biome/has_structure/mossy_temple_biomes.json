@@ -1,0 +1,37 @@
+
+{
+  "replace": false,
+  "values": [
+    "minecraft:sparse_jungle",
+    "minecraft:jungle",
+    {
+      "id": "biomesoplenty:rain_forest",
+
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:forgotten_forest",
+
+      "required": false
+    },
+
+    {
+      "id": "biomeswevegone:fragment_jungle",
+
+      "required": false
+    },
+
+    {
+      "id": "biomeswevegone:lush_stacks",
+
+      "required": false
+    },
+
+    {
+      "id": "biomeswevegone:tropical_rainforest",
+
+      "required": false
+    }
+  ]
+}
+
