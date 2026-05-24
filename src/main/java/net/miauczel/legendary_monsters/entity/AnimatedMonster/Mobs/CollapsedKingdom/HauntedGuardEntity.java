@@ -13,7 +13,6 @@ import net.miauczel.legendary_monsters.sound.ModSounds;
 import net.miauczel.legendary_monsters.tag.ModEntityTags;
 import net.miauczel.legendary_monsters.util.EntityUtil;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.nbt.ListTag;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -77,7 +76,6 @@ public class HauntedGuardEntity extends IAnimatedMonster implements IForgeEntity
         setTextureVariant(this.random.nextInt(0, 3));
         return super.finalizeSpawn(pLevel, pDifficulty, pReason, pSpawnData, pDataTag);
     }
-
 
 
     public void setSleep(boolean sleep) {
@@ -235,16 +233,17 @@ public class HauntedGuardEntity extends IAnimatedMonster implements IForgeEntity
 
     @Nullable
     public ItemEntity LGspawnatlocation(ItemStack pStack) {
-        pStack.addTagElement("Enchantments", new ListTag());
+        // pStack.addTagElement("Enchantments", new ListTag());
 
         ItemEntity itemEntity = this.spawnAtLocation(pStack, 0F);
 
         if (itemEntity != null) {
-            itemEntity.setGlowingTag(true);
+            //     itemEntity.setGlowingTag(true);
         }
 
         return itemEntity;
     }
+
 
     @Override
     public void die(DamageSource source) {
@@ -252,18 +251,18 @@ public class HauntedGuardEntity extends IAnimatedMonster implements IForgeEntity
         setAttackState(7);
         dragonDeathTime = 0;
         switch (getTextureVariant()) {
-            case 0,3 ->{
-                for (int i =0; i<=random.nextInt(1,5);i++) {
+            case 0, 3 -> {
+                for (int i = 0; i <= random.nextInt(1, 5); i++) {
                     LGspawnatlocation(Items.IRON_INGOT.getDefaultInstance());
                 }
             }
-            case 1 ->{
-                for (int i =0; i<=random.nextInt(0,6);i++) {
+            case 1 -> {
+                for (int i = 0; i <= random.nextInt(0, 6); i++) {
                     LGspawnatlocation(Items.GOLD_INGOT.getDefaultInstance());
                 }
             }
-            case 2 ->{
-                for (int i = 0; i<=random.nextInt(-1,2);i++) {
+            case 2 -> {
+                for (int i = 0; i <= random.nextInt(-1, 2); i++) {
                     LGspawnatlocation(Items.DIAMOND.getDefaultInstance());
                 }
             }
@@ -301,7 +300,9 @@ public class HauntedGuardEntity extends IAnimatedMonster implements IForgeEntity
 
         return super.hurt(source, amount);
     }
+
     Random random = new Random();
+
     @Override
     public boolean isAlliedTo(Entity pEntity) {
         return pEntity.getType().is(ModEntityTags.POSSESSED_ARMOR_TEAM) || super.isAlliedTo(pEntity);

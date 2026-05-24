@@ -76,7 +76,7 @@ public class FracturedApostleEntity extends IAnimatedMob implements IForgeEntity
     public ItemEntity spawnAtLocation(ItemStack stack) {
         ItemEntity itementity = this.spawnAtLocation(stack, 0.0f);
         if (itementity != null) {
-            itementity.setGlowingTag(true);
+       //     itementity.setGlowingTag(true);
             itementity.setExtendedLifetime();
         }
         return itementity;

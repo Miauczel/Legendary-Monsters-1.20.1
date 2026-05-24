@@ -389,12 +389,10 @@ public class HauntedKnightEntity extends IAnimatedMonster implements IForgeEntit
 
     @Nullable
     public ItemEntity LGspawnatlocation(ItemStack pStack) {
-        pStack.addTagElement("Enchantments", new ListTag());
-
+      //  pStack.addTagElement("Enchantments", new ListTag());
         ItemEntity itemEntity = this.spawnAtLocation(pStack, 0F);
-
         if (itemEntity != null) {
-            itemEntity.setGlowingTag(true);
+          //  itemEntity.setGlowingTag(true);
         }
 
         return itemEntity;
