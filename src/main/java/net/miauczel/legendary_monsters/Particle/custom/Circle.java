@@ -223,11 +223,15 @@ public class Circle extends TextureSheetParticle {
 
         @Override
         public void writeToNetwork(FriendlyByteBuf buffer) {
+            buffer.writeFloat(this.yaw);
+            buffer.writeFloat(this.pitch);
+            buffer.writeInt(this.duration);
             buffer.writeFloat(this.r);
             buffer.writeFloat(this.g);
             buffer.writeFloat(this.b);
+            buffer.writeFloat(this.a);
             buffer.writeFloat(this.scale);
-            buffer.writeInt(this.duration);
+            buffer.writeBoolean(this.facesCamera);
         }
 
         @Override

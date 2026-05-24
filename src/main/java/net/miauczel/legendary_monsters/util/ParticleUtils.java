@@ -4,6 +4,7 @@ import net.miauczel.legendary_monsters.Particle.ModParticles;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.BlockParticleOption;
 import net.minecraft.core.particles.ParticleOptions;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
@@ -63,7 +64,7 @@ public class ParticleUtils {
             level.addParticle(blockparticleoption, d0, d1, d2, d3, d4, d5);
         }
 
-        for (int j = 0; j < (!strict ? (power / 0.02) / 1.5f : power) ; ++j) {
+        for (int j = 0; j < (!strict ? (power / 0.02) / 1.5f : power); ++j) {
             double d6 = vec3.x + (double) r * Math.cos(j) + level.getRandom().nextGaussian() / (double) 2.0F;
             double d7 = vec3.y + 1 + additionalY;
             double d8 = vec3.z + (double) r * Math.sin(j) + level.getRandom().nextGaussian() / (double) 2.0F;
@@ -75,10 +76,11 @@ public class ParticleUtils {
     }
 
     public static void sendParticlesToServer(Level level, ParticleOptions particleOptions, double x, double y, double z, int count, double xO, double yO, double zO, double speed) {
-     //   if (!(level instanceof ServerLevel serverLevel)) return;
+        if (level.isClientSide) return;
+        if (!(level instanceof ServerLevel serverLevel)) return;
 
-     //   serverLevel.sendParticles(particleOptions, x, y, z, count, xO, yO, zO, speed);
-        level.addParticle(particleOptions,x,y,z,0,0,0);
+        serverLevel.sendParticles(particleOptions, x, y, z, count, xO, yO, zO, speed);
+        //  level.addParticle(particleOptions,x,y,z,0,0,0);
     }
 
 
