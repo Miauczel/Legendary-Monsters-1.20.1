@@ -2,6 +2,7 @@
 package net.miauczel.legendary_monsters.entity.AnimatedMonster.Projectile;
 
 import net.miauczel.legendary_monsters.Particle.ModParticles;
+import net.miauczel.legendary_monsters.config.ModConfig;
 import net.miauczel.legendary_monsters.damagetype.ModDamageTypes;
 import net.miauczel.legendary_monsters.effect.ModEffects;
 import net.miauczel.legendary_monsters.entity.AnimatedMonster.Effect.CameraShakeEntity;
@@ -410,8 +411,10 @@ public class AnnihilationBeamEntity extends Entity {
 
                         if (!this.caster.isAlliedTo(target) && target != caster) {
                             if (!(target instanceof TamableAnimal animal && animal.getOwner() == caster)) {
-
-                            boolean flag = target.hurt(ModDamageTypes.causeAnnihilationDamage(this, caster), (float) (this.getDamage() + target.getMaxHealth() * (getHpDamage() * 0.01)));
+                            float damage = (float) (caster instanceof Player ?
+                                    (this.getDamage() + target.getMaxHealth() * (getHpDamage() * 0.01)) :
+                                    (this.getDamage() + target.getMaxHealth() * (getHpDamage() * 0.01)) * ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get());
+                            boolean flag = target.hurt(ModDamageTypes.causeAnnihilationDamage(this, caster),damage);
                             if (flag) {
                                 TheObliteratorUtils.applyAnnihilationEffect(target, ModEffects.ANNIHILATION.get(),1,false);
                                 if (caster instanceof Mob) {
