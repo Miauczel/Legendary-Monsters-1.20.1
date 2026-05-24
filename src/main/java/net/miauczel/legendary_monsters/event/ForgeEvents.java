@@ -144,7 +144,11 @@ public class ForgeEvents {
             event.setCanceled(true);
         }
     }
-
+    @SubscribeEvent
+    public static void addDamage(LivingHurtEvent livingHurtEvent){
+        if (!(livingHurtEvent.getEntity() instanceof IAnimatedBoss boss))return;
+        boss.addDamage(livingHurtEvent.getAmount(),livingHurtEvent.getSource());
+    }
     @SubscribeEvent
     public static void onLivingHurt(LivingAttackEvent event) {
 

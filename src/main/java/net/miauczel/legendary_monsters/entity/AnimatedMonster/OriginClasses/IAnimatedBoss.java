@@ -63,7 +63,13 @@ public class IAnimatedBoss extends IAnimatedMonster {
         super.readAdditionalSaveData(pCompound);
         // if (this.getHealth() == this.getMaxHealth()) {
         // updateAttributes(); }
-
+        if (pCompound.contains("_td")) {
+            long encrypted = pCompound.getLong("_td");
+            int bits = (int) (encrypted ^ 0x5F3759DF);
+            float loaded = Float.intBitsToFloat(bits);
+            totalDamageTaken = Math.max(0.0F, Math.min(loaded, getMaxHealth()));
+            loadedFromNBT = true;
+        }
     }
 
     @Override
@@ -72,6 +78,9 @@ public class IAnimatedBoss extends IAnimatedMonster {
         pCompound.putInt("posY", getSpawnBlockPos().getY());
         pCompound.putInt("posZ", getSpawnBlockPos().getZ());
         super.addAdditionalSaveData(pCompound);
+        int bits = Float.floatToIntBits(totalDamageTaken);
+        long encrypted = (long) bits ^ 0x5F3759DF;
+        pCompound.putLong("_td", encrypted);
     }
 
     /// DATA VALUE
@@ -119,6 +128,13 @@ public class IAnimatedBoss extends IAnimatedMonster {
 
     @Override
     public void tick() {
+        if (!this.level().isClientSide()) {
+            this.getAttribute(Attributes.MAX_HEALTH).setBaseValue(getMaxHealth());
+            if (hurtCD > 0) hurtCD--;
+            if (getHealth() > 0.0F) {
+                super.setHealth(getHealth());
+            }
+        }
         // updateAttributes();
         //Cooldowns
         if (targetIsNotNull()) inActiveTicks = INACTIVE_TICKS;
@@ -163,6 +179,9 @@ public class IAnimatedBoss extends IAnimatedMonster {
 
     @Override
     public @Nullable SpawnGroupData finalizeSpawn(ServerLevelAccessor pLevel, DifficultyInstance pDifficulty, MobSpawnType pReason, @Nullable SpawnGroupData pSpawnData, @Nullable CompoundTag pDataTag) {
+        // BlockPos spawnBlockPos = new BlockPos((int) getX(), (int) getY(), (int) getZ());
+        ;
+
         setSpawnBlockPos(this.blockPosition());
         return super.finalizeSpawn(pLevel, pDifficulty, pReason, pSpawnData, pDataTag);
 
@@ -172,6 +191,22 @@ public class IAnimatedBoss extends IAnimatedMonster {
     /// CUSTOM INTS EXT.
     public double damageCap() {
         return 21;
+    }
+
+    public float damageReduction() {
+        return 1f;
+    }
+
+    public double healthMult() {
+        return 1;
+    }
+
+    public double damageMult() {
+        return 1;
+    }
+
+    public double baseDamage() {
+        return 10;
     }
 
     public double baseHealth() {
@@ -222,6 +257,80 @@ public class IAnimatedBoss extends IAnimatedMonster {
         damageTimeFactor = amount;
     }
 
+    int hurtCD = 0;
+    private static final int HURT_COOLDOWN = 30;
+    float totalDamageTaken = 0;
+    private boolean loadedFromNBT = false;
+
+    @Override
+    public void setHealth(float newHealth) {
+        if (this.level().isClientSide()) {
+            super.setHealth(newHealth);
+            return;
+        }
+        if (this.tickCount == 0) {
+            super.setHealth(getMaxHealth());
+        }
+    }
+
+    public boolean getInvulnerabilityConfig() {
+        return true;
+    }
+
+    public void addDamage(float amount, DamageSource source) {
+        float maxAllowed = (float) damageCap();
+        float clamped = Math.min(amount, maxAllowed);
+
+        if (source.is(DamageTypeTags.BYPASSES_INVULNERABILITY)) clamped = amount;
+
+        if (clamped <= 0.0F) return;
+
+        float finalDamage = this.getDamageAfterArmorAbsorb(source, clamped);
+        finalDamage = this.getDamageAfterMagicAbsorb(source, finalDamage);
+        if (finalDamage <= 0.0F) return;
+
+        totalDamageTaken += finalDamage;
+        super.setHealth(getHealth());
+
+        if (getInvulnerabilityConfig()) hurtCD = HURT_COOLDOWN;
+
+      //  System.out.println("Amount before armor: " + amount);
+      //  System.out.println("Amount after armor: " + finalDamage);
+
+        if (getHealth() <= 0.0F) {
+            this.die(source);
+        }
+    }
+
+    @Override
+    public float getHealth() {
+        if (this.level().isClientSide()) {
+            return super.getHealth();
+        }
+        return Math.max(0.0f, getMaxHealth() - totalDamageTaken);
+    }
+
+    @Override
+    public boolean isDeadOrDying() {
+        return getHealth() <= 0.0F;
+    }
+
+    @Override
+    public boolean isAlive() {
+        return getHealth() > 0.0F && !this.isRemoved();
+    }
+
+    @Override
+    public void heal(float amount) {
+        if (this.level().isClientSide()) {
+            super.heal(amount);
+            return;
+        }
+        if (amount <= 0.0F || totalDamageTaken <= 0.0F) return;
+        totalDamageTaken = Math.max(0.0F, totalDamageTaken - amount);
+        super.setHealth(getHealth());
+    }
+
     @Override
     public boolean hurt(DamageSource source, float amount) {
         if (source.is(DamageTypeTags.BYPASSES_INVULNERABILITY)) {
@@ -241,7 +350,8 @@ public class IAnimatedBoss extends IAnimatedMonster {
 
         boolean hurt1 = super.hurt(source, amount);
         if (hurt1) {
-            System.out.println("TotalAmount: " + amount);
+
+        //    System.out.println("TotalAmount: " + amount);
             damageAdaptationTicks = DAMAGE_ADAPTATION_TICKS;
             damageTimeFactor -= adaptationFactor();
             //  System.out.println("Called Hurt1" + " DamageTime: " + damageTimeFactor + " reducedDamage: " + reducedDamage());
@@ -293,30 +403,6 @@ public class IAnimatedBoss extends IAnimatedMonster {
         return null;
     }
 
-
-    /// UPDATING CONFIG ATTRIBUTES
-    /*public void updateAttributes() {
-        double healthMultiplier = healthMult();
-        double damageMultiplier = damageMult();
-
-        AttributeInstance healthAttribute = this.getAttribute(Attributes.MAX_HEALTH);
-        AttributeInstance attackDamageAttribute = this.getAttribute(Attributes.ATTACK_DAMAGE);
-
-        double baseHealth = baseHealth();
-        double baseAttackDamage = baseDamage();
-
-        double newHealth = baseHealth * healthMultiplier;
-        double newAttackDamage = baseAttackDamage * damageMultiplier;
-
-        if (healthAttribute != null && healthAttribute.getBaseValue() != newHealth) {
-            healthAttribute.setBaseValue(newHealth);
-            this.setHealth((float) newHealth);
-        }
-
-        if (attackDamageAttribute != null && attackDamageAttribute.getBaseValue() != newAttackDamage) {
-            attackDamageAttribute.setBaseValue(newAttackDamage);
-        }
-    }*/
 
     public Random random1 = new Random();
 
