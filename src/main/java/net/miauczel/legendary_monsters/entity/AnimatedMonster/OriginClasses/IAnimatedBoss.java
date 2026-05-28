@@ -129,7 +129,7 @@ public class IAnimatedBoss extends IAnimatedMonster {
     @Override
     public void tick() {
         if (!this.level().isClientSide()) {
-            this.getAttribute(Attributes.MAX_HEALTH).setBaseValue(getMaxHealth());
+          //  this.getAttribute(Attributes.MAX_HEALTH).setBaseValue(getMaxHealth());
             if (hurtCD > 0) hurtCD--;
             if (getHealth() > 0.0F) {
                 super.setHealth(getHealth());
@@ -293,10 +293,6 @@ public class IAnimatedBoss extends IAnimatedMonster {
         super.setHealth(getHealth());
 
         if (getInvulnerabilityConfig()) hurtCD = HURT_COOLDOWN;
-
-      //  System.out.println("Amount before armor: " + amount);
-      //  System.out.println("Amount after armor: " + finalDamage);
-
         if (getHealth() <= 0.0F) {
             this.die(source);
         }
