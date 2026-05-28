@@ -75,7 +75,7 @@ public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
             return false;
         } else return super.addEffect(pEffectInstance, pEntity);
     }
-    private static final EntityDataAccessor<Integer> IDLE_STATE = SynchedEntityData.defineId(TheObliteratorEntity.class, EntityDataSerializers.INT);
+    private static final EntityDataAccessor<Integer> IDLE_STATE = SynchedEntityData.defineId(AnnihilationPursuerEntity.class, EntityDataSerializers.INT);
     public final int TELEPORT_SLAM_COOLDOWN = 100;
     public final int SHIELD_STUN_COOLDOWN = 100;
 
