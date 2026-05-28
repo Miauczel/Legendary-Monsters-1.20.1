@@ -62,11 +62,13 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
+import java.util.UUID;
 
 public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
     public AnnihilationPursuerEntity(EntityType entity, Level world) {
 
         super(entity, world);
+        setUUID(UUID.randomUUID());
         xpReward = 15;
         this.setPersistenceRequired();
     }
@@ -102,7 +104,6 @@ public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
                 getFirstPassenger().setShiftKeyDown(false);
             }
         }
-        // System.out.println("Has Hit: " + hasHit + " GetAttackState: " + getAttackState());
         if (teleport_slam_cooldown > 0) teleport_slam_cooldown--;
         if (stomp_combo_cooldown > 0) stomp_combo_cooldown--;
         if (shield_stun_cooldown > 0) shield_stun_cooldown--;
