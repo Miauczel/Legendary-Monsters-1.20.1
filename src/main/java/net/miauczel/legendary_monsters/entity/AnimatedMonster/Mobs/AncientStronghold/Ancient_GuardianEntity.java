@@ -445,16 +445,20 @@ public class Ancient_GuardianEntity extends IAnimatedMiniBoss {
         super.aiStep();
         attackParticle();
         if (this.getAttackState() == 16) {
-            destroy();
+            if (!this.level().isClientSide) {
+                if (ForgeEventFactory.getMobGriefingEvent(this.level(), this)) {
+                    this.destroy();
+                }
+
+            }
         }
         if (this.getAttackState() == 6) {
             if (this.attackTicks >= 36 && this.attackTicks <= 41) {
-                this.destroy();
-
                 if (!this.level().isClientSide) {
+                    if (ForgeEventFactory.getMobGriefingEvent(this.level(), this)) {
+                        this.destroy();
+                    }
 
-                } else if (ForgeEventFactory.getMobGriefingEvent(this.level(), this)) {
-                    this.destroy();
                 }
             }
         }
