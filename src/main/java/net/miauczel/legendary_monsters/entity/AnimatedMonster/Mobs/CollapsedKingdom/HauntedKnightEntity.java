@@ -41,6 +41,7 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.GameRules;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.gameevent.GameEvent;
@@ -403,20 +404,23 @@ public class HauntedKnightEntity extends IAnimatedMonster implements IForgeEntit
         super.die(source);
         dragonDeathTime = 0;
         setAttackState(6);
-        switch (getTextureVariant()) {
-            case 0,3 ->{
-                for (int i =0; i<=random.nextInt(1,5);i++) {
-                    LGspawnatlocation(Items.IRON_INGOT.getDefaultInstance());
+
+        if (level().getGameRules().getBoolean(GameRules.RULE_DOMOBLOOT)) {
+            switch (getTextureVariant()) {
+                case 0, 3 -> {
+                    for (int i = 0; i <= random.nextInt(1, 5); i++) {
+                        LGspawnatlocation(Items.IRON_INGOT.getDefaultInstance());
+                    }
                 }
-            }
-            case 1 ->{
-                for (int i =0; i<=random.nextInt(1,6);i++) {
-                    LGspawnatlocation(Items.GOLD_INGOT.getDefaultInstance());
+                case 1 -> {
+                    for (int i = 0; i <= random.nextInt(1, 6); i++) {
+                        LGspawnatlocation(Items.GOLD_INGOT.getDefaultInstance());
+                    }
                 }
-            }
-            case 2 ->{
-                for (int i = 0; i<=random.nextInt(-1,2);i++) {
-                    LGspawnatlocation(Items.DIAMOND.getDefaultInstance());
+                case 2 -> {
+                    for (int i = 0; i <= random.nextInt(-1, 2); i++) {
+                        LGspawnatlocation(Items.DIAMOND.getDefaultInstance());
+                    }
                 }
             }
         }
