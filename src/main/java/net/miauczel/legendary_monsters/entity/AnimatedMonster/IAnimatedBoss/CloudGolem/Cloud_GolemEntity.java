@@ -410,15 +410,6 @@ public class Cloud_GolemEntity extends IAnimatedBoss {
                 stunCooldown--;
             }
         }
-
-        if (this.getHealth() <= 0 && !DiedOnce) {
-
-            this.heal(this.getMaxHealth());
-            if (this.isOnFire()) {
-                this.clearFire();
-                this.fireImmune();
-            }
-        }
     }
 
     public int GolemInvulnerabilityTime = 0;
