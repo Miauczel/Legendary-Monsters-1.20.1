@@ -352,19 +352,14 @@ public class PlasmaOrbEntity extends INoRendererEntity {
     boolean hasHurt = false;
 
     protected void onHitEntity(EntityHitResult p_37626_) {
+        if (level().isClientSide) return;
         Entity entity2 = p_37626_.getEntity();
         if (entity2 instanceof LivingEntity entity) {
-            boolean b = getOwner() == null;
-            //    System.out.println("CASTERNULL: " + b);
-            Entity entity1 = this.getOwner();
-            if (entity1 instanceof LivingEntity livingentity) {
-                float m = entity.getMaxHealth() * 0.03f;
-                entity.hurt(ModDamageTypes.causeAnnihilationDamage(livingentity, livingentity), this.getDamage() + MathUtils.entityBasedHpDamage(entity,3));
-                //damage(entity);
-                this.setDeltaMovement(0.0D, 0.0D, 0.0D);
+            LivingEntity entity1 = this.getOwner();
+            entity.hurt(ModDamageTypes.causeAnnihilationDamage(entity1, entity1), this.getDamage() + MathUtils.entityBasedHpDamage(entity, 3));
+            this.setDeltaMovement(0.0D, 0.0D, 0.0D);
+            if (entity1 != null) this.doEnchantDamageEffects(entity1, entity);
 
-                this.doEnchantDamageEffects(livingentity, entity);
-            }
         }
 
     }
