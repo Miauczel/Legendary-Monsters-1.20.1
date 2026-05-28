@@ -80,7 +80,7 @@
   "item.legendary_monsters.spiky_spear" : "とげとげの槍",
   "item.legendary_monsters.golden_halbert" : "黄金のハルバード",
   "item.legendary_monsters.knights_sword" : "騎士の剣",
-  "item.legendary_monsters.corrupted_soul" : "堕落した魂",
+  "item.legendary_monsters.corrupted_soul" : "壊れた魂",
   "item.legendary_monsters.purified_soul" : "浄化された魂",
   "item.legendary_monsters.knight_summoner" : "ナイトサモナー",
   "item.legendary_monsters.guard_summoner" : "ガードサモナー",
@@ -684,7 +684,7 @@
 
   "legendary_monsters.message.possessed_paladin_talk7": "'…自由だ…'",
 
-  "legendary_monsters.message.possessed_paladin_talk8": "'我は…決して…死なぬ…'",
+  "legendary_monsters.message.possessed_paladin_talk8": "'死に我は捕らえられぬ…'",
   "legendary_monsters.message.possessed_paladin_talk9": "'これで終わりではない…'",
 
   "legendary_monsters.message.possessed_paladin_talk10": "'我が影で再び星々を覆うのだ！'",
@@ -706,7 +706,8 @@
 
   "item.legendary_monsters.fractured_spawn_egg" : "砕けた亡霊のスポーンエッグ",
 
-  "entity.legendary_monsters.fractured": "砕けた亡霊"
+  "entity.legendary_monsters.fractured": "砕けた亡霊",
+  "item.legendary_monsters.corrupted_soul1": "私は…自由だ… 再び…最後の戦いへ…"
 
 }
 
