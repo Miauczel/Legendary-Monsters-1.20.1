@@ -482,6 +482,8 @@
   "legendary_monsters.message.pet_wander_enable": " §aWander§f Mode Enabled",
   "legendary_monsters.message.pet_follow_enable": " §6Follow§f Mode Enabled",
 
+  "legendary_monsters.message.pet_guard_enable": " §3Guard§f Mode Enabled",
+
 
   "legendary_monsters.message.mossy_golem_string_message_name": "Mossy Golem",
   "legendary_monsters.message.knight_string_message_name": "Knight",
@@ -510,17 +512,17 @@
   "item.legendary_monsters.totem_of_moss3": "§fShift + Right Click on golem to enable '§aStand Still Mode§7'",
 
 
-  "item.legendary_monsters.guard_summoner1": "§6Rightclick on block to summon a guard that protects you. ",
+  "item.legendary_monsters.guard_summoner1": "§7Right Click on the ground to summon a guard ",
   "item.legendary_monsters.guard_summoner2": "§7it's Automatically tamed on spawn",
-  "item.legendary_monsters.guard_summoner3": "§6Deals more damage and in bigger ARC than knight but is slower.",
+  "item.legendary_monsters.guard_summoner3": "§7Deals more damage and in bigger ARC than knight but is slower.",
   "item.legendary_monsters.guard_summoner4": "§7can be easily respawned after death using iron ingots and deactivated summoner",
-  "item.legendary_monsters.guard_summoner5": "§7You can re-color him with shift + right click while holding for example diamonds and other valuables.",
+  "item.legendary_monsters.guard_summoner5": "§7You can re-color him while holding valuable materials or change it's behavior state with shift + right click.",
 
-  "item.legendary_monsters.knight_summoner1": "§6Rightclick on block to summon knight that protects you. ",
+  "item.legendary_monsters.knight_summoner1": "§7Right click on block to summon a knight",
   "item.legendary_monsters.knight_summoner2": "§7it's Automatically tamed on spawn",
-  "item.legendary_monsters.knight_summoner3": "§6Deals less damage than guard but can do fast combos and can block incoming attacks",
+  "item.legendary_monsters.knight_summoner3": "§7Deals less damage than guard but can do fast combos and can block incoming attacks",
   "item.legendary_monsters.knight_summoner4": "§7can be easily respawned after death using iron ingots and deactivated summoner",
-  "item.legendary_monsters.knight_summoner5": "§7You can re-color him with shift + right click while holding for example diamonds and other valuables.",
+  "item.legendary_monsters.knight_summoner5": "§7You can re-color him while holding valuable materials or change it's behavior state with shift + right click.",
 
   "legendary_monsters.message.skeloraptor_time_until_next_roar": "Roar Cooldown: ",
   "block.legendary_monsters.skeletosaurus_egg1": "§7Place it down and wait, to hatch Skeloraptor, once fully grown tame it with raw meat,",
