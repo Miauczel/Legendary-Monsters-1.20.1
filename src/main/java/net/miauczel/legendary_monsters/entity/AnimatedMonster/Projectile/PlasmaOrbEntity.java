@@ -252,8 +252,8 @@ public class PlasmaOrbEntity extends INoRendererEntity {
 
         }
 
-        for (LivingEntity livingentity : this.level().getEntitiesOfClass(LivingEntity.class, this.getBoundingBox()))
-            //  this.damage(livingentity);
+        for (LivingEntity livingentity : this.level().getEntitiesOfClass(LivingEntity.class, this.getBoundingBox().inflate(0.25)))
+              this.damage(livingentity);
             if (lifetick == maxLife - 2) {
                 if (level().isClientSide) {
                     level().addParticle(ModParticles.DIMENSIONAL_EXPLOSION.get(),
@@ -352,11 +352,11 @@ public class PlasmaOrbEntity extends INoRendererEntity {
     boolean hasHurt = false;
 
     protected void onHitEntity(EntityHitResult p_37626_) {
-        if (level().isClientSide) return;
         Entity entity2 = p_37626_.getEntity();
         if (entity2 instanceof LivingEntity entity) {
             LivingEntity entity1 = this.getOwner();
-            entity.hurt(ModDamageTypes.causeAnnihilationDamage(entity1, entity1), this.getDamage() + MathUtils.entityBasedHpDamage(entity, 3));
+            if (entity1 != null)
+            // entity.hurt(ModDamageTypes.causeAnnihilationDamage(entity1, entity1), this.getDamage() + MathUtils.entityBasedHpDamage(entity, 3));
             this.setDeltaMovement(0.0D, 0.0D, 0.0D);
             if (entity1 != null) this.doEnchantDamageEffects(entity1, entity);
 
@@ -374,7 +374,7 @@ public class PlasmaOrbEntity extends INoRendererEntity {
         if (hitresult$type == HitResult.Type.ENTITY) {
             this.onHitEntity((EntityHitResult) p_37260_);
             hasHurt = true;
-            this.level().gameEvent(GameEvent.PROJECTILE_LAND, p_37260_.getLocation(), GameEvent.Context.of(this, (BlockState) null));
+            this.level().gameEvent(GameEvent.PROJECTILE_LAND, p_37260_.getLocation(), GameEvent.Context.of(this, null));
         } else if (hitresult$type == HitResult.Type.BLOCK) {
             BlockHitResult blockhitresult = (BlockHitResult) p_37260_;
             this.onHitBlock(blockhitresult);
@@ -442,6 +442,21 @@ public class PlasmaOrbEntity extends INoRendererEntity {
         }
 
         return true;
+    }
+
+    @Override
+    public boolean isPushable() {
+        return false;
+    }
+
+    @Override
+    public boolean canBeCollidedWith() {
+        return false;
+    }
+
+    @Override
+    public boolean canCollideWith(Entity pEntity) {
+        return false;
     }
 
     public boolean isPickable() {
