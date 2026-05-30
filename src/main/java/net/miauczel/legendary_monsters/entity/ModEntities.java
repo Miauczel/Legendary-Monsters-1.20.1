@@ -420,20 +420,20 @@ public class ModEntities {
             .updateInterval(2)
             .fireImmune()
             .build(MOD_ID + ":small_dimensional_bomb"));
-  public static final RegistryObject<EntityType<TheObliteratorCloneEntity>> THE_WARPED_ONE_DUPLICATE = ENTITY_TYPES.register("the_warped_one_duplicate", () -> EntityType.Builder.
+  public static final RegistryObject<EntityType<TheObliteratorCloneEntity>> THE_WARPED_ONE_DUPLICATE = ENTITY_TYPES.register("the_obliterator_clone", () -> EntityType.Builder.
                     <TheObliteratorCloneEntity>of(TheObliteratorCloneEntity::new, MobCategory.MISC)
             .sized(2F, 2.5F)
             .clientTrackingRange(6)
             .updateInterval(2)
             .fireImmune()
-            .build(MOD_ID + ":the_warped_one_duplicate"));
-    public static final RegistryObject<EntityType<TheObliteratorCloneWithArmsEntity>> THE_WARPED_ONE_DUPLICATE_ARMED = ENTITY_TYPES.register("the_warped_one_duplicate_armed", () -> EntityType.Builder.
+            .build(MOD_ID + ":the_obliterator_clone"));
+    public static final RegistryObject<EntityType<TheObliteratorCloneWithArmsEntity>> THE_WARPED_ONE_DUPLICATE_ARMED = ENTITY_TYPES.register("the_obliterator_clone_armed", () -> EntityType.Builder.
                     <TheObliteratorCloneWithArmsEntity>of(TheObliteratorCloneWithArmsEntity::new, MobCategory.MISC)
             .sized(2F, 2.5F)
             .clientTrackingRange(6)
             .updateInterval(2)
             .fireImmune()
-            .build(MOD_ID + ":the_warped_one_duplicate_armed"));
+            .build(MOD_ID + ":the_obliterator_clone_armed"));
     public static final RegistryObject<EntityType<AnnihilationFlameStrike>> GREEN_FLAME_STRIKE = ENTITY_TYPES.register("green_flame_strike", () -> EntityType.Builder.
                     <AnnihilationFlameStrike>of(AnnihilationFlameStrike::new, MobCategory.MISC)
             .sized(1F, 2)
