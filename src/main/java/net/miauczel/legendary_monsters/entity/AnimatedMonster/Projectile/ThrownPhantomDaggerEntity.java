@@ -5,6 +5,7 @@ import net.miauczel.legendary_monsters.config.ModConfig;
 import net.miauczel.legendary_monsters.damagetype.ModDamageTypes;
 import net.miauczel.legendary_monsters.effect.ModEffects;
 import net.miauczel.legendary_monsters.entity.AnimatedMonster.Mobs.CollapsedKingdom.Fractured.FracturedApostleEntity;
+import net.miauczel.legendary_monsters.entity.client.ControlledAnim;
 import net.miauczel.legendary_monsters.tag.ModEntityTags;
 import net.miauczel.legendary_monsters.util.EntityUtil;
 import net.miauczel.legendary_monsters.util.MathUtils;
@@ -119,10 +120,16 @@ public class ThrownPhantomDaggerEntity extends AbstractFlyingProjectile {
         this.lessLifeTicks = lessLifeTicks;
     }
 
+    public ControlledAnim fade = new ControlledAnim(6);
+
     @Override
     public void tick() {
         super.tick();
-        if (tickCount >= 100 - getLessLifeTicks() + getReturnTick()) {
+        double finalTick = 100 - getLessLifeTicks() + getReturnTick();
+        if (tickCount >= finalTick - 6) {
+            fade.increaseTimer();
+        }
+        if (tickCount >= finalTick) {
             if (!level().isClientSide) discard();
         }
         double dx = getX() + 1.5F * (random.nextFloat() - 0.5F);

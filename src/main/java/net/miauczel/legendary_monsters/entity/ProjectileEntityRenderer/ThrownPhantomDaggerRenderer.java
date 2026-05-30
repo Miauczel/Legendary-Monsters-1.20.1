@@ -46,9 +46,12 @@ public class ThrownPhantomDaggerRenderer extends EntityRenderer<ThrownPhantomDag
         //pMatrixStack.mulPose(Axis.YP.rotationDegrees(90));
         //  model.rotateModel(pEntity, pPartialTicks);
 
+        float animationProgress1 = Math.min(pEntity.fade.getAnimationFraction(), 1F);
+        float f_0_245976 = 1f - animationProgress1;
+
         VertexConsumer vertexconsumer = pBuffer.getBuffer(this.model.renderType(this.getTextureLocation(pEntity)));
         this.model.renderToBuffer(pMatrixStack, vertexconsumer, LightTexture.FULL_BRIGHT, OverlayTexture.NO_OVERLAY,
-                1.0F, 1.0F, 1.0F, 0.65F);
+                1.0F, 1.0F, 1.0F,  Math.max(f_0_245976 - 0.45f, 0));
         // model.rotateModel(pEntity, pPartialTicks);
         pMatrixStack.popPose();
         super.render(pEntity, pEntityYaw, pPartialTicks, pMatrixStack, pBuffer, pPackedLight);
