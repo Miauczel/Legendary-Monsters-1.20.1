@@ -39,7 +39,7 @@ public class ModDamageTypes {
     }
 
     public static DamageSource causeAnnihilationDamage(Entity attacker, LivingEntity caster) {
-            return new DamageSource(attacker.level().registryAccess().registry(Registries.DAMAGE_TYPE).get().getHolderOrThrow(ANNIHILATION), attacker, caster);
+            return new DamageSource(caster.level().registryAccess().registry(Registries.DAMAGE_TYPE).get().getHolderOrThrow(ANNIHILATION), caster, caster);
 
     }
 
