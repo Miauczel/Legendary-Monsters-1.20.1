@@ -324,6 +324,8 @@ public class ModConfig {
 
         public final ForgeConfigSpec.BooleanValue AllowBossNatureHeal;
 
+        public final ForgeConfigSpec.BooleanValue AllowKnightSummonsInitiateAttack;
+
         public final ForgeConfigSpec.BooleanValue allowDuoBossRespawnTeammate;
         public final ForgeConfigSpec.DoubleValue CloudGolemDamageCap;
         public final ForgeConfigSpec.BooleanValue CloudGolemInvulnerabilityTime;
@@ -787,6 +789,9 @@ public class ModConfig {
             BossesCancelEating = builder
                     .comment("Allow Bosses cancel eating")
                     .define("Allow Bosses cancel eating",true);
+            AllowKnightSummonsInitiateAttack = builder
+                    .comment("Allow Knight Summons Initiate Attack")
+                    .define("Allow Knight Summons Initiate Attack",true);
             BossesReduceResistanceEffect = builder
                     .comment("Allow Bosses to reduce player's resistance effect")
                     .define("Allow Bosses to reduce player's resistance effect",true);

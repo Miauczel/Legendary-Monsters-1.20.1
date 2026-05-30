@@ -529,12 +529,12 @@ public class FHauntedGuardEntity extends IAnimatedTamableMob {
         this.targetSelector.addGoal(4, new NearestAttackableTargetGoal<>(this, Monster.class, true) {
             @Override
             public boolean canContinueToUse() {
-                return super.canContinueToUse() && getCommand() == 3;
+                return super.canContinueToUse() && getCommand() == 3&& ModConfig.MOB_CONFIG.AllowKnightSummonsInitiateAttack.get();
             }
 
             @Override
             public boolean canUse() {
-                return super.canUse() && getCommand() == 3;
+                return super.canUse() && getCommand() == 3&& ModConfig.MOB_CONFIG.AllowKnightSummonsInitiateAttack.get();
             }
         });
         this.goalSelector.addGoal(2, new FollowOwnerGoal(this, 4.0D, 10.0F, 2.0F, false) {

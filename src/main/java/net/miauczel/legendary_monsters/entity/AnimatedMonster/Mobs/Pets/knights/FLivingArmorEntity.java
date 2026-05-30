@@ -374,12 +374,12 @@ public class FLivingArmorEntity extends IAnimatedTamableMob {
         this.targetSelector.addGoal(4, new NearestAttackableTargetGoal<>(this, Monster.class, true) {
             @Override
             public boolean canContinueToUse() {
-                return super.canContinueToUse() && getCommand() == 3;
+                return super.canContinueToUse() && getCommand() == 3 && ModConfig.MOB_CONFIG.AllowKnightSummonsInitiateAttack.get();
             }
 
             @Override
             public boolean canUse() {
-                return super.canUse() && getCommand() == 3;
+                return super.canUse() && getCommand() == 3&& ModConfig.MOB_CONFIG.AllowKnightSummonsInitiateAttack.get();
             }
         });
         this.goalSelector.addGoal(1, new ILookingTamableMobStateGoal(this, 9, 9, 0, 0, 100, true) {
