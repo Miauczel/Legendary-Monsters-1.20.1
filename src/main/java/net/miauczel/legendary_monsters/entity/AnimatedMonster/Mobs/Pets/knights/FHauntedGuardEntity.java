@@ -37,6 +37,7 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.control.BodyRotationControl;
 import net.minecraft.world.entity.ai.goal.*;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
+import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtTargetGoal;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
@@ -299,115 +300,121 @@ public class FHauntedGuardEntity extends IAnimatedTamableMob {
 
     @Override
     public InteractionResult mobInteract(Player pPlayer, InteractionHand pHand) {
-        ItemStack itemstack = pPlayer.getItemInHand(pHand);
-        Item item = itemstack.getItem();
 
-        if (this.level().isClientSide) {
-            if (this.isTame() && this.isOwnedBy(pPlayer)) {
-                return InteractionResult.SUCCESS;
-            } else {
-                return !this.isFood(itemstack) || !(this.getHealth() < this.getMaxHealth()) && this.isTame() ? InteractionResult.PASS : InteractionResult.SUCCESS;
-            }
-        } else {
-            if (this.isTame()) {
-                if (this.isOwnedBy(pPlayer)) {
-                    int newTextureVariant = -1;
+        if (pPlayer.isShiftKeyDown()) {
+            ItemStack itemstack = pPlayer.getItemInHand(pHand);
+            Item item = itemstack.getItem();
 
-                    if (pPlayer.isShiftKeyDown()) {
-                        if (item == Items.GOLD_INGOT && !(this.getTextureVariant() == 1)) {
-                            SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_GOLD;
-                            this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
-                            newTextureVariant = 1;
-
-                        } else if (item == Items.AMETHYST_SHARD && !(this.getTextureVariant() == 2)) {
-                            SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_DIAMOND;
-                            this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
-                            newTextureVariant = 2;
-
-                        } else if (item == Items.EMERALD && !(this.getTextureVariant() == 3)) {
-                            SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_DIAMOND;
-                            this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
-                            newTextureVariant = 3;
-
-                        } else if (item == Items.COPPER_INGOT && !(this.getTextureVariant() == 4)) {
-                            SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_CHAIN;
-                            this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
-                            newTextureVariant = 4;
-
-                        } else if (item == Items.DIAMOND && !(this.getTextureVariant() == 5)) {
-                            SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_DIAMOND;
-                            this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
-                            newTextureVariant = 5;
-
-                        } else if (item == Items.ECHO_SHARD && !(this.getTextureVariant() == 6)) {
-                            SoundEvent customAttackSound = SoundEvents.ARMOR_EQUIP_NETHERITE;
-                            this.level().playSound(null, this.blockPosition(), customAttackSound, SoundSource.NEUTRAL, 2.0f, 1.0f);
-                            SoundEvent customAttackSound2 = SoundEvents.WARDEN_DEATH;
-                            this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 1.0f, 1.0f);
-                            newTextureVariant = 6;
-
-                        } else if (item == Items.IRON_INGOT && !(this.getTextureVariant() == 7)) {
-                            SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_IRON;
-                            this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
-                            newTextureVariant = 7;
-
-                        } else if (item == Items.NETHERITE_INGOT && !(this.getTextureVariant() == 8)) {
-                            SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_NETHERITE;
-                            this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
-                            newTextureVariant = 8;
-                        }
-
-
-                        if (newTextureVariant != -1) {
-                            this.entityData.set(TEXTURE_VARIANT, newTextureVariant);
-                            itemstack.shrink(1);
-                            return InteractionResult.CONSUME;
-                        }
-                    }
-
-                    InteractionResult interactionresult = super.mobInteract(pPlayer, pHand);
-                    if (!interactionresult.consumesAction() || this.isBaby()) {
-                        switch (getCommand()) {
-                            case 0 -> {
-                                setCommand(getCommand() + 1);
-                                sendAdvancedHotBarMessage("legendary_monsters.message.pet_sit_enable", ChatFormatting.RESET, pPlayer);
-                            }
-                            case 1 -> {
-                                setCommand(getCommand() + 1);
-                                setAttackState(0);
-                                sendAdvancedHotBarMessage("legendary_monsters.message.pet_wander_enable", ChatFormatting.RESET, pPlayer);
-                            }
-                            case 2 -> {
-                                setCommand(0);
-                                sendAdvancedHotBarMessage("legendary_monsters.message.pet_follow_enable", ChatFormatting.RESET, pPlayer);
-                            }
-                        }
-
-                        //   System.out.println("COMMAND: " + getCommand());
-                    }
-
-                    return interactionresult;
-                }
-            } else if (this.isFood(itemstack)) {
-                this.usePlayerItem(pPlayer, pHand, itemstack);
-                if (this.random.nextInt(3) == 0 && !net.minecraftforge.event.ForgeEventFactory.onAnimalTame(this, pPlayer)) {
-                    this.tame(pPlayer);
-                    this.setOrderedToSit(true);
-                    this.level().broadcastEntityEvent(this, (byte) 7);
+            if (this.level().isClientSide) {
+                if (this.isTame() && this.isOwnedBy(pPlayer)) {
+                    return InteractionResult.SUCCESS;
                 } else {
-                    this.level().broadcastEntityEvent(this, (byte) 6);
+                    return !this.isFood(itemstack) || !(this.getHealth() < this.getMaxHealth()) && this.isTame() ? InteractionResult.PASS : InteractionResult.SUCCESS;
+                }
+            } else {
+                if (this.isTame()) {
+                    if (this.isOwnedBy(pPlayer)) {
+                        int newTextureVariant = -1;
+
+                        if (pPlayer.isShiftKeyDown()) {
+                            if (item == Items.GOLD_INGOT && !(this.getTextureVariant() == 1)) {
+                                SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_GOLD;
+                                this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
+                                newTextureVariant = 1;
+
+                            } else if (item == Items.AMETHYST_SHARD && !(this.getTextureVariant() == 2)) {
+                                SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_DIAMOND;
+                                this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
+                                newTextureVariant = 2;
+
+                            } else if (item == Items.EMERALD && !(this.getTextureVariant() == 3)) {
+                                SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_DIAMOND;
+                                this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
+                                newTextureVariant = 3;
+
+                            } else if (item == Items.COPPER_INGOT && !(this.getTextureVariant() == 4)) {
+                                SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_CHAIN;
+                                this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
+                                newTextureVariant = 4;
+
+                            } else if (item == Items.DIAMOND && !(this.getTextureVariant() == 5)) {
+                                SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_DIAMOND;
+                                this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
+                                newTextureVariant = 5;
+
+                            } else if (item == Items.ECHO_SHARD && !(this.getTextureVariant() == 6)) {
+                                SoundEvent customAttackSound = SoundEvents.ARMOR_EQUIP_NETHERITE;
+                                this.level().playSound(null, this.blockPosition(), customAttackSound, SoundSource.NEUTRAL, 2.0f, 1.0f);
+                                SoundEvent customAttackSound2 = SoundEvents.WARDEN_DEATH;
+                                this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 1.0f, 1.0f);
+                                newTextureVariant = 6;
+
+                            } else if (item == Items.IRON_INGOT && !(this.getTextureVariant() == 7)) {
+                                SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_IRON;
+                                this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
+                                newTextureVariant = 7;
+
+                            } else if (item == Items.NETHERITE_INGOT && !(this.getTextureVariant() == 8)) {
+                                SoundEvent customAttackSound2 = SoundEvents.ARMOR_EQUIP_NETHERITE;
+                                this.level().playSound(null, this.blockPosition(), customAttackSound2, SoundSource.NEUTRAL, 2.0f, 1.0f);
+                                newTextureVariant = 8;
+                            }
+
+
+                            if (newTextureVariant != -1) {
+                                this.entityData.set(TEXTURE_VARIANT, newTextureVariant);
+                                itemstack.shrink(1);
+                                return InteractionResult.CONSUME;
+                            }
+                        }
+
+                        InteractionResult interactionresult = super.mobInteract(pPlayer, pHand);
+                        if (!interactionresult.consumesAction() || this.isBaby()) {
+
+                            switch (getCommand()) {
+                                case 0 -> {
+                                    setCommand(getCommand() + 1);
+                                    sendAdvancedHotBarMessage("legendary_monsters.message.pet_sit_enable", ChatFormatting.RESET, pPlayer);
+                                }
+                                case 1 -> {
+                                    setCommand(getCommand() + 1);
+                                    setAttackState(0);
+                                    sendAdvancedHotBarMessage("legendary_monsters.message.pet_wander_enable", ChatFormatting.RESET, pPlayer);
+                                }
+                                case 2 -> {
+                                    setCommand(getCommand() + 1);
+                                    sendAdvancedHotBarMessage("legendary_monsters.message.pet_guard_enable", ChatFormatting.RESET, pPlayer);
+                                }
+                                case 3 -> {
+                                    setCommand(0);
+                                    sendAdvancedHotBarMessage("legendary_monsters.message.pet_follow_enable", ChatFormatting.RESET, pPlayer);
+                                }
+                            }
+                        }
+                        //   System.out.println("COMMAND: " + getCommand());
+                        return interactionresult;
+                    }
+                } else if (this.isFood(itemstack)) {
+                    this.usePlayerItem(pPlayer, pHand, itemstack);
+                    if (this.random.nextInt(3) == 0 && !net.minecraftforge.event.ForgeEventFactory.onAnimalTame(this, pPlayer)) {
+                        this.tame(pPlayer);
+                        this.setOrderedToSit(true);
+                        this.level().broadcastEntityEvent(this, (byte) 7);
+                    } else {
+                        this.level().broadcastEntityEvent(this, (byte) 6);
+                    }
+
+                    this.setPersistenceRequired();
+                    return InteractionResult.CONSUME;
+                }
+                InteractionResult interactionresult1 = super.mobInteract(pPlayer, pHand);
+                if (interactionresult1.consumesAction()) {
+                    this.setPersistenceRequired();
                 }
 
-                this.setPersistenceRequired();
-                return InteractionResult.CONSUME;
+                return interactionresult1;
             }
-            InteractionResult interactionresult1 = super.mobInteract(pPlayer, pHand);
-            if (interactionresult1.consumesAction()) {
-                this.setPersistenceRequired();
-            }
-
-            return interactionresult1;
-        }
+        } else return InteractionResult.FAIL;
     }
 
     public void setOrderedToSit(boolean sitting) {
@@ -506,8 +513,30 @@ public class FHauntedGuardEntity extends IAnimatedTamableMob {
             }
         });
         this.goalSelector.addGoal(1, new LookAtPlayerGoal(this, Player.class, 3f));
-        this.goalSelector.addGoal(3, new WaterAvoidingRandomStrollGoal(this, 3f));
+        this.goalSelector.addGoal(3, new WaterAvoidingRandomStrollGoal(this, 3f) {
+            @Override
+            public boolean canUse() {
+                return super.canUse() && getCommand() != 1;
+            }
+
+            @Override
+            public boolean canContinueToUse() {
+                return super.canContinueToUse() && getCommand() != 1;
+            }
+        });
         this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
+
+        this.targetSelector.addGoal(4, new NearestAttackableTargetGoal<>(this, Monster.class, true) {
+            @Override
+            public boolean canContinueToUse() {
+                return super.canContinueToUse() && getCommand() == 3;
+            }
+
+            @Override
+            public boolean canUse() {
+                return super.canUse() && getCommand() == 3;
+            }
+        });
         this.goalSelector.addGoal(2, new FollowOwnerGoal(this, 4.0D, 10.0F, 2.0F, false) {
             @Override
             public boolean canUse() {
@@ -552,7 +581,6 @@ public class FHauntedGuardEntity extends IAnimatedTamableMob {
                 return super.canContinueToUse() && getCommand() != 1;
             }
         });
-        // this.targetSelector.addGoal(4, new NearestAttackableTargetGoal<>(this, Player.class, true, false));
 
         this.goalSelector.addGoal(1, new ITamableMobAttackGoal(this, 0, 2, 0, toTicks(2.67f), 15, 4F) {
             @Override
