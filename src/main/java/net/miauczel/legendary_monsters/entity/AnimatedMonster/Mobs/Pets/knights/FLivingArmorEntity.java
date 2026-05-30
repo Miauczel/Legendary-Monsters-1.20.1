@@ -346,7 +346,6 @@ public class FLivingArmorEntity extends IAnimatedTamableMob {
 
     private void sendActionBarMessageToPlayer(Player player, String translationKey, String entityName) {
         if (player instanceof ServerPlayer serverPlayer) {
-            // Tworzysz komponent literalny z nazwą entity
             Component message =
                     Component.literal("<")
                             .append(Component.translatable(entityName)).append(">")
@@ -399,7 +398,17 @@ public class FLivingArmorEntity extends IAnimatedTamableMob {
 
 
         this.goalSelector.addGoal(1, new LookAtPlayerGoal(this, Player.class, 3f));
-        this.goalSelector.addGoal(3, new WaterAvoidingRandomStrollGoal(this, 3f));
+        this.goalSelector.addGoal(3, new WaterAvoidingRandomStrollGoal(this, 3f) {
+            @Override
+            public boolean canUse() {
+                return super.canUse() && getCommand() == 2;
+            }
+
+            @Override
+            public boolean canContinueToUse() {
+                return super.canContinueToUse() && getCommand() == 2;
+            }
+        });
         this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
         this.goalSelector.addGoal(2, new FollowOwnerGoal(this, 4.0D, 10.0F, 2.0F, false) {
             @Override
@@ -669,7 +678,6 @@ public class FLivingArmorEntity extends IAnimatedTamableMob {
     }
 
 
-
     public void sendAdvancedHotBarMessage(String message, ChatFormatting chatFormatting, Player player) {
         Component messageComponent =
                 Component.literal("<")
@@ -844,6 +852,7 @@ public class FLivingArmorEntity extends IAnimatedTamableMob {
 
         return itemEntity;
     }
+
     public int dragonDeathTime;
     public int DeathAnimationTimeout = 60;
 
@@ -909,7 +918,7 @@ public class FLivingArmorEntity extends IAnimatedTamableMob {
     @Override
     public void onAddedToWorld() {
         super.onAddedToWorld();
-        EntityUtil.applyHealthMultiplier(this,ModConfig.MOB_CONFIG.TamableKnightHealthMultiplier.get());
+        EntityUtil.applyHealthMultiplier(this, ModConfig.MOB_CONFIG.TamableKnightHealthMultiplier.get());
         this.setPersistenceRequired();
     }
 
