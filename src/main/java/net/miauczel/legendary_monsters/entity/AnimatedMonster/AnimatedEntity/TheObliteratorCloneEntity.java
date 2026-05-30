@@ -168,6 +168,8 @@ public float getDestinationX(){
     public final ControlledAnim RendercontrolledAnim = new ControlledAnim(15);
 
     public final ControlledAnim RendercontrolledAnim2 = new ControlledAnim(15);
+
+    public final ControlledAnim fade = new ControlledAnim(15);
     @Override
     public int disappearTicks() {
         return 15;
@@ -217,6 +219,9 @@ public float getDestinationX(){
         if (AnimationTicks >13){
             RendercontrolledAnim.increaseTimer();
         }
+        if (tickCount > 15){
+            fade.increaseTimer();
+        }
         if (this.AnimationTicks ==13){
 
             this.level().playLocalSound(this.getX(), this.getY(), this.getZ(), ModSounds.THE_WARPED_ONE_SHOOT.get(), this.getSoundSource(), 0.1F, 1F, false);
@@ -248,11 +253,7 @@ if (AnimationTicks == 6){
 
     }
 }
-        if (AnimationTicks >=4 && AnimationTicks<=6 ){
-            if (level().isClientSide) {
 
-            }
-        }
         this.prevactivateProgress = this.activateProgress;
 
         if (this.level().isClientSide) {

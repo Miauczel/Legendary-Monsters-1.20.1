@@ -1,124 +1,128 @@
-        package net.miauczel.legendary_monsters.entity.client.Render;
+package net.miauczel.legendary_monsters.entity.client.Render;
 
-        import com.mojang.blaze3d.vertex.PoseStack;
-        import com.mojang.blaze3d.vertex.VertexConsumer;
-        import com.mojang.math.Axis;
-        import net.miauczel.legendary_monsters.LegendaryMonsters;
-        import net.miauczel.legendary_monsters.client.RenderUtils;
-        import net.miauczel.legendary_monsters.entity.AnimatedMonster.AnimatedEntity.TheObliteratorCloneEntity;
-        import net.miauczel.legendary_monsters.entity.client.ModModelLayers;
-        import net.miauczel.legendary_monsters.entity.client.Model.TheObliteratorCloneModel;
-        import net.minecraft.client.Minecraft;
-        import net.minecraft.client.renderer.MultiBufferSource;
-        import net.minecraft.client.renderer.RenderType;
-        import net.minecraft.client.renderer.entity.EntityRenderer;
-        import net.minecraft.client.renderer.entity.EntityRendererProvider;
-        import net.minecraft.client.renderer.texture.OverlayTexture;
-        import net.minecraft.resources.ResourceLocation;
-        import net.minecraft.util.Mth;
+import com.mojang.blaze3d.vertex.PoseStack;
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.math.Axis;
+import net.miauczel.legendary_monsters.LegendaryMonsters;
+import net.miauczel.legendary_monsters.client.RenderUtils;
+import net.miauczel.legendary_monsters.entity.AnimatedMonster.AnimatedEntity.TheObliteratorCloneEntity;
+import net.miauczel.legendary_monsters.entity.client.ModModelLayers;
+import net.miauczel.legendary_monsters.entity.client.Model.TheObliteratorCloneModel;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.entity.EntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.texture.OverlayTexture;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.Mth;
 
-        import javax.annotation.Nullable;
-
-
-        public class TheObliteratorCloneRenderer extends EntityRenderer<TheObliteratorCloneEntity> {
-            private static final ResourceLocation BASE_LAYER = new ResourceLocation(LegendaryMonsters.MOD_ID,"textures/entity/the_warped_one/the_warped_one.png");
-            public static final ResourceLocation INNER_LAYER = new ResourceLocation(LegendaryMonsters.MOD_ID, "textures/entity/the_warped_one/ball/inner_ball_layer.png");
-            public static final ResourceLocation OUTER_LAYER = new ResourceLocation(LegendaryMonsters.MOD_ID, "textures/entity/the_warped_one/ball/outer_ball_layer.png");
+import javax.annotation.Nullable;
 
 
-            private final TheObliteratorCloneModel<TheObliteratorCloneEntity> model;
-
-            public TheObliteratorCloneRenderer(EntityRendererProvider.Context pContext) {
-                super(pContext);
-                this.model = new TheObliteratorCloneModel<>(pContext.bakeLayer(ModModelLayers.THE_OBLITERATOR_CLONE_LAYER));
-            }
-
-            public void render(TheObliteratorCloneEntity pEntity, float pEntityYaw, float pPartialTicks, PoseStack pMatrixStack, MultiBufferSource pBuffer, int pPackedLight) {
+public class TheObliteratorCloneRenderer extends EntityRenderer<TheObliteratorCloneEntity> {
+    private static final ResourceLocation BASE_LAYER = new ResourceLocation(LegendaryMonsters.MOD_ID, "textures/entity/the_warped_one/the_warped_one.png");
+    public static final ResourceLocation INNER_LAYER = new ResourceLocation(LegendaryMonsters.MOD_ID, "textures/entity/the_warped_one/ball/inner_ball_layer.png");
+    public static final ResourceLocation OUTER_LAYER = new ResourceLocation(LegendaryMonsters.MOD_ID, "textures/entity/the_warped_one/ball/outer_ball_layer.png");
 
 
-                pMatrixStack.pushPose();
-                float f = Mth.cos(pEntity.getYRot() * ((float) Math.PI / 180F));
-                float f12 = Mth.sin(pEntity.getYRot() * ((float) Math.PI / 180F));
-                double theta = (pEntity.getYRot()) * (Math.PI / 180);
-                theta += Math.PI / 2;
-                double vecX = Math.cos(theta);
-                double vecZ = Math.sin(theta);
-                float vec = 0;
-                float offset =0;
-                double x = 0 +  vec * vecX + f * offset;
-                double z = 0+ vec * vecZ + f12 * offset;
-                float yaw = (float) -pEntity.getYRot() +90;
+    private final TheObliteratorCloneModel<TheObliteratorCloneEntity> model;
+
+    public TheObliteratorCloneRenderer(EntityRendererProvider.Context pContext) {
+        super(pContext);
+        this.model = new TheObliteratorCloneModel<>(pContext.bakeLayer(ModModelLayers.THE_OBLITERATOR_CLONE_LAYER));
+    }
+
+    public void render(TheObliteratorCloneEntity pEntity, float pEntityYaw, float pPartialTicks, PoseStack pMatrixStack, MultiBufferSource pBuffer, int pPackedLight) {
 
 
-
-                VertexConsumer vertexConsumer = pBuffer.getBuffer(LMRenderTypes.LIGHTNING_NO_CULL);
-                float uniA = 0.65f;
-
-                float animationProgress1 = Math.min(pEntity.RendercontrolledAnim.getAnimationFraction(), 1F);
-                float f_0_245976 = 1f- animationProgress1;
-                float uniY = 1f;
-                if (f_0_245976 >=0 && pEntity.AnimationTicks >= 3) {
-                    RenderUtils.renderPivotedQuad(8, 0.35f, x, uniY, z, 90, yaw, 0, vertexConsumer, pMatrixStack, OverlayTexture.NO_OVERLAY, pPackedLight, 0.25f, 1, 0.25f, Mth.clamp(f_0_245976-uniA,0,1));
-                    //    RenderUtils.renderPivotedQuad(10, 0.1f, x, uniY, z, 0,yaw, 0, vertexConsumer, pMatrixStack, OverlayTexture.NO_OVERLAY, pPackedLight, 0.25f, 1, 0.25f, uniA);
-                }
-                pMatrixStack.popPose();
-                float animationProgress = Math.min(pEntity.controlledAnim.getAnimationFraction(), 1F);
-                float f1 = 1f- animationProgress;
-                double dx = pEntity.getDestinationX() - pEntity.getX();
-                double dy = pEntity.getDestinationY() - pEntity.getY();
-                double dz = pEntity.getDestinationZ() - pEntity.getZ();
-                float yawDeg = (float)(Math.toDegrees(Math.atan2(dz, dx))) - 90F;
-                float horizontal = (float)Math.sqrt(dx*dx + dz*dz);
-                float pitchDeg = - (float)(Math.toDegrees(Math.atan2(dy, horizontal)));
-                float yawRad   = (float)Math.toRadians(yawDeg);
-                float pitchRad = (float)Math.toRadians(pitchDeg);
-                pMatrixStack.pushPose();
-                float uniformScale = 0.8f;
-                pMatrixStack.scale(uniformScale,uniformScale,uniformScale);
-
-                pMatrixStack.mulPose(Axis.YP.rotation(-yawRad + (float)Math.PI));
-
-                pMatrixStack.mulPose(Axis.XP.rotation(-pitchRad));
-
-                pMatrixStack.mulPose(Axis.ZP.rotation((float)Math.PI));
-
-                Minecraft minecraft = Minecraft.getInstance();
-                boolean flag2 = minecraft.shouldEntityAppearGlowing(pEntity);
-                RenderType rendertype = this.getRenderType(pEntity, flag2);
-                if (rendertype != null) {
-                    VertexConsumer vertexconsumer = pBuffer.getBuffer(rendertype);
-                    int i = getOverlayCoords(pEntity, this.getWhiteOverlayProgress(pEntity, pPartialTicks));
-                    this.model.renderToBuffer(pMatrixStack, vertexconsumer, pPackedLight, i, 1.0F, 1.0F, 1.0F,1.0F);
-                }
-                VertexConsumer VertexConsumer = pBuffer.getBuffer(RenderType.entityTranslucent(this.getTextureLocation(pEntity)));
-                model.setupAnim(pEntity, 0, 0, pEntity.tickCount + pPartialTicks, 0, 0);
-
-                model.renderToBuffer(pMatrixStack, VertexConsumer, pPackedLight, OverlayTexture.NO_OVERLAY, 1f, 1f, 1f, f1-0.3f);
-
-                VertexConsumer VertexConsumer2 = pBuffer.getBuffer(LMRenderTypes.eyes(OUTER_LAYER));
-                model.renderToBuffer(pMatrixStack, VertexConsumer2, pPackedLight, OverlayTexture.NO_OVERLAY, 1, 1, 1, 0.4F);
-
-                VertexConsumer VertexConsumer3 = pBuffer.getBuffer(LMRenderTypes.eyes(INNER_LAYER));
+        pMatrixStack.pushPose();
+        float f = Mth.cos(pEntity.getYRot() * ((float) Math.PI / 180F));
+        float f12 = Mth.sin(pEntity.getYRot() * ((float) Math.PI / 180F));
+        double theta = (pEntity.getYRot()) * (Math.PI / 180);
+        theta += Math.PI / 2;
+        double vecX = Math.cos(theta);
+        double vecZ = Math.sin(theta);
+        float vec = 0;
+        float offset = 0;
+        double x = 0 + vec * vecX + f * offset;
+        double z = 0 + vec * vecZ + f12 * offset;
+        float yaw = (float) -pEntity.getYRot() + 90;
 
 
-                model.renderToBuffer(pMatrixStack, VertexConsumer3, pPackedLight, OverlayTexture.NO_OVERLAY, 1, 1, 1, 1F);
+        VertexConsumer vertexConsumer = pBuffer.getBuffer(LMRenderTypes.LIGHTNING_NO_CULL);
+        float uniA = 0.65f;
 
-                pMatrixStack.popPose();
-
-            }
-
-            public ResourceLocation getTextureLocation(TheObliteratorCloneEntity pEntity) {
-                return BASE_LAYER;
-            }
-            @Nullable
-            protected RenderType getRenderType(TheObliteratorCloneEntity pLivingEntity, boolean pGlowing) {
-                ResourceLocation resourcelocation = this.getTextureLocation(pLivingEntity);
-                    return pGlowing ? RenderType.outline(resourcelocation) : null;
-            }
-            protected float getWhiteOverlayProgress(TheObliteratorCloneEntity entity, float pPartialTicks) {
-                return 0.0F;
-            }
-            public static int getOverlayCoords(TheObliteratorCloneEntity pLivingEntity, float pU) {
-                return OverlayTexture.pack(OverlayTexture.u(pU), OverlayTexture.v(true));
-            }
+        float animationProgress1 = Math.min(pEntity.RendercontrolledAnim.getAnimationFraction(), 1F);
+        float f_0_245976 = 1f - animationProgress1;
+        float uniY = 1f;
+        if (f_0_245976 >= 0 && pEntity.AnimationTicks >= 3) {
+            RenderUtils.renderPivotedQuad(8, 0.35f, x, uniY, z, 90, yaw, 0, vertexConsumer, pMatrixStack, OverlayTexture.NO_OVERLAY, pPackedLight, 0.25f, 1, 0.25f, Mth.clamp(f_0_245976 - uniA, 0, 1));
+            //    RenderUtils.renderPivotedQuad(10, 0.1f, x, uniY, z, 0,yaw, 0, vertexConsumer, pMatrixStack, OverlayTexture.NO_OVERLAY, pPackedLight, 0.25f, 1, 0.25f, uniA);
         }
+        pMatrixStack.popPose();
+        float animationProgress = Math.min(pEntity.controlledAnim.getAnimationFraction(), 1F);
+        float f1 = 1f - animationProgress;
+        double dx = pEntity.getDestinationX() - pEntity.getX();
+        double dy = pEntity.getDestinationY() - pEntity.getY();
+        double dz = pEntity.getDestinationZ() - pEntity.getZ();
+        float yawDeg = (float) (Math.toDegrees(Math.atan2(dz, dx))) - 90F;
+        float horizontal = (float) Math.sqrt(dx * dx + dz * dz);
+        float pitchDeg = -(float) (Math.toDegrees(Math.atan2(dy, horizontal)));
+        float yawRad = (float) Math.toRadians(yawDeg);
+        float pitchRad = (float) Math.toRadians(pitchDeg);
+        pMatrixStack.pushPose();
+        float uniformScale = 0.8f;
+        pMatrixStack.scale(uniformScale, uniformScale, uniformScale);
+
+        pMatrixStack.mulPose(Axis.YP.rotation(-yawRad + (float) Math.PI));
+
+        pMatrixStack.mulPose(Axis.XP.rotation(-pitchRad));
+
+        pMatrixStack.mulPose(Axis.ZP.rotation((float) Math.PI));
+
+        Minecraft minecraft = Minecraft.getInstance();
+        boolean flag2 = minecraft.shouldEntityAppearGlowing(pEntity);
+        RenderType rendertype = this.getRenderType(pEntity, flag2);
+        if (rendertype != null) {
+            VertexConsumer vertexconsumer = pBuffer.getBuffer(rendertype);
+            int i = getOverlayCoords(pEntity, this.getWhiteOverlayProgress(pEntity, pPartialTicks));
+
+            this.model.renderToBuffer(pMatrixStack, vertexconsumer, pPackedLight, i, 1.0F, 1.0F, 1.0F, 1.0F);
+        }
+        VertexConsumer VertexConsumer = pBuffer.getBuffer(RenderType.entityTranslucent(this.getTextureLocation(pEntity)));
+        model.setupAnim(pEntity, 0, 0, pEntity.tickCount + pPartialTicks, 0, 0);
+
+        float animationProgress2 = Math.min(pEntity.fade.getAnimationFraction(), 1F);
+        float f_0_2459762 = 1f - animationProgress2;
+        model.renderToBuffer(pMatrixStack, VertexConsumer, pPackedLight, OverlayTexture.NO_OVERLAY, 1f, 1f, 1f, Mth.clamp(f_0_2459762 - 0.3f, 0, 1));
+
+        VertexConsumer VertexConsumer2 = pBuffer.getBuffer(LMRenderTypes.eyes(OUTER_LAYER));
+        model.renderToBuffer(pMatrixStack, VertexConsumer2, pPackedLight, OverlayTexture.NO_OVERLAY, 1, 1, 1, 0.4F);
+
+        VertexConsumer VertexConsumer3 = pBuffer.getBuffer(LMRenderTypes.eyes(INNER_LAYER));
+
+        if (pEntity.getAnimationTicks() <=13) model.renderToBuffer(pMatrixStack, VertexConsumer3, pPackedLight, OverlayTexture.NO_OVERLAY, 1, 1, 1, 1F);
+
+        pMatrixStack.popPose();
+
+    }
+
+    public ResourceLocation getTextureLocation(TheObliteratorCloneEntity pEntity) {
+        return BASE_LAYER;
+    }
+
+    @Nullable
+    protected RenderType getRenderType(TheObliteratorCloneEntity pLivingEntity, boolean pGlowing) {
+        ResourceLocation resourcelocation = this.getTextureLocation(pLivingEntity);
+        return pGlowing ? RenderType.outline(resourcelocation) : null;
+    }
+
+    protected float getWhiteOverlayProgress(TheObliteratorCloneEntity entity, float pPartialTicks) {
+        return 0.0F;
+    }
+
+    public static int getOverlayCoords(TheObliteratorCloneEntity pLivingEntity, float pU) {
+        return OverlayTexture.pack(OverlayTexture.u(pU), OverlayTexture.v(true));
+    }
+}

@@ -99,17 +99,6 @@
 
                 model.renderToBuffer(pMatrixStack, VertexConsumer, pPackedLight, OverlayTexture.NO_OVERLAY, 1f, 1f, 1f, f1-0.3f);
 
-                VertexConsumer VertexConsumer2 = pBuffer.getBuffer(LMRenderTypes.eyes(OUTER_LAYER));
-                //model.renderToBuffer(pMatrixStack, VertexConsumer2, pPackedLight, OverlayTexture.NO_OVERLAY, 1, 1, 1, 0.4F);
-
-
-                VertexConsumer vertexOuter = pBuffer.getBuffer(RenderType.entityTranslucent(OUTER_LAYER));
-
-                VertexConsumer VertexConsumer3 = pBuffer.getBuffer(LMRenderTypes.eyes(INNER_LAYER));
-
-
-               // model.renderToBuffer(pMatrixStack, VertexConsumer3, pPackedLight, OverlayTexture.NO_OVERLAY, 1, 1, 1, 1F);
-
                 pMatrixStack.popPose();
 
             }
