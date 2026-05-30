@@ -415,6 +415,8 @@ public class ModConfig {
         public final ForgeConfigSpec.DoubleValue TheObliteratorDamageCap;
         public final ForgeConfigSpec.DoubleValue TheObliteratorDamageMutliplier;
 
+        public final ForgeConfigSpec.IntValue MiniBossDamageCap;
+
         public final ForgeConfigSpec.IntValue TheObliteratorCloneBurstHPDamage;
 
         public final ForgeConfigSpec.IntValue TheObliteratorPortalHPDamage;
@@ -776,6 +778,9 @@ public class ModConfig {
             allowCameraShake = builder
                     .comment("allow Camera Shake")
                     .define("Allow Camera Shake",true);
+            MiniBossDamageCap = builder
+                    .comment("MiniBoss DamageCap")
+                    .defineInRange("MiniBoss DamageCap",21,0,1000);
            // canSoulGreatSwordUseParry = builder
                    // .comment("allow Soul Great Sword Parry Ability")
                    // .define("Allow Soul Great Sword Parry Ability",true);

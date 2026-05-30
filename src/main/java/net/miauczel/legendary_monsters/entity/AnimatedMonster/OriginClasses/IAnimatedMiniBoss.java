@@ -141,7 +141,7 @@ public class IAnimatedMiniBoss extends IAnimatedMob {
     }
 
     public double damageCap() {
-        return 21;
+        return ModConfig.MOB_CONFIG.MiniBossDamageCap.get();
     }
 
     public float damageReduction() {
