@@ -74,7 +74,7 @@ public class HauntedGuardEntity extends IAnimatedMonster implements IForgeEntity
 
     @Override
     public @Nullable SpawnGroupData finalizeSpawn(ServerLevelAccessor pLevel, DifficultyInstance pDifficulty, MobSpawnType pReason, @Nullable SpawnGroupData pSpawnData, @Nullable CompoundTag pDataTag) {
-        this.setSleep(true);
+      //  this.setSleep(true);
         setTextureVariant(this.random.nextInt(0, 3));
         return super.finalizeSpawn(pLevel, pDifficulty, pReason, pSpawnData, pDataTag);
     }
