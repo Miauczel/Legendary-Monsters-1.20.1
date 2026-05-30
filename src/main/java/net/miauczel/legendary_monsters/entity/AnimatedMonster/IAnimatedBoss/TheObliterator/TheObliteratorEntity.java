@@ -4613,11 +4613,12 @@ public class TheObliteratorEntity extends IAnimatedBoss {
             }
 
             if (attackTicks == 46) {
-
                 //  System.out.println("isRight: " + isRight);
                 LivingEntity entity = this;
+                double targetSpeedValue = targetIsNotNull() && target().getAttributes().hasAttribute(Attributes.MOVEMENT_SPEED)
+                        ? target().getAttribute(Attributes.MOVEMENT_SPEED).getValue() * 5 : 0;
                 float uniformPrecentage = 0.5f;
-                float uniformSpeed = 2.6f;
+                float uniformSpeed = (float) (2.6f + targetSpeedValue);
                 float uniformDamage = 7.5f;//Old 12
                 playSound(ModSounds.QUAD_ANNIHILATION_LASER_SHOOT.get(), 3, 1f);
                 Vec3 entityPosition = this.position();
@@ -5178,7 +5179,6 @@ public class TheObliteratorEntity extends IAnimatedBoss {
     //DATA ATTRIBUTES
 
 
-
     @Override
     public double baseHealth() {
         return getMaxHealth();
@@ -5604,7 +5604,8 @@ public class TheObliteratorEntity extends IAnimatedBoss {
                     EntityUtil.applyPlayerDeltaMovement(entityHit);
                 }
 
-                if (flag) {   EntityUtil.cancelBuffs(entityHit);
+                if (flag) {
+                    EntityUtil.cancelBuffs(entityHit);
                     TheObliteratorUtils.applyAnnihilationEffect(entityHit, ModEffects.ANNIHILATION.get(), 1, true);
                     succedGrabbing = true;
                 } else {
