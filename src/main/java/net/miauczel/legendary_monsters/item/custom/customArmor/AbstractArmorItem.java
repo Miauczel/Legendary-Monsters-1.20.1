@@ -26,7 +26,7 @@ import java.util.function.Function;
 public abstract class AbstractArmorItem extends ArmorItem {
 
     public AbstractArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
-        super(pMaterial, pType, pProperties);
+        super(pMaterial, pType, pProperties.stacksTo(1));
     }
 
     public boolean isFullSetActive(LivingEntity living) {

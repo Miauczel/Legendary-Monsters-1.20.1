@@ -94,9 +94,6 @@ public class TheObliteratorEntity extends IAnimatedBoss {
         super(entity, world);
         xpReward = 100;
         this.setPersistenceRequired();
-        {
-            this.setPersistenceRequired();
-        }
     }
 
     public void setBossBarVisible(boolean b) {
@@ -5541,7 +5538,7 @@ public class TheObliteratorEntity extends IAnimatedBoss {
                 hitAny = true;
                 float m = entityHit.getMaxHealth() * toPercent(3);
                 boolean flag = entityHit.hurt(this.damageSources().mobAttack(this),
-                        (float) (((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, 3) * ModConfig.MOB_CONFIG.PosessedPaladinDamageMutliplier.get()))));
+                        (float) (((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, 3)) * ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get())));
                 boolean entityHitisTarget = entityHit == target();
                 boolean mounted = entityHitisTarget && entityHit.startRiding(this, true);
 
@@ -5593,7 +5590,7 @@ public class TheObliteratorEntity extends IAnimatedBoss {
             if (!isAlliedTo(entityHit) && entityHit != this) {
                 hitAny = true;
                 boolean flag = entityHit.hurt(this.damageSources().mobAttack(this),
-                        (float) (((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, 3)) * ModConfig.MOB_CONFIG.PosessedPaladinDamageMutliplier.get())));
+                        (float) (((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, 3)) * ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get())));
 
 
                 if (flag && (getAttackState() == 17 || getAttackState() == 47)) {
@@ -5668,7 +5665,7 @@ public class TheObliteratorEntity extends IAnimatedBoss {
         AABB attackRange = this.getBoundingBox().inflate(boxWidth, inflateY, boxWidth).expandTowards(xRange, 0, zRange);
         for (LivingEntity entityHit : this.level().getEntitiesOfClass(LivingEntity.class, attackRange)) {
             if (!isAlliedTo(entityHit) && entityHit != this) {
-                boolean flag = entityHit.hurt(this.damageSources().mobAttack(this), (float) ((damage + TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, precentage) * ModConfig.MOB_CONFIG.PosessedPaladinDamageMutliplier.get())));
+                boolean flag = entityHit.hurt(this.damageSources().mobAttack(this), (float) ((damage + TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, precentage)) * ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get()));
                 if (flag)
                     TheObliteratorUtils.applyAnnihilationEffect(entityHit, ModEffects.ANNIHILATION.get(), 1, true);
                 if (flag && getAttackState() == 17) {
@@ -5724,7 +5721,7 @@ public class TheObliteratorEntity extends IAnimatedBoss {
                     double m = Math.min(entityHit.getMaxHealth() * 0.03f, 30);
                     boolean flag = entityHit.hurt(this.getAttackState() == 14 || this.getAttackState() == 20 || this.getAttackState() == 24 ?
                             ModDamageTypes.causeAnnihilationDamage(this, this) :
-                            this.damageSources().mobAttack(this), (float) ((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, precentage) * ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get())));
+                            this.damageSources().mobAttack(this), (float) ((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, precentage))* ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get()));
                     if (getAttackState() == 14) {
                         swapPositions(flag && targetIsNotNull());
                     }
@@ -5782,7 +5779,7 @@ public class TheObliteratorEntity extends IAnimatedBoss {
 
 
                     boolean flag = entityHit.hurt((this.getAttackState() == 14 || this.getAttackState() == 40 || this.getAttackState() == 50) ? ModDamageTypes.causeAnnihilationDamage(this, this) :
-                            this.damageSources().mobAttack(this), (float) ((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, precentage) * ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get())));
+                            this.damageSources().mobAttack(this), (float) ((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, precentage))* ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get()));
                     if (flag) {
 
                         EntityUtil.cancelBuffs(entityHit);
@@ -5850,7 +5847,7 @@ public class TheObliteratorEntity extends IAnimatedBoss {
                     hitAny = true;
                     boolean entityHitisTarget = entityHit == target();
                     boolean mounted = entityHitisTarget && entityHit.startRiding(this, true);
-                    boolean flag = entityHit.hurt(this.damageSources().mobAttack(this), (float) ((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, 3) * ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get())));
+                    boolean flag = entityHit.hurt(this.damageSources().mobAttack(this), (float) ((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, 3))* ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get()));
                     if (flag && mounted) {
                         EntityUtil.cancelBuffs(entityHit);
                         entityHit.setShiftKeyDown(false);
@@ -5909,7 +5906,7 @@ public class TheObliteratorEntity extends IAnimatedBoss {
 
                     float m = entityHit.getMaxHealth() * 0.03f;
                     boolean flag = entityHit.hurt((this.getAttackState() == 14 || this.getAttackState() == 53) ? ModDamageTypes.causeAnnihilationDamage(this, this) :
-                            this.damageSources().mobAttack(this), (float) (((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, precentage) * ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get()))));
+                            this.damageSources().mobAttack(this), (float) (((damage * TheObliteratorUtils.opArmorNerf(entityHit, this) + entityBasedHpDamage(entityHit, precentage))* ModConfig.MOB_CONFIG.TheObliteratorDamageMutliplier.get())));
                     if (flag) {
                         EntityUtil.cancelBuffs(entityHit);
                         TheObliteratorUtils.applyAnnihilationEffect(entityHit, ModEffects.ANNIHILATION.get(), 1, true);

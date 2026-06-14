@@ -9,6 +9,7 @@ import net.miauczel.legendary_monsters.entity.ai.goal.IMoveGoal;
 import net.miauczel.legendary_monsters.entity.ai.goal.IStateGoal;
 import net.miauczel.legendary_monsters.sound.ModSounds;
 import net.miauczel.legendary_monsters.tag.ModEntityTags;
+import net.miauczel.legendary_monsters.util.EntityUtil;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -195,6 +196,13 @@ public class FlamebornWarriorEntity extends AbstractFlameborn {
     }
 
     @Override
+    public void onAddedToWorld() {
+        super.onAddedToWorld();
+        EntityUtil.applyHealthMultiplier(this,ModConfig.MOB_CONFIG.FlamebornWarriorHealthMultiplier.get());
+
+    }
+
+    @Override
     public void aiStep() {
         UpdateWithAttack();
         super.aiStep();
@@ -246,7 +254,7 @@ public class FlamebornWarriorEntity extends AbstractFlameborn {
                 if (!isAlliedTo(entityHit) && !(entityHit instanceof TheObliteratorEntity) && entityHit != this) {
 
 
-                    boolean flag = entityHit.hurt(this.damageSources().mobAttack(this), (float) ((damage * ModConfig.MOB_CONFIG.FlamebornGuardDamageMutliplier.get())));
+                    boolean flag = entityHit.hurt(this.damageSources().mobAttack(this), (float) ((damage * ModConfig.MOB_CONFIG.FlamebornWarriorDamageMutliplier.get())));
                     if (flag) {
                         playSound(soundEvent, 1, pitch);
                     }

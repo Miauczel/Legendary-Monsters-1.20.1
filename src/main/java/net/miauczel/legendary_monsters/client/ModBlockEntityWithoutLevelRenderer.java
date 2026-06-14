@@ -92,7 +92,7 @@ public class ModBlockEntityWithoutLevelRenderer extends BlockEntityWithoutLevelR
 
             VertexConsumer vertexConsumer = ItemRenderer.getFoilBufferDirect(buffer, LMRenderTypes.entityCutoutNoCull(T_1), false, stack.hasFoil());
             TESSERACT_ITEM_MODEL.renderToBuffer(poseStack, vertexConsumer, packedLight, packedOverlay, 1, 1, 1, 1);
-            VertexConsumer vertexConsumer2 = ItemRenderer.getFoilBufferDirect(buffer, LMRenderTypes.getGlowEyes(T_2), false, stack.hasFoil());
+            VertexConsumer vertexConsumer2 = ItemRenderer.getFoilBufferDirect(buffer, LMRenderTypes.eyes(T_2), false, stack.hasFoil());
             TESSERACT_ITEM_MODEL.renderToBuffer(poseStack, vertexConsumer2, packedLight, packedOverlay, 1, 1, 1, 1);
             poseStack.popPose();
         }

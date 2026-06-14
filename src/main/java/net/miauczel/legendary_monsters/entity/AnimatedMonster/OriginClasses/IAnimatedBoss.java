@@ -18,7 +18,9 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.*;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
@@ -33,6 +35,15 @@ public class IAnimatedBoss extends IAnimatedMonster {
         super(entity, world);
         setMaxUpStep(1.5f);
     }
+    public static AttributeSupplier.Builder createAttributes() {
+        return Monster.createMonsterAttributes()
+                .add(Attributes.MAX_HEALTH, 20.0D)
+                .add(Attributes.ATTACK_DAMAGE, 2.0D)
+                .add(Attributes.MOVEMENT_SPEED, 0.25D)
+                .add(Attributes.FOLLOW_RANGE, 32.0D)
+                .add(Attributes.ARMOR, 0.0D)
+                .add(Attributes.KNOCKBACK_RESISTANCE, 0.0D);
+    }
 
     /// DATA
     // private static final EntityDataAccessor<Float> BACK_X =
@@ -42,7 +53,7 @@ public class IAnimatedBoss extends IAnimatedMonster {
     // private static final EntityDataAccessor<Float> BACK_Z =
     //      SynchedEntityData.defineId(IAnimatedMonster.class, EntityDataSerializers.FLOAT);
     private static final EntityDataAccessor<BlockPos> SPAWN_POS =
-            SynchedEntityData.defineId(IAnimatedMonster.class, EntityDataSerializers.BLOCK_POS);
+            SynchedEntityData.defineId(IAnimatedBoss.class, EntityDataSerializers.BLOCK_POS);
 
     @Override
     protected void defineSynchedData() {

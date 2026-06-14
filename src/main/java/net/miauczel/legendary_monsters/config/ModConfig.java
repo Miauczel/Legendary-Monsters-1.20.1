@@ -438,6 +438,9 @@ public class ModConfig {
         public final ForgeConfigSpec.DoubleValue FlamebornGuardHealthMultiplier;
         public final ForgeConfigSpec.DoubleValue FlamebornGuardDamageMutliplier;
 
+        public final ForgeConfigSpec.DoubleValue FlamebornWarriorHealthMultiplier;
+        public final ForgeConfigSpec.DoubleValue FlamebornWarriorDamageMutliplier;
+
         public final ForgeConfigSpec.DoubleValue AnnihilationPursuerHealthMultiplier;
         public final ForgeConfigSpec.DoubleValue AnnihilationPursuerDamageMutliplier;
 
@@ -544,13 +547,12 @@ public class ModConfig {
         public final ForgeConfigSpec.DoubleValue AtomSplitterDamageMultiplier;
 
 
-
         public MobConfig(ForgeConfigSpec.Builder builder) {
             builder.push("Item Settings");
             builder.push("General Item Settings");
             canSoulGreatSwordUseParry = builder
                     .comment("allow Soul Great Sword Parry Ability")
-                    .define("Allow Soul Great Sword Parry Ability",true);
+                    .define("Allow Soul Great Sword Parry Ability", true);
             builder.pop();
 
             builder.push("The Tesseract");
@@ -779,49 +781,49 @@ public class ModConfig {
             builder.push("General Settings");
             allowCameraShake = builder
                     .comment("allow Camera Shake")
-                    .define("Allow Camera Shake",true);
+                    .define("Allow Camera Shake", true);
             MiniBossDamageCap = builder
                     .comment("MiniBoss DamageCap")
-                    .defineInRange("MiniBoss DamageCap",21,0,1000);
-           // canSoulGreatSwordUseParry = builder
-                   // .comment("allow Soul Great Sword Parry Ability")
-                   // .define("Allow Soul Great Sword Parry Ability",true);
+                    .defineInRange("MiniBoss DamageCap", 21, 0, 1000);
+            // canSoulGreatSwordUseParry = builder
+            // .comment("allow Soul Great Sword Parry Ability")
+            // .define("Allow Soul Great Sword Parry Ability",true);
             BossesCancelEating = builder
                     .comment("Allow Bosses cancel eating")
-                    .define("Allow Bosses cancel eating",true);
+                    .define("Allow Bosses cancel eating", true);
             AllowKnightSummonsInitiateAttack = builder
                     .comment("Allow Knight Summons Initiate Attack")
-                    .define("Allow Knight Summons Initiate Attack",true);
+                    .define("Allow Knight Summons Initiate Attack", true);
             BossesReduceResistanceEffect = builder
                     .comment("Allow Bosses to reduce player's resistance effect")
-                    .define("Allow Bosses to reduce player's resistance effect",true);
-            allowCustomBossBar= builder
+                    .define("Allow Bosses to reduce player's resistance effect", true);
+            allowCustomBossBar = builder
                     .comment("allow custom bossbars")
-                    .define("Allow Custom Boss Bars",true);
-            canBossesResetPhases= builder
+                    .define("Allow Custom Boss Bars", true);
+            canBossesResetPhases = builder
                     .comment("for example when boss heals up after killing all players the boss will go back to previous phase")
-                    .define("Allow Boss phase reset",true);
+                    .define("Allow Boss phase reset", true);
 
-            AllowBossNatureHeal= builder
+            AllowBossNatureHeal = builder
                     .comment("allow bosses healing when out of combat")
-                    .define("Allow Bosses Natural Healing",true);
-            canPlayBossMusic= builder
+                    .define("Allow Bosses Natural Healing", true);
+            canPlayBossMusic = builder
                     .comment("allow boss music")
-                    .define("Allow Boss Music",true);
+                    .define("Allow Boss Music", true);
 
-            canBossesTeleportBackToSpawn= builder
+            canBossesTeleportBackToSpawn = builder
                     .comment("if Boss has no target and is > 15 blocks away from the spawn he will teleport back to the spawn position. That applies to mini bosses too.")
-                    .define("Allow Bosses and Mini Bosses teleport back to their spawn Position",true);
+                    .define("Allow Bosses and Mini Bosses teleport back to their spawn Position", true);
 
             BossMusicVolumeMultiplier = builder
                     .comment("Boss Music Volume Multiplier")
                     .defineInRange("Boss Music Volume Multiplier", 1.0, 0.0, 1000.0);
-            allowFallingCloudParticles= builder
+            allowFallingCloudParticles = builder
                     .comment("Allow Falling Cloud Particles")
-                    .define("Allow Falling Cloud Particles",true);
-            allowDuoBossRespawnTeammate= builder
+                    .define("Allow Falling Cloud Particles", true);
+            allowDuoBossRespawnTeammate = builder
                     .comment("Allow duo boss respawn teammate when it's dead and duo boss has no target")
-                    .define("Allow duo boss respawn teammate",true);
+                    .define("Allow duo boss respawn teammate", true);
             builder.pop();
 
             builder.push("Chorusling Settings");
@@ -864,7 +866,6 @@ public class ModConfig {
                     .define("Allow Ambusher Projectile Immunity", true);
 
 
-
             builder.pop();
             builder.push("Stratling Settings");
             StratlingDamageMultiplier = builder
@@ -891,7 +892,7 @@ public class ModConfig {
                     .defineInRange("Ancient Guardian Health Multiplier", 1.0, 0.0, 1000.0);
             AllowAncientGuardianStun = builder
                     .comment("Enables/Disables Stun Ability for Ancient Guardian. §cNOTE: Disabling This may make the bossfight less fun.")
-                    .define("Allow Ancient Guardian Stun Ability",true);
+                    .define("Allow Ancient Guardian Stun Ability", true);
             Ancientprojectile = builder
                     .comment("Enables/Disables Projectile Damage for Ancient Guardian")
                     .define("Allow Ancient Guardian Projectile Immunity", true);
@@ -1003,7 +1004,7 @@ public class ModConfig {
                     .defineInRange("Overgrown Colosuss Health Multiplier", 1.0, 0.0, 1000.0);
             AllowOvergrownColosussStun = builder
                     .comment("Enables/Disables Stun Ability for Overgrown Colosuss. §cNOTE: Disabling This may make the bossfight less fun.")
-                    .define("Allow Overgrown Colosuss Stun Ability",true);
+                    .define("Allow Overgrown Colosuss Stun Ability", true);
             Overgrownprojectile = builder
                     .comment("Enables/Disables Projectile Immunity for Overgrown Colosuss")
                     .define("Allow Overgrown Colosuss Projectile Immunity", true);
@@ -1117,7 +1118,7 @@ public class ModConfig {
                     .defineInRange("Withered Abomination Health Multiplier", 1.0, 0.0, 1000.0);
             AllowWitheredAbominationStun = builder
                     .comment("Enables/Disables Stun Ability for Withered Abomination")
-                    .define("Allow Withered Abomination Stun Ability",false);
+                    .define("Allow Withered Abomination Stun Ability", false);
             builder.pop();
 
             builder.push("Shulker Mimic Settings");
@@ -1162,7 +1163,15 @@ public class ModConfig {
             FlamebornGuardHealthMultiplier = builder
                     .comment("Multiplies damage of Flameborn Guard")
                     .defineInRange("Flameborn Guard Damage Multiplier", 1.0, 0.0, 1000.0);
-builder.pop();
+            builder.pop();
+            builder.push("Flameborn Warrior Settings");
+            FlamebornWarriorHealthMultiplier = builder
+                    .comment("Multiplies damage dealt by Flameborn Warrior")
+                    .defineInRange("The Flameborn Guard Damage Multiplier", 1.0, 0.0, 1000.0);
+            FlamebornWarriorDamageMutliplier = builder
+                    .comment("Multiplies damage of Flameborn Warrior")
+                    .defineInRange("Flameborn Guard Damage Multiplier", 1.0, 0.0, 1000.0);
+            builder.pop();
             builder.push("Annihilation Pursuer Settings");
             AnnihilationPursuerDamageMutliplier = builder
                     .comment("Multiplies damage dealt by Annihilation Pursuer")
@@ -1187,24 +1196,24 @@ builder.pop();
                     .defineInRange("DamageCap", 20.0, 0.0, 1000.0);
             TheObliteratorInvulnerabilityTime = builder
                     .comment("ON/OFF Obliterator I Frame protection")
-                    .define("The Obliterator Invulnerability Time",true);
+                    .define("The Obliterator Invulnerability Time", true);
             TheObliteratorAntiAirborneDistance = builder
                     .comment("Increases/Decreases Anti Cheese(Airborne Variation) distance which makes the Boss invulnerable when player has a high ground, default is -4 below the boss and 4 above. chaning the value will change both '-' and '+' values.")
-                    .defineInRange("Protection against airborne cheese",4,0,1000);
+                    .defineInRange("Protection against airborne cheese", 4, 0, 1000);
 
             TheObliteratorAnnihilationEffect = builder
                     .comment("ON/OFF Annihilation effect that The Obliterator Inflicts after hitting you, it's a stacking debuff that reduces your attack speed.")
-                    .define("The Obliterator Annihilation Debuff Effect",false);
+                    .define("The Obliterator Annihilation Debuff Effect", false);
             TheObliteratorCloneBurstHPDamage = builder
                     .comment("% Damage for Obliterator's clones(punching)")
-                    .defineInRange("% Damage for Obliterator's clones(punching)",7,0,1000);
+                    .defineInRange("% Damage for Obliterator's clones(punching)", 7, 0, 1000);
             TheObliteratorPortalHPDamage = builder
                     .comment("% Damage for Obliterator's portals")
-                    .defineInRange("% Damage for Obliterator's portals",5,0,1000);
+                    .defineInRange("% Damage for Obliterator's portals", 5, 0, 1000);
 
             TheObliteratorPortalExplosionHPDamage = builder
                     .comment("% Damage for Obliterator's portal Explosion")
-                    .defineInRange("% Damage for Obliterator's portal Explosion",3,0,1000);
+                    .defineInRange("% Damage for Obliterator's portal Explosion", 3, 0, 1000);
 
             builder.pop();
             builder.push("Flame Drifter Settings");

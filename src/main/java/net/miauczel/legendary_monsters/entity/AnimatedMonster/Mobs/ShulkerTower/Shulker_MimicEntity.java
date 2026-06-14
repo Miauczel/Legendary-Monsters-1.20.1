@@ -68,7 +68,7 @@ import java.util.stream.Stream;
 
 public class Shulker_MimicEntity extends IAnimatedMiniBoss {
 
-    private static final EntityDataAccessor<Integer> PHASE = SynchedEntityData.defineId(TheObliteratorEntity.class, EntityDataSerializers.INT);
+    private static final EntityDataAccessor<Integer> PHASE = SynchedEntityData.defineId(Shulker_MimicEntity.class, EntityDataSerializers.INT);
 
     public Shulker_MimicEntity(EntityType<? extends IAnimatedMonster> pEntityType, Level pLevel) {
         super(pEntityType, pLevel);

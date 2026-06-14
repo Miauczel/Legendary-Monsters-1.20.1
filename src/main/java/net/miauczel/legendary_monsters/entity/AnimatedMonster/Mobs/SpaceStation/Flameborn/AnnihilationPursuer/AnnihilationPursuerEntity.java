@@ -9,7 +9,6 @@ import net.miauczel.legendary_monsters.config.ModConfig;
 import net.miauczel.legendary_monsters.damagetype.ModDamageTypes;
 import net.miauczel.legendary_monsters.effect.ModEffects;
 import net.miauczel.legendary_monsters.entity.AnimatedMonster.Effect.CameraShakeEntity;
-import net.miauczel.legendary_monsters.entity.AnimatedMonster.IAnimatedBoss.TheObliterator.TheObliteratorEntity;
 import net.miauczel.legendary_monsters.entity.AnimatedMonster.Mobs.SpaceStation.Flameborn.AnnihilationPursuer.goals.*;
 import net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.AbstractChorusling;
 import net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedMiniBoss;
@@ -72,11 +71,13 @@ public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
         xpReward = 15;
         this.setPersistenceRequired();
     }
+
     public boolean addEffect(MobEffectInstance pEffectInstance, @javax.annotation.Nullable Entity pEntity) {
         if (isSleep()) {
             return false;
         } else return super.addEffect(pEffectInstance, pEntity);
     }
+
     private static final EntityDataAccessor<Integer> IDLE_STATE = SynchedEntityData.defineId(AnnihilationPursuerEntity.class, EntityDataSerializers.INT);
     public final int TELEPORT_SLAM_COOLDOWN = 100;
     public final int SHIELD_STUN_COOLDOWN = 100;
@@ -164,7 +165,7 @@ public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
 
             public boolean canUse() {
                 return super.canUse() && AnnihilationPursuerEntity.this.getRandom().nextFloat() * 100.0F < 32.0F
-                        && AnnihilationPursuerEntity.this.getTarget() != null && buckshot_cooldown <=0;
+                        && AnnihilationPursuerEntity.this.getTarget() != null && buckshot_cooldown <= 0;
             }
         });
         this.goalSelector.addGoal(0, new IStateGoal(this, 22, 22, 0, MathUtils.toTicks(1.08f), 10) {
@@ -480,8 +481,8 @@ public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
     @Override
     public void onAddedToWorld() {
         setPersistenceRequired();
-        EntityUtil.applyHealthMultiplier(this, ModConfig.MOB_CONFIG.AnnihilationPursuerHealthMultiplier.get());
         super.onAddedToWorld();
+        EntityUtil.applyHealthMultiplier(this, ModConfig.MOB_CONFIG.AnnihilationPursuerHealthMultiplier.get());
     }
 
     @Override
@@ -938,6 +939,7 @@ public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
                 .add(Attributes.ATTACK_KNOCKBACK, 0.5D)
                 .add(Attributes.ATTACK_DAMAGE, 10);
     }
+
     @Override
     public boolean hurt(DamageSource pSource, float pAmount) {
 
@@ -1341,7 +1343,7 @@ public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
                 if (!isAlliedTo(entityHit) && !(entityHit instanceof AnnihilationPursuerEntity) && entityHit != this) {
 
                     boolean flag = entityHit.hurt(getAttackState() == 15 ? ModDamageTypes.causeAnnihilationDamage(this, this)
-                            : this.damageSources().mobAttack(this), (float) ((damage * ModConfig.MOB_CONFIG.AnnihilationPursuerDamageMutliplier.get())));
+                            : this.damageSources().mobAttack(this), (float) (damage * ModConfig.MOB_CONFIG.AnnihilationPursuerDamageMutliplier.get()));
 
                     if (flag) {
                         EntityUtil.cancelBuffs(entityHit);
@@ -1378,7 +1380,7 @@ public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
         AABB attackRange = this.getBoundingBox().inflate(boxWidth, yHeight, boxWidth).expandTowards(xRange, 0, zRange);
         for (LivingEntity entityHit : this.level().getEntitiesOfClass(LivingEntity.class, attackRange)) {
             if (!isAlliedTo(entityHit) && entityHit != this) {
-                boolean flag = entityHit.hurt(this.damageSources().mobAttack(this), (float) ((damage * ModConfig.MOB_CONFIG.AnnihilationPursuerDamageMutliplier.get())));
+                boolean flag = entityHit.hurt(this.damageSources().mobAttack(this), (float) (damage * ModConfig.MOB_CONFIG.AnnihilationPursuerDamageMutliplier.get()));
                 if (flag && launch) {
                     EntityUtil.cancelBuffs(entityHit);
 //launch(entityHit,true,2,0.3f);
@@ -1590,7 +1592,7 @@ public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
                     hitAny = true;
                     boolean entityHitisTarget = entityHit == target();
                     // boolean mounted = entityHitisTarget && entityHit.startRiding(this, true);
-                    boolean flag = entityHit.hurt(this.damageSources().mobAttack(this), (float) ((damage * ModConfig.MOB_CONFIG.AnnihilationPursuerDamageMutliplier.get())));
+                    boolean flag = entityHit.hurt(this.damageSources().mobAttack(this), (float) (damage * ModConfig.MOB_CONFIG.AnnihilationPursuerDamageMutliplier.get()));
                     if (flag) {
                         entityHit.setShiftKeyDown(false);
                         playSound(soundEvent, 1, pitch);
@@ -1642,7 +1644,7 @@ public class AnnihilationPursuerEntity extends IAnimatedMiniBoss {
                         //  return;
                     }
                     ;
-                    boolean flag = entityHit.hurt(damageSource, (float) ((damage * ModConfig.MOB_CONFIG.AnnihilationPursuerDamageMutliplier.get())));
+                    boolean flag = entityHit.hurt(damageSource, (float) (damage * ModConfig.MOB_CONFIG.AnnihilationPursuerDamageMutliplier.get()));
 
                     if (flag) {
                         playSound(soundEvent, 1, pitch);

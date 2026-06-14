@@ -372,7 +372,7 @@ public void randomizeAttacks(){
                 if (!isAlliedTo(entityHit)  &&!(entityHit instanceof TheObliteratorEntity)&& entityHit != this) {
 
 
-                    boolean flag =  entityHit.hurt(this.damageSources().mobAttack(this), (float) ((damage * ModConfig.MOB_CONFIG.FlamebornGuardDamageMutliplier.get())));
+                    boolean flag =  entityHit.hurt(this.damageSources().mobAttack(this), (float) (damage * ModConfig.MOB_CONFIG.FlamebornGuardDamageMutliplier.get()));
                     if (flag) {
                         playSound(soundEvent, 1, pitch);
                     }
@@ -394,7 +394,7 @@ public void randomizeAttacks(){
         AABB attackRange = this.getBoundingBox().inflate(boxWidth,3.5f,boxWidth).expandTowards(xRange, 0, zRange);
         for (LivingEntity entityHit : this.level().getEntitiesOfClass(LivingEntity.class, attackRange)) {
             if (!isAlliedTo(entityHit) && entityHit != this) {
-                boolean flag =  entityHit.hurt(this.damageSources().mobAttack(this), (float) ((damage * ModConfig.MOB_CONFIG.FlamebornGuardDamageMutliplier.get())));
+                boolean flag =  entityHit.hurt(this.damageSources().mobAttack(this), (float) (damage * ModConfig.MOB_CONFIG.FlamebornGuardDamageMutliplier.get()));
 
                 if (flag && launch){
                     launch(entityHit,true);
