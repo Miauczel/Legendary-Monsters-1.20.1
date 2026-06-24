@@ -1,5 +1,6 @@
 package net.miauczel.legendary_monsters.entity.client.Model.Item;
 
+import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.client.model.EntityModel;
@@ -47,6 +48,7 @@ public class TheTesseractItemModel extends EntityModel<Entity> {
 
     @Override
     public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
+        RenderSystem.disableCull();
         bone.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
         bone2.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
     }
