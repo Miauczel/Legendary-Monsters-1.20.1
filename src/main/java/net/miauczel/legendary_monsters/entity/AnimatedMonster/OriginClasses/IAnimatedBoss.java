@@ -2,6 +2,7 @@ package net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses;
 
 import net.miauczel.legendary_monsters.LegendaryMonsters;
 import net.miauczel.legendary_monsters.Message.PlayBossMusicMessage;
+import net.miauczel.legendary_monsters.block.ModBlocks;
 import net.miauczel.legendary_monsters.config.ModConfig;
 import net.miauczel.legendary_monsters.util.MathUtils;
 import net.minecraft.core.BlockPos;
@@ -22,11 +23,16 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.GameRules;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
+import net.minecraftforge.event.ForgeEventFactory;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.Iterator;
 import java.util.Random;
 
 public class IAnimatedBoss extends IAnimatedMonster {
@@ -35,6 +41,7 @@ public class IAnimatedBoss extends IAnimatedMonster {
         super(entity, world);
         setMaxUpStep(1.5f);
     }
+
     public static AttributeSupplier.Builder createAttributes() {
         return Monster.createMonsterAttributes()
                 .add(Attributes.MAX_HEALTH, 20.0D)
@@ -140,7 +147,7 @@ public class IAnimatedBoss extends IAnimatedMonster {
     @Override
     public void tick() {
         if (!this.level().isClientSide()) {
-          //  this.getAttribute(Attributes.MAX_HEALTH).setBaseValue(getMaxHealth());
+            //  this.getAttribute(Attributes.MAX_HEALTH).setBaseValue(getMaxHealth());
             if (hurtCD > 0) hurtCD--;
             if (getHealth() > 0.0F) {
                 super.setHealth(getHealth());
@@ -357,14 +364,22 @@ public class IAnimatedBoss extends IAnimatedMonster {
 
         boolean hurt1 = super.hurt(source, amount);
         if (hurt1) {
-
-        //    System.out.println("TotalAmount: " + amount);
             damageAdaptationTicks = DAMAGE_ADAPTATION_TICKS;
             damageTimeFactor -= adaptationFactor();
-            //  System.out.println("Called Hurt1" + " DamageTime: " + damageTimeFactor + " reducedDamage: " + reducedDamage());
+            if (hurtCount >= 2) {
+                hurtCount = 0;
+                if (!this.level().isClientSide) {
+                    if (ForgeEventFactory.getMobGriefingEvent(this.level(), this)) {
+                        this.breakCheeseBlocks();
+                    }
+                }
+            }
+            hurtCount++;
         }
         return hurt1;
     }
+
+    public int hurtCount = 0;
 
     public boolean reducedDamage() {
         return DamageTime() < 100;
@@ -437,6 +452,41 @@ public class IAnimatedBoss extends IAnimatedMonster {
             if (level().isClientSide) {
                 this.level().addParticle(particleOptions, d1, d2, d3, v.x, v.y, v.z);
                 //       this.level().addParticle(particleOptions, d1, d2, d3, v.x, v.y, v.z);
+            }
+        }
+    }
+
+    private void breakCheeseBlocks() {
+        if (!this.level().getGameRules().getBoolean(GameRules.RULE_MOBGRIEFING)) {
+            return;
+        }
+        boolean flag = false;
+        float inflate = 1f;
+        AABB aabb = this.getBoundingBox().inflate(inflate, inflate, inflate);
+        Iterator var3 = BlockPos.betweenClosed(Mth.floor(aabb.minX), Mth.floor(this.getY()), Mth.floor(aabb.minZ), Mth.floor(aabb.maxX), Mth.floor(aabb.maxY), Mth.floor(aabb.maxZ)).iterator();
+
+        while (true) {
+            while (true) {
+                BlockPos blockpos;
+                BlockState blockstate;
+                do {
+
+                    do {
+                        do {
+                            if (!var3.hasNext()) {
+                                return;
+                            }
+
+                            blockpos = (BlockPos) var3.next();
+                            blockstate = this.level().getBlockState(blockpos);
+                        } while (blockstate.isAir());
+                    } while (!blockstate.canEntityDestroy(this.level(), blockpos, this));
+
+                } while (!ForgeEventFactory.onEntityDestroyBlock(this, blockpos, blockstate));
+                {
+                    if (!blockstate.is(ModBlocks.INDESTRUCTIBLE_BLOCK.get()))
+                        flag = this.level().destroyBlock(blockpos, false, this) || flag;
+                }
             }
         }
     }

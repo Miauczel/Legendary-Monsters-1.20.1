@@ -1,5 +1,6 @@
 package net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses;
 
+import net.miauczel.legendary_monsters.block.ModBlocks;
 import net.miauczel.legendary_monsters.config.ModConfig;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
@@ -7,6 +8,7 @@ import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.tags.DamageTypeTags;
+import net.minecraft.util.Mth;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.damagesource.DamageTypes;
@@ -14,10 +16,16 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.SpawnGroupData;
+import net.minecraft.world.level.GameRules;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
+import net.minecraftforge.event.ForgeEventFactory;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Iterator;
 
 public class IAnimatedMiniBoss extends IAnimatedMob {
     public IAnimatedMiniBoss(EntityType entity, Level world) {
@@ -160,7 +168,7 @@ public class IAnimatedMiniBoss extends IAnimatedMob {
     protected boolean shouldDespawnInPeaceful() {
         return false;
     }
-
+    public int hurtCount = 0;
     @Override
     public boolean hurt(DamageSource pSource, float pAmount) {
         if (isTargetCheesing(-4, 4)) return false;
@@ -177,6 +185,53 @@ public class IAnimatedMiniBoss extends IAnimatedMob {
         } else {
             pAmount = (float) Math.min(damageCap(), pAmount);
         }
-        return super.hurt(pSource, pAmount);
+        boolean hurt1 = super.hurt(pSource, pAmount);
+        if (hurt1) {
+            hurtCount++;
+            if (hurtCount >= 2) {
+                hurtCount = 0;
+                if (!this.level().isClientSide) {
+                    if (ForgeEventFactory.getMobGriefingEvent(this.level(), this)) {
+                        breakCheeseBlocks();
+                    }
+                }
+            }
+
+        }
+        return hurt1;
+    }
+    private void breakCheeseBlocks() {
+        if (!this.level().getGameRules().getBoolean(GameRules.RULE_MOBGRIEFING)) {
+            return;
+        }
+        boolean flag = false;
+        float inflate = 1f;
+        AABB aabb = this.getBoundingBox().inflate(inflate, inflate, inflate);
+        Iterator var3 = BlockPos.betweenClosed(Mth.floor(aabb.minX), Mth.floor(this.getY()), Mth.floor(aabb.minZ), Mth.floor(aabb.maxX), Mth.floor(aabb.maxY), Mth.floor(aabb.maxZ)).iterator();
+
+        while (true) {
+            while (true) {
+                BlockPos blockpos;
+                BlockState blockstate;
+                do {
+
+                    do {
+                        do {
+                            if (!var3.hasNext()) {
+                                return;
+                            }
+
+                            blockpos = (BlockPos) var3.next();
+                            blockstate = this.level().getBlockState(blockpos);
+                        } while (blockstate.isAir());
+                    } while (!blockstate.canEntityDestroy(this.level(), blockpos, this));
+
+                } while (!ForgeEventFactory.onEntityDestroyBlock(this, blockpos, blockstate));
+                {
+                    if (!blockstate.is(ModBlocks.INDESTRUCTIBLE_BLOCK.get()))
+                        flag = this.level().destroyBlock(blockpos, false, this) || flag;
+                }
+            }
+        }
     }
 }
