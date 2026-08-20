@@ -27,6 +27,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.TamableAnimal;
+import net.minecraft.world.entity.monster.EnderMan;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Rarity;
@@ -67,6 +68,11 @@ public class AnnihilatorArmorItem extends AbstractArmorItem {
             pTooltipComponents.add(Component.translatable("item.legendary_monsters.annihilator_boots1").withStyle(ChatFormatting.GRAY));
         }
 
+    }
+
+    @Override
+    public boolean isEnderMask(ItemStack stack, Player player, EnderMan endermanEntity) {
+        return getPieceType("helmet");
     }
 
     public boolean getPieceType(String piece) {
