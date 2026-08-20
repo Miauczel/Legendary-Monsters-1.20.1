@@ -14,7 +14,7 @@
 
   "item.legendary_monsters.resurrected_knight_spawn_egg" : "되살아난 기사 생성 알",
   "item.legendary_monsters.monstrous_anchor" : "괴물의 닻",
-  "item.legendary_monsters.spiky_shield" : "가시 돚힌 방패",
+  "item.legendary_monsters.spiky_shield" : "가시 돋친 방패",
   "item.legendary_monsters.withered_ribcage" : "시들어버린 갈비뼈",
   "item.legendary_monsters.chorus_blade" : "후렴 칼날",
   "item.legendary_monsters.chorus_mask" : "후렴 가면",
@@ -43,12 +43,12 @@
   "item.legendary_monsters.mossy_hammer" : "이끼 낀 망치",
   "item.legendary_monsters.overgrown_colossus_spawn_egg" : "무성한 거상 생성 알",
   "item.legendary_monsters.mossy_golem_spawn_egg" : "이끼 낀 골렘 생성 알",
-  "item.legendary_monsters.the_obliterator_spawn_egg" : "어블리터레이터 생성 알",
+  "item.legendary_monsters.the_obliterator_spawn_egg" : "오블리터레이터 생성 알",
 
   "item.legendary_monsters.flameborn_guard_spawn_egg" : "불꽃의 경비병 생성 알",
 
   "item.legendary_monsters.flame_drifter_spawn_egg" : "화염 표류자 생성 알",
-  "item.legendary_monsters.annihilation_pursuer_spawn_egg": "소멸의 속행자 생성 알",
+  "item.legendary_monsters.annihilation_pursuer_spawn_egg": "섬멸의 속행자 생성 알",
 
   "item.legendary_monsters.hovering_hurricane_spawn_egg" : "호버링 허리케인 생성 알",
   "item.legendary_monsters.stratling_spawn_egg" : "스트래틀링 생성 알",
@@ -56,9 +56,9 @@
   "item.legendary_monsters.ambusher_spawn_egg" : "앰버셔 생성 알",
   "item.legendary_monsters.skeletosaurus_spawn_egg" : "스켈레토사우르스 생성 알",
   "item.legendary_monsters.warped_fungussus_spawn_egg" : "뒤틀린 포자체 생성 알",
-  "item.legendary_monsters.chorusling_spawn_egg" : "코로슬링 생성 알",
+  "item.legendary_monsters.chorusling_spawn_egg" : "코러슬링 생성 알",
   "item.legendary_monsters.lava_eater_spawn_egg" : "라바이터 생성 알",
-  "item.legendary_monsters.endersent_spawn_egg" : "코로센트 생성 알",
+  "item.legendary_monsters.endersent_spawn_egg" : "코러센트 생성 알",
   "item.legendary_monsters.frostbitten_golem_spawn_egg" : "얼어붙은 골렘 생성 알",
   "item.legendary_monsters.withered_abomination_spawn_egg" : "시들어버린 괴수 생성 알",
   "item.legendary_monsters.dune_sentinel_spawn_egg" : "사구의 파수꾼 생성 알",
@@ -145,8 +145,8 @@
   "entity.legendary_monsters.warped_fungussus": "뒤틀린 포자체",
   "entity.legendary_monsters.frostbitten_golem": "얼어붙은 골렘",
   "entity.legendary_monsters.lava_eater": "라바이터",
-  "entity.legendary_monsters.endersent": "코로센트",
-  "entity.legendary_monsters.chorusling": "코로슬링",
+  "entity.legendary_monsters.endersent": "코러센트",
+  "entity.legendary_monsters.chorusling": "코러슬링",
   "entity.legendary_monsters.shulker_mimic": "셜커 미믹",
   "entity.legendary_monsters.ambusher": "앰버셔",
   "entity.legendary_monsters.spiky_bug": "가시 돋친 벌레",
@@ -164,14 +164,14 @@
   "entity.legendary_monsters.bomb": "폭탄",
   "entity.legendary_monsters.bomber": "봄버",
 
-  "entity.legendary_monsters.the_obliterator": "어블리터레이터",
+  "entity.legendary_monsters.the_obliterator": "오블리터레이터",
 
   "entity.legendary_monsters.flameborn_guard": "불꽃의 근위병",
 
 
   "entity.legendary_monsters.flame_drifter": "화염 표류자",
 
-  "entity.legendary_monsters.annihilation_pursuer": "소멸의 속행자",
+  "entity.legendary_monsters.annihilation_pursuer": "섬멸의 속행자",
 
   "entity.legendary_monsters.beheaded_knight": "머리 잃은 기사",
 
@@ -200,7 +200,7 @@
 
   "effect.legendary_monsters.unbreakable": "파괴불가",
 
-  "effect.legendary_monsters.annihilation": "소멸",
+  "effect.legendary_monsters.annihilation": "섬멸",
 
   "block.legendary_monsters.swinging_axe": "흔들리는 도끼",
 
@@ -268,9 +268,9 @@
   "advancements.legendary_monsters.locate_ancient_tower_remains.title": "파프롬홈",
   "advancements.legendary_monsters.locate_ancient_tower_remains.description": "고대의 탑의 잔해를 발견하세요",
   "advancements.legendary_monsters.defeat_endersent.title": "키다리 아저씨",
-  "advancements.legendary_monsters.defeat_endersent.description": "코로센트를 쓰러뜨리세요",
+  "advancements.legendary_monsters.defeat_endersent.description": "코러센트를 쓰러뜨리세요",
   "advancements.legendary_monsters.defeat_chorusling.title": "후렴 감염",
-  "advancements.legendary_monsters.defeat_chorusling.description": "코로슬링을 쓰러뜨리세요",
+  "advancements.legendary_monsters.defeat_chorusling.description": "코러슬링을 쓰러뜨리세요",
 
   "advancements.legendary_monsters.locate_cloudy_temple.title": "구름으로 만들어졌나봐...",
   "advancements.legendary_monsters.locate_cloudy_temple.description": "구름 사원을 발견하세요",
@@ -301,7 +301,7 @@
   "advancements.legendary_monsters.defeat_posessed_paladin.description": "빙의된 팔라딘을 쓰러뜨리세요",
 
   "advancements.legendary_monsters.defeat_the_obliterator.title": "섬멸자의 섬멸",
-  "advancements.legendary_monsters.defeat_the_obliterator.description": "어블리터레이터를 쓰러뜨리세요",
+  "advancements.legendary_monsters.defeat_the_obliterator.description": "오블리터레이터를 쓰러뜨리세요",
 
 
   "advancements.legendary_monsters.defeat_flameborn.title": "엔드의 불꽃",
@@ -321,8 +321,8 @@
   "advancements.legendary_monsters.locate_ruined_pyramid.title": "2번째 피라미드",
   "advancements.legendary_monsters.locate_ruined_pyramid.description": "무너진 피라미드를 발견하세요",
 
-  "advancements.legendary_monsters.defeat_annihilation_pursuer.title": "소멸을 향하여...",
-  "advancements.legendary_monsters.defeat_annihilation_pursuer.description": "소멸의 속행자를 쓰러뜨리세요",
+  "advancements.legendary_monsters.defeat_annihilation_pursuer.title": "섬멸을 향하여...",
+  "advancements.legendary_monsters.defeat_annihilation_pursuer.description": "섬멸의 속행자를 쓰러뜨리세요",
 
   "advancements.legendary_monsters.defeat_beheaded_knight.title": "듀라한",
   "advancements.legendary_monsters.defeat_beheaded_knight.description": "머리 잃은 기사를 쓰러뜨리세요",
@@ -458,7 +458,7 @@
 
   "death.attack.legendary_monsters.gravity": "%s이(가) 너무 오랫동안 허공에 떠 있었습니다",
 
-  "death.attack.legendary_monsters.void": "%s이(가) %s에 의해 소멸되었습니다",
+  "death.attack.legendary_monsters.void": "%s이(가) %s에 의해 섬멸되었습니다",
 
   "death.attack.legendary_monsters.impale": "%s이(가) 꿰뚫렸습니다",
 
@@ -529,17 +529,17 @@
 
   "legendary_monsters.message.teleport_machine": "§a순간이동기에 눈 수정을 넣어서 보스를 소환할 수 있습니다",
 
-  "item.legendary_monsters.atom_splitter1": "§7우클릭을 1.5초간 눌러 소멸의 빔을 발사할 수 있습니다",
-  "item.legendary_monsters.atom_splitter2": "§7Shift + 우클릭을 1.5초간 눌러 소멸 폭탄을 발사할 수 있습니다",
+  "item.legendary_monsters.atom_splitter1": "§7우클릭을 1.5초간 눌러 섬멸의 빔을 발사할 수 있습니다",
+  "item.legendary_monsters.atom_splitter2": "§7Shift + 우클릭을 1.5초간 눌러 섬멸 폭탄을 발사할 수 있습니다",
   "item.legendary_monsters.atom_splitter3": "§7탄약 시스템에 속지마세요! 내구도 무한!",
 
-  "item.legendary_monsters.the_tesseract1": "§7우클릭을 1.5초간 눌러 별 형태로 소멸 포탈을 생성합니다.",
+  "item.legendary_monsters.the_tesseract1": "§7우클릭을 1.5초간 눌러 별 형태로 섬멸 포탈을 생성합니다.",
   "item.legendary_monsters.the_tesseract2": "§7포탈이 생성되는 중에는 주변 대상이 중력에 의해 이끌려옵니다.",
 
-  "item.legendary_monsters.buckler_of_annihilation1": "§7shift + 우클릭을 0.5초간 눌러 범위 공격 및 작은 소멸 폭탄[피해 8, 방어구 무시] 3개 발사합니다. 범위 공격으로 대상에 적중 시 재사용 대기시간 발생합니다",
+  "item.legendary_monsters.buckler_of_annihilation1": "§7shift + 우클릭을 0.5초간 눌러 범위 공격 및 작은 섬멸 폭탄[피해 8, 방어구 무시] 3개 발사합니다. 범위 공격으로 대상에 적중 시 재사용 대기시간 발생합니다",
   "item.legendary_monsters.enderitium_ingot": "엔더리티움 주괴",
 
-  "item.legendary_monsters.bottle_of_annihilation": "소멸이 담긴 병",
+  "item.legendary_monsters.bottle_of_annihilation": "섬멸이 담긴 병",
 
   "item.legendary_monsters.enderitium_upgrade_smithing_template": "대장장이 형판",
 
@@ -588,7 +588,7 @@
 
   
   "block.legendary_monsters.teleport_machine": "순간이동기",
-  "block.legendary_monsters.annihilation_lantern": "소멸 랜턴",
+  "block.legendary_monsters.annihilation_lantern": "섬멸 랜턴",
 
   "block.legendary_monsters.soul_candle": "영혼 초",
 
@@ -597,7 +597,7 @@
 
   "item.legendary_monsters.atom_splitter": "원자 분할기",
 
-  "item.legendary_monsters.buckler_of_annihilation": "소멸의 방패",
+  "item.legendary_monsters.buckler_of_annihilation": "섬멸의 방패",
 
   "item.legendary_monsters.eye_crystal" : "눈 수정",
 
@@ -622,21 +622,21 @@
   "item.legendary_monsters.smithing_template.annihilator_upgrade4": "쟤료:",
   "item.legendary_monsters.smithing_template.annihilator_upgrade3": " 네더라이트 장비",
   "item.legendary_monsters.smithing_template.annihilator_upgrade2": "적용 대상:",
-  "item.legendary_monsters.smithing_template.annihilator_upgrade1": "소멸자 강화",
-  "block.legendary_monsters.ender_anchor1":"소멸 랜턴으로 충전하여 엔드에서 리스폰 할 수 있습니다",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade1": "섬멸자 강화",
+  "block.legendary_monsters.ender_anchor1":"섬멸 랜턴으로 충전하여 엔드에서 리스폰 할 수 있습니다",
 
 
-  "item.legendary_monsters.annihilator_helmet" : "소멸자의 투구",
+  "item.legendary_monsters.annihilator_helmet" : "섬멸자의 투구",
 
-  "item.legendary_monsters.annihilator_chestplate" : "소멸자의 흉갑",
+  "item.legendary_monsters.annihilator_chestplate" : "섬멸자의 흉갑",
 
-  "item.legendary_monsters.annihilator_leggings" : "소멸자의 레깅스",
+  "item.legendary_monsters.annihilator_leggings" : "섬멸자의 레깅스",
 
-  "item.legendary_monsters.annihilator_boots" : "소멸자의 부츠",
+  "item.legendary_monsters.annihilator_boots" : "섬멸자의 부츠",
 
   "item.legendary_monsters.annihilator_helmet1" : "엔더맨이 당신의 시선에 분노하지 않으며, 'C' 키를 누르면 즉시 보고 있는 위치로 순간이동할 수 있습니다 (15 블록 범위 내)",
 
-  "item.legendary_monsters.annihilator_chestplate1" : "체력이 절반 이하일 때 착용자의 위치에서 소멸 초신성이 폭발하고, 3초 동안 무적 상태가 됩니다",
+  "item.legendary_monsters.annihilator_chestplate1" : "체력이 절반 이하일 때 착용자의 위치에서 섬멸 초신성이 폭발하고, 3초 동안 무적 상태가 됩니다",
 
   "item.legendary_monsters.bottled_lightning" : "번개가 담긴 병",
 
@@ -655,7 +655,7 @@
   "item.legendary_monsters.somber_key_part" : "서로 다른 부품을 결합하여 암울한 열쇠를 제작할 수 있습니다",
 
 
-  "item.legendary_monsters.eye_of_annihilation" : "소멸의 눈",
+  "item.legendary_monsters.eye_of_annihilation" : "섬멸의 눈",
   "item.legendary_monsters.annihilator_leggings1" : "치명타 적중 시 25% 확률로 공격이 방어구를 무시하는 광역 공격으로 변화하며, (현재 무기 피해량 / 2)의 피해를 입힙니다",
   "item.legendary_monsters.annihilator_unknown" : "개발중인 능력이지만 곧 추가될 예정입니다",
 
