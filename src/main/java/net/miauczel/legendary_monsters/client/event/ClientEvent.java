@@ -264,10 +264,9 @@ double bigsize = Mth.clamp((player.getTicksUsingItem()*2)*0.1,0,4);
     @SubscribeEvent
     public static void onCameraSetup(ViewportEvent.ComputeCameraAngles event) {
         Player player = Minecraft.getInstance().player;
-        float delta = Minecraft.getInstance().getFrameTime();
-        float ticksExistedDelta = player.tickCount + delta;
-
         if (player != null) {
+            float delta = Minecraft.getInstance().getFrameTime();
+            float ticksExistedDelta = player.tickCount + delta;
             float shakeAmplitude = 0.0F;
             Iterator<CameraShakeEntity> iterator = player.level().getEntitiesOfClass(CameraShakeEntity.class, player.getBoundingBox().inflate(20.0)).iterator();
 
